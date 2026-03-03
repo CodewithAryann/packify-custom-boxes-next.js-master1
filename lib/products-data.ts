@@ -1425,7 +1425,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
     variants: [
       {
         name: 'Custom Bubble Mailers',
-        image: '/images/Custom Bubble Mailers.webp',
+        image: '/images/mailer/Custom bubble Mailer Box.png',
         description: 'Bubble mailers have a padded, bubble-lined interior for cushioning and a custom-printed exterior. Lighter than rigid boxes, cheaper to ship. Ideal for jewelry, small electronics, phones, books, and clothing that need impact protection.',
         productOverview: {
           title: 'Custom Bubble Mailers | Lightweight Padded Shipping',
@@ -1491,7 +1491,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Vinyl Record Mailers',
-        image: '/images/Vinyl Record Mailer Box.webp',
+        image: '/images/mailer/Vinyl Record Mailer.jpg',
         description: 'Vinyl record mailers are reinforced boxes sized for LPs, EPs, or 7-inch records. Snug inserts stop records from shifting. Prevents warping, sleeve scratches, and corner damage. Used by labels, retailers, and collectors for shipping vinyl.',
         productOverview: {
           title: 'Vinyl Record Mailers | Ship LPs & EPs Safely',
@@ -1553,7 +1553,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Corrugated Mailer Boxes',
-        image: '/images/Corrugated Mailer Box.webp',
+        image: '/images/mailer/Corrugated Mailer.png',
         description: 'Corrugated mailer boxes use fluted board for crush resistance and impact protection. Single-wall for lighter items, double-wall for heavier products. Self-locking flaps, interior and exterior printing. Stronger than paperboard, ideal for heavier or fragile shipments.',
         productOverview: {
           title: 'Corrugated Mailer Boxes | Fluted Board for Heavy Shipments',
@@ -1615,7 +1615,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'White Mailer Boxes',
-        image: '/images/White Mailer Box.webp',
+        image: '/images/mailer/White Mailer Box.png',
         description: "Choose white mailer boxes for a clean, minimalistic look. Versatile and cost-effective, they're perfect for everyday shipments and give your packaging a fresh, professional appearance.",
         productOverview: {
           title: 'White Mailer Boxes | Clean Canvas for Branding',
@@ -1676,7 +1676,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Kraft Mailer Boxes',
-        image: '/images/Kraft Mailer Box.webp',
+        image: '/images/mailer/Kraft Mailer Box.jpg',
         description: 'Elevate your brand with kraft mailer boxes. Their earthy, organic look appeals to eco-conscious customers, while options like custom labeling and unique lock designs support creative branding for e-commerce and boutique businesses.',
         productOverview: {
           title: 'Kraft Mailer Boxes | Eco-Friendly Natural Look',
@@ -1737,7 +1737,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Black Mailer Boxes',
-        image: '/images/Black Mailer Box.webp',
+        image: '/images/mailer/Black Mailer Box.png',
         description: 'Black mailer boxes create immediate shelf impact and premium perception. Available with various sizes and finishes, they highlight your product with modern elegance and unmistakable visibility.',
         productOverview: {
           title: 'Black Mailer Boxes | Premium Luxury Shipping',
@@ -1798,7 +1798,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Colored Mailer Boxes',
-        image: '/images/Colored Mailer Box.webp',
+        image: '/images/mailer/Colored Mailer Box.png',
         description: 'Make your deliveries memorable with colored mailer boxes, available in custom shades to match your brand. Add logos or artwork for instant recognition and a polished marketing touch.',
         productOverview: {
           title: 'Colored Mailer Boxes | On-Brand Pantone Shipping',
@@ -1946,7 +1946,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Literature Mailers',
-        image: '/images/Literature Mailer Box.webp',
+        image: '/images/mailer/Literature Mailer Box.jpg',
         description: 'Engineered to protect documents, catalogs, and brochures, literature mailers offer a snug fit and prevent creasing, making them ideal for businesses sending printed materials.',
         productOverview: {
           title: 'Literature Mailers | Flat Document & Catalog Shipping',
@@ -2020,7 +2020,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Pink Mailer Boxes',
-        image: '/images/Pink Mailer Box.webp',
+        image: '/images/mailer/Pink Mailer Box.png',
         description: 'Stand out with playful, vibrant pink mailer boxes. Perfect for gift sets, subscription packs, or brands seeking a bold and cheerful unboxing experience.',
         productOverview: {
           title: 'Pink Mailer Boxes | Playful Branded Unboxing',
@@ -2094,7 +2094,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Cardboard Mailers',
-        image: '/images/Cardboard Mailer.webp',
+        image: '/images/mailer/Cardboard Mailer Box.png',
         description: 'Lightweight and sturdy, cardboard mailers provide reliable protection for documents, books, and small merchandise—suiting both business and personal use.',
         productOverview: {
           title: 'Cardboard Mailers | Lightweight Paperboard Shipping Sleeves',
@@ -2316,7 +2316,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Holiday Mailer Boxes',
-        image: '/images/Holiday Mailer Box.webp',
+        image: '/images/mailer/Holiday Mailer Box.jpg',
         description: 'Celebrate the season with custom holiday mailer boxes. Incorporate festive graphics and colors to enhance the excitement and anticipation of your shipments.',
         productOverview: {
           title: 'Holiday Mailer Boxes | Seasonal Campaign Shipping',
@@ -2821,7 +2821,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Custom Mailer Boxes With Tear Strip',
-        image: '/images/Tear Strip Mailer Box.webp',
+        image: '/images/mailer/Custom Tear Strip Mailer Box.png',
         description: 'Increase customer satisfaction with mailers featuring a tear strip, allowing easy and frustration-free opening while maintaining package security.',
         productOverview: {
           title: 'Tear Strip Mailer Boxes | Frustration-Free Opening',
@@ -2895,7 +2895,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Candle Shipping Boxes',
-        image: '/images/Candle Mailer Boxes.webp',
+        image: '/images/mailer/Candle Mailer Box.jpg',
         description: 'Protect scented candles with snug-fitting boxes designed to keep fragile glass and wax items safe during transit and storage.',
         productOverview: {
           title: 'Candle Shipping Boxes | Fragile Glass & Wax Protection',
