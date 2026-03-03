@@ -17,20 +17,35 @@ import Testimonials from '@/components/Testimonials'
 import PromoBanner from '@/components/PromoBanner'
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://packifycustomboxes.com/' },
+  metadataBase: new URL('https://packifycustomboxes.com'),
+
+  alternates: {
+    canonical: '/',
+  },
+
   openGraph: {
-    url: 'https://packifycustomboxes.com/',
+    url: '/',
     title: 'Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA',
-    description: 'Custom packaging boxes for e-commerce, retail & subscription brands. Mailer, tuck, rigid boxes. No die charges. Free design. No minimum order. Free US shipping.',
+    description:
+      'Custom packaging boxes for e-commerce, retail & subscription brands. Mailer, tuck, rigid boxes. No die charges. Free design. No minimum order. Free US shipping.',
     type: 'website',
     siteName: 'Packify Custom Boxes',
-    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'Packify Custom Boxes - Custom Packaging USA' }],
+    images: [
+      {
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Packify Custom Boxes - Custom Packaging USA',
+      },
+    ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    url: 'https://packifycustomboxes.com/',
     title: 'Custom Packaging Boxes | Wholesale USA',
-    description: 'Custom packaging boxes. No die charges. Free design. No minimum order. Free US shipping.',
+    description:
+      'Custom packaging boxes. No die charges. Free design. No minimum order. Free US shipping.',
+    images: ['/images/og-image.jpg'],
   },
 }
 
