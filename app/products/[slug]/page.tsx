@@ -89,13 +89,13 @@ export default function ProductPage({ params }: Props) {
         <main className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 bg-white rounded-3xl shadow-2xl border border-gray-100">
           <ProductDetail product={product} />
           <div id="quote-form" className="md:sticky md:top-32 md:self-start">
-            <ProductQuoteForm productName={product.title} />
+            <ProductQuoteForm productName={(product as any).title} />
           </div>
         </main>
       ) : (
         <main className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 bg-white rounded-3xl shadow-2xl border border-gray-100">
           <div id="quote-form" className="md:sticky md:top-32 md:self-start">
-            <ProductQuoteForm productName={product.title} />
+            <ProductQuoteForm productName={(product as any).title} />
           </div>
         </main>
       )}
