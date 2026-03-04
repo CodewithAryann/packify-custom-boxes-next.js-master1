@@ -221,7 +221,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
     variants: [
       {
         name: 'Tuck Top Boxes',
-        image: '/images/Tuck Top Box.webp',
+        image: '/images/tuck/Tuck Top Box.png',
         description: "Tuck top boxes have both top and bottom flaps that tuck in from the front. The result is a clean, uniform look and fast assembly. Commonly used for cosmetic compacts, supplement bottles, candles, and small retail products where a consistent front panel matters.",
         productOverview: {
           title: 'Tuck Top Boxes | Same-Side Flap Retail Cartons',
@@ -316,7 +316,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Auto Lock Boxes',
-        image: '/images/Auto Lock Bottom Box.webp',
+        image: '/images/tuck/Auto Lock Tuck Box.png',
         description: 'Auto lock (auto-bottom) boxes have a pre-glued base that pops into place with a squeeze. No manual folding of bottom flaps. Assembly is 3–5x faster than standard tuck boxes—ideal for jars, bottles, and heavier retail products.',
         productOverview: {
           title: 'Auto Lock Boxes | Pre-Glued Fast-Packing Cartons',
@@ -506,7 +506,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Straight Tuck End Boxes',
-        image: '/images/Straight end tuck box.webp',
+        image: '/images/tuck/Straight Tuck End.png',
         description: 'Straight tuck end boxes use the same closure pattern as tuck top—both top and bottom flaps tuck from the front. The term is interchangeable in practice. Best for cosmetic compacts, supplement bottles, and products that benefit from a clean, flat front panel.',
         productOverview: {
           title: 'Straight Tuck End Boxes | Clean Front-Face Cartons',
@@ -600,7 +600,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Kraft Tuck Top Boxes',
-        image: '/images/Kraft TUCK BOX.webp',
+        image: '/images/tuck/Kraft Tuck Box.png',
         description: 'Kraft tuck top boxes use unbleached kraft paperboard instead of white SBS. The natural brown color signals sustainability and pairs well with brands emphasizing organic, artisanal, or eco-friendly positioning. Same tuck closure, different aesthetic.',
         productOverview: {
           title: 'Kraft Tuck Top Boxes | Natural Brown Retail Cartons',
@@ -695,7 +695,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Snap Lock Bottom Boxes',
-        image: '/images/Snap lock tuck box.webp',
+        image: '/images/tuck/Snap Lock Bottom Boxes.png',
         description: "Snap lock bottom boxes use four interlocking flaps that snap together to form a strong base. No glue—just a manual fold-and-lock. Better for heavier products than a standard tuck bottom. Common for candles, food jars, and multi-item gift sets.",
         productOverview: {
           title: 'Snap Lock Bottom Boxes | Interlocking Heavy-Duty Bases',
@@ -885,7 +885,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'CBD Tuck Boxes',
-        image: '/images/customized-cbd-tuck-boxes.webp',
+        image: '/images/tuck/CBD Tuck Box (2).png',
         description: 'CBD tuck boxes are designed with ample panel space for required disclosures, ingredient lists, and QR codes. Child-resistant closures available where regulations require. Sized for tincture bottles, gummy containers, and topical packaging.',
         productOverview: {
           title: 'CBD Tuck Boxes | Wellness & Compliance Cartons',
@@ -980,7 +980,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Roll End Tuck Boxes',
-        image: '/images/Roll End Tuck box.webp',
+        image: '/images/tuck/Roll End Tuck Top.jpg',
         description: 'Roll end tuck boxes have extended flaps that roll over the sides before tucking in. The design adds rigidity and resistance to corner damage during shipping. Often used for e-commerce and subscription shipments where packages see more handling.',
         productOverview: {
           title: 'Roll End Tuck Boxes | Reinforced Edge Shipping Cartons',
@@ -1075,7 +1075,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Reverse Tuck End Boxes',
-        image: '/images/Reverse Tuck End Box.webp',
+        image: '/images/tuck/Reverse Tuck Box.png',
         description: 'Reverse tuck end boxes have top and bottom flaps that tuck from opposite sides. The design makes the box easier to open and reclose—a standard in pharmaceuticals, supplements, and cosmetics where consumers access the product repeatedly.',
         productOverview: {
           title: 'Reverse Tuck End Boxes | Pharma-Standard Everyday Cartons',
@@ -1170,7 +1170,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: '1-2-3 Bottom Boxes',
-        image: '/images/1-2-3 Bottom Box.webp',
+        image: '/images/tuck/1-2-3 Bottom Box.jpg',
         description: "1-2-3 bottom boxes use a three-step folding sequence to create a locked base. The method yields a very secure bottom—suitable for bulky or heavy items like food jars, candle tins, and gift sets. Manual assembly, no glue.",
         productOverview: {
           title: '1-2-3 Bottom Boxes | Three-Step Heavy-Load Bases',
@@ -1872,7 +1872,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Tuck Top Mailer Boxes',
-        image: '/images/Tuck Top Box.webp',
+        image: '/images/tuck/Tuck Top Mailer Box (2).png',
         description: 'Tuck top mailer boxes feature a secure closing design for easy assembly. Their streamlined style offers both convenience in packaging and protection for a wide range of goods.',
         productOverview: {
           title: 'Tuck Top Mailer Boxes | Gift-Style Ship-Ready Cartons',
@@ -3121,7 +3121,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     variants: [
       {
         name: 'Custom Magnetic Closure Boxes',
-        image: '/images/magentic rigid box.webp',
+        image: '/images/rigid/Magnetic Closure Rigid Boxes.png',
         description: 'Custom magnetic closure boxes combine luxury and functionality with built-in magnets that provide a smooth, secure closing mechanism. Perfect for premium products, these boxes offer an elegant unboxing experience while keeping contents protected and elegantly housed.',
         productOverview: {
           title: 'Magnetic Closure Boxes | Premium Snap-Shut Luxury',
@@ -3202,7 +3202,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Die Cut Boxes',
-        image: '/images/Die Cut Rigid Box.webp',
+        image: '/images/rigid/Die-Cut Rigid Boxes with Inserts.png',
         description: 'Die cut boxes feature custom shapes and windows created through precise cutting techniques. This allows for unique, eye-catching designs that showcase your product directly or add intricate details, making your packaging stand out on shelves and online.',
         productOverview: {
           title: 'Die Cut Rigid Boxes | Custom Windows & Sculpted Shapes',
@@ -3276,7 +3276,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Flip Top Boxes',
-        image: '/images/Flip Top Rigid Box.webp',
+        image: '/images/rigid/Flip Top Rigid Box.png',
         description: "Flip top boxes offer convenient access with a hinged lid that flips open easily. Popular for products needing frequent opening and closing, they're perfect for cosmetics, electronics, and retail goods requiring sleek presentation and practicality.",
         productOverview: {
           title: 'Flip Top Rigid Boxes | Hinged-Lid Everyday Luxury',
@@ -3350,7 +3350,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Rigid Gift Boxes',
-        image: '/images/Rigid Gift Box.webp',
+        image: '/images/rigid/Luxury Rigid Gift Boxes.jpg',
         description: "Rigid gift boxes are crafted from thick, sturdy material that exudes quality and durability. Often used for luxury gifts and keepsakes, they provide a premium feel that reinforces the brand's value and offers reliable protection.",
         productOverview: {
           title: 'Rigid Gift Boxes | Ready-to-Gift Luxury Packaging',
@@ -3424,7 +3424,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Kraft Rigid Boxes',
-        image: '/images/Rigid Kraft Box.webp',
+        image: '/images/rigid/Kraft Rigid Box.png',
         description: 'Kraft rigid boxes combine the robustness of rigid construction with the natural appeal of kraft paper. Eco-friendly and stylish, they deliver both sustainability and high-end packaging, ideal for brands that prioritize green solutions with a luxury touch.',
         productOverview: {
           title: 'Kraft Rigid Boxes | Eco-Luxury Keepsake Packaging',
@@ -3498,7 +3498,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Satin Lined Boxes',
-        image: '/images/Satin Lined Rigid Box.webp',
+        image: '/images/rigid/Satin Lined Rigid Boxes.jpg',
         description: 'Satin lined boxes elevate presentation with a soft, luxurious satin fabric interior that cushions delicate products. Often chosen for jewelry, watches, and premium gifts, these boxes highlight sophistication and care.',
         productOverview: {
           title: 'Satin Lined Boxes | Fabric-Lined Luxury Presentation',
@@ -3572,7 +3572,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Two Piece Boxes',
-        image: '/images/Two Piece Rigid Box.webp',
+        image: '/images/rigid/Two-Piece Rigid Boxes (Lid & Base).png',
         description: 'Custom two piece boxes consist of a separate lid and base, offering a timeless design favored for premium packaging. Their sturdy structure and elegant look make them suitable for gifts, specialty products, and upscale retail packaging.',
         productOverview: {
           title: 'Two Piece Rigid Boxes | Classic Lid-and-Base Presentation',
@@ -3646,7 +3646,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Slipcase Boxes',
-        image: '/images/Slipcase Rigid Box.webp',
+        image: '/images/rigid/Rigid SlipCase Box.png',
         description: 'Slipcase boxes feature a sleeve that slides over a separate box or booklet, combining style and protection. This packaging style is excellent for books, luxury gift sets, or limited edition products that benefit from an added layer of design.',
         productOverview: {
           title: 'Slipcase Boxes | Sleeve-Protected Book & Gift Sets',
@@ -3720,7 +3720,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Rigid Drawer Boxes',
-        image: '/images/Rigid Drawer Box.webp',
+        image: '/images/rigid/Rigid Drawer Boxes (Slide-Out Boxes).png',
         description: 'Custom rigid drawer boxes consist of an outer shell with a drawer-style inner compartment that slides open smoothly. This unique packaging adds a tactile, premium experience and is popular for cosmetics, tech accessories, and luxury goods.',
         productOverview: {
           title: 'Rigid Drawer Boxes | Pull-Out Tray Reveal',
@@ -3794,7 +3794,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Sliding Boxes',
-        image: '/images/Rigid Sliding Box.webp',
+        image: '/images/rigid/Rigid Sliding Boxes.png',
         description: 'Sliding boxes are designed with two parts — an outer sleeve and an inner tray that slides in and out. They offer strong protection and an impressive unboxing experience, making them a preferred choice for high-end gifts and retail products.',
         productOverview: {
           title: 'Sliding Rigid Boxes | Sleeve-Off Tray Unboxing',
@@ -3939,7 +3939,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     variants: [
       {
         name: 'CBD E-Cigarette Boxes',
-        image: '/images/CBD E cigarette box.webp',
+        image: '/images/cigarette/CBD CIGAREETE BOX.png',
         description: 'CBD E-Cigarette Boxes are custom-designed to provide secure, stylish, and compliant packaging for vape pens and cartridges. These boxes not only ensure the safety and freshness of your CBD products but also elevate brand appeal with premium printing and design options.',
         productOverview: {
           title: 'CBD E-Cigarette Boxes | Wellness-Focused Vape Packaging',
@@ -4006,7 +4006,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Vape Boxes',
-        image: '/images/custom vape kit box.webp',
+        image: '/images/cigarette/Custom Vape box.png',
         description: 'Custom Vape Boxes are tailored to protect and promote vape products with a perfect blend of functionality and branding. Designed to fit vape pens, cartridges, and e-liquids, these boxes offer secure housing, tamper-proof options, and customizable finishes.',
         productOverview: {
           title: 'Custom Vape Boxes | Unified Family for Pens, Pods & Kits',
@@ -4140,7 +4140,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Vape Pen Packaging',
-        image: '/images/vape pen box.webp',
+        image: '/images/cigarette/Custom Cigarette Packaging Boxes.png',
         description: 'Vape Pen Packaging is designed to combine protection, convenience, and style for vape pens of all sizes. These custom boxes offer secure fit, tamper-evident features, and premium finishes to enhance brand visibility.',
         productOverview: {
           title: 'Vape Pen Packaging | Device-Fit Cartons for On-the-Go Pens',
@@ -4274,7 +4274,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom E-Liquid Boxes',
-        image: '/images/e liquid box.webp',
+        image: '/images/cigarette/Custom E-Liquid Boxes.png',
         description: 'Custom E-Liquid Boxes are tailored to safely package and promote vape juice bottles while reinforcing your brand identity. Designed for 10ml, 30ml, and other standard bottle sizes, these boxes offer secure fit, leak prevention, and compliance-ready labeling areas.',
         productOverview: {
           title: 'E-Liquid Boxes | Bottle-Specific Vape Juice Cartons',
@@ -4341,7 +4341,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'THC Vape Boxes',
-        image: '/images/thc vape box.webp',
+        image: '/images/cigarette/Custom THC Vape Boxes.png',
         description: 'THC Vape Boxes are designed to deliver maximum product protection, compliance, and brand impact for cannabis vape cartridges and pens.',
         productOverview: {
           title: 'THC Vape Boxes | State-Ready Cannabis Vape Cartons',
@@ -4862,7 +4862,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
     variants: [
       {
         name: 'Makeup Boxes',
-        image: '/images/make up box.webp',
+        image: '/images/cosmetic/Custom Makeup Packaging Boxes.png',
         description: 'Makeup boxes for compacts, palettes, and kits. Custom sizing, window cutouts for shade visibility, and finishes like rose gold foil and soft-touch. Retail shelf and gift-ready.',
         productOverview: {
           title: 'Makeup Boxes | Compacts, Palettes & Kits',
@@ -4916,7 +4916,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Lip Balm Boxes',
-        image: '/images/lip balm bx.webp',
+        image: '/images/cosmetic/Custom Lip Balm Packaging Boxes.png',
         description: 'Lip balm boxes for tubes, pots, and sticks. Snug fit, eurohole for peg display, gift-set options. Space for ingredients, SPF, and flavor info.',
         productOverview: {
           title: 'Lip Balm Boxes | Tubes, Pots & Sticks',
@@ -4970,7 +4970,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Printed Cream Boxes',
-        image: '/images/cream box make up.webp',
+        image: '/images/cosmetic/Custom Cream Packaging Boxes.png',
         description: 'Cream boxes for jars, tubes, and airless pumps. Custom fit for 15ml–100ml. Soft-touch matte, embossing. Panel space for INCI, usage, and skin type.',
         productOverview: {
           title: 'Cream Boxes | Jars, Tubes & Pumps',
@@ -5078,7 +5078,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Serum Boxes',
-        image: '/images/custom serum box.webp',
+        image: '/images/cosmetic/Custom Serum Packaging Boxes.png',
         description: 'Serum boxes for dropper bottles, pumps, ampoules. Custom inserts protect glass. Space for active ingredients, INCI, usage. UV-blocking options for light-sensitive formulas.',
         productOverview: {
           title: 'Serum Boxes | Droppers, Pumps & Ampoules',
@@ -5132,7 +5132,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Printed Cosmetic Display Boxes',
-        image: '/images/cosmetic display box.webp',
+        image: '/images/cosmetic/Custom Cosmetic Packaging Boxes.png',
         description: 'Cosmetic display boxes for counter and floor display. Hold multiple units. Trade-show and retail use. Optional tester access.',
         productOverview: {
           title: 'Cosmetic Display Boxes | Counter & Floor Display',
@@ -5294,7 +5294,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Lipstick Boxes',
-        image: '/images/lipstick boxes.webp',
+        image: '/images/cosmetic/Custom Lipstick Packaging Boxes.png',
         description: 'Lipstick boxes for bullet and tube formats. Snug fit, shade-name space, window options. Finishes: rose gold foil, gloss, holographic.',
         productOverview: {
           title: 'Lipstick Boxes | Bullet & Tube Display',
