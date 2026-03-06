@@ -68,6 +68,311 @@ export interface Product {
 }
 
 export const productsData = {
+  'bakery-boxes': {
+  productOverview: {
+    title: 'Bakery Boxes | Fresh-Baked Packaging for Retail & Delivery',
+    description: 'Custom bakery boxes for cakes, cupcakes, cookies, pastries, donuts, and gable boxes. Food-safe board, grease-resistant coatings, and window options to showcase your baked goods. Full-color branding for retail shelves, farmers markets, and delivery.',
+    bullets: [
+      { title: 'Food-Safe Construction', description: 'FDA-compliant paperboard with grease-resistant coatings keeps baked goods fresh and prevents oil seepage while maintaining a clean, professional presentation.' },
+      { title: 'Window Options', description: 'Die-cut PET windows let customers see your baked goods before purchase—ideal for cookies, macarons, cupcakes, and artisan breads at retail and farmers markets.' },
+      { title: 'Custom Sizing', description: 'From single-slice cake boxes to 12-count donut trays and full sheet-cake carriers, every box is sized to your exact product dimensions.' },
+      { title: 'Eco-Friendly Materials', description: 'Kraft board, recycled content, and compostable options available for bakeries that prioritize sustainability and want to communicate those values to customers.' },
+      { title: 'Insert and Tray Options', description: 'Cupcake inserts, cardboard trays, and dividers hold individual pieces in place, preventing shifting and damage during transport and delivery.' },
+      { title: 'Full-Color Branding', description: 'CMYK and Pantone printing with food-safe inks. Logo, brand colors, and messaging transform every box into a marketing touchpoint for your bakery.' }
+    ],
+    learnMore: {
+      title: 'Bakery Box Guide: Packaging for Every Baked Good',
+      sections: [
+        {
+          heading: 'Choosing the Right Box for Your Baked Goods',
+          content: 'The best bakery box balances food safety, presentation, and cost. Cake boxes need rigid sides and a secure lid. Cupcake boxes need individual inserts to prevent toppling. Cookie boxes benefit from windows that show product variety. We help you match the right structure to each SKU in your lineup.'
+        },
+        {
+          content: 'We manufacture bakery boxes from FDA-compliant paperboard with grease-resistant coatings. Orders from 100 units. Production 7–10 business days. Free shipping within the continental US. Kraft, white, and recycled board options available. Full-color printing with food-safe inks.'
+        },
+        {
+          heading: 'Bakery Box Applications',
+          content: 'Our bakery boxes suit a wide range of food service and retail environments.',
+          list: [
+            'Retail bakeries and patisseries',
+            'Farmers markets and pop-up stalls',
+            'Wedding and event cake packaging',
+            'Food delivery and cloud kitchen operations',
+            'Wholesale and grocery bakery sections'
+          ]
+        },
+        {
+          heading: 'Design Tips for Bakery Packaging',
+          content: 'Clean, appetizing photography and warm brand colors perform best on bakery packaging. Window cutouts should be placed to show the most visually appealing part of the product—frosted tops, colorful sprinkles, or golden crust. Keep ingredient and allergen information on the side or back panel to preserve the front face for branding and appetite appeal.'
+        }
+      ]
+    }
+  },
+  learnMoreSection: {
+    title: 'Bakery Boxes: Food-Safe Packaging for Every Baked Good',
+    subtitle: 'Cakes, cupcakes, cookies, donuts, pastries, gable boxes—grease-resistant, windowed, and fully branded',
+    features: [
+      { title: 'Grease-Resistant Coating', description: 'Food-safe coating prevents butter, oil, and cream from seeping through the box. Maintains clean presentation for retail, delivery, and gifting.' },
+      { title: 'Window Options', description: 'PET window cutouts let customers see the product before buying. Ideal for cookies, cupcakes, macarons, and pastries at bakery counters.' },
+      { title: 'Custom Inserts and Trays', description: 'Cupcake inserts, donut trays, and cardboard dividers keep pieces separated and secure during transit. Prevents toppling, shifting, and frosting damage.' }
+    ],
+    faqs: [
+      { question: 'Are bakery boxes food-safe?', answer: 'Yes. All our bakery boxes use FDA-compliant, food-grade paperboard with grease-resistant coatings and non-toxic, food-safe inks approved for direct and indirect food contact.' },
+      { question: 'Can bakery boxes include windows?', answer: 'Yes. Die-cut windows with clear PET film are available in standard and custom shapes. Windows are very effective for cookies, cupcakes, pastries, and donuts sold at retail.' },
+      { question: 'What sizes are available for bakery boxes?', answer: 'We custom-manufacture bakery boxes in any size—single-slice cake, 6-inch round, 9-inch square, 12-count cupcake, full sheet cake, donut boxes, gable boxes, and more. Provide your product dimensions and we will engineer the perfect fit.' },
+      { question: 'Can I print my bakery logo on the boxes?', answer: 'Yes. Full-color CMYK or Pantone printing with food-safe inks on all panels. Your logo, brand colors, and messaging on every box.' }
+    ],
+    cta: {
+      title: 'Order Custom Bakery Boxes Today!',
+      subtitle: 'Food-safe, beautifully branded, and perfectly sized for every baked good. Free US shipping, no minimums.'
+    }
+  },
+  capabilitiesSection: {
+    title: 'Bakery Box Capabilities',
+    items: [
+      { label: 'Food-Safe', value: 'FDA-compliant board and inks' },
+      { label: 'Grease Resistance', value: 'Coated paperboard' },
+      { label: 'MOQ', value: 'From 100 units' },
+      { label: 'Lead Time', value: '7–10 business days' },
+      { label: 'Printing', value: 'Full-color, food-safe inks' },
+      { label: 'Shipping', value: 'Free continental US' }
+    ]
+  },
+  customization: {},
+  faqs: false,
+  title: 'Bakery Boxes',
+  slug: 'bakery-boxes',
+  metaDescription: 'Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. Food-safe, grease-resistant. Window cutouts, custom inserts. Full-color branding. Low minimums, free US shipping.',
+  keywords: [
+    'bakery boxes',
+    'custom cake boxes',
+    'cupcake packaging boxes',
+    'cookie boxes',
+    'donut boxes',
+    'pastry packaging boxes',
+    'gable boxes',
+    'food packaging boxes',
+    'bakery packaging USA'
+  ],
+  mainImage: '/images/bakery/Bakery Box MAIN PAGE.jpg',
+  hoverImage: '/images/bakery/bakery-box-hover.webp',
+  description: 'Bakery boxes use food-safe, grease-resistant paperboard to keep cakes, cupcakes, cookies, donuts, and pastries fresh and presentable. Window cutouts for product visibility. Custom inserts and trays. Gable boxes for gifting and takeout. Full-color branding with food-safe inks.',
+  features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
+  overviewTitle: 'Custom Bakery Boxes | Cakes, Cupcakes, Cookies, Donuts & More',
+  overviewContent: `Bakery boxes are food-safe packaging for cakes, cupcakes, cookies, donuts, pastries, and gable-style gifting.
+
+Materials: FDA-compliant paperboard with grease-resistant coating. Kraft, white, or recycled board. Eco-friendly and compostable options available.
+
+Printing: Full-color CMYK or Pantone, food-safe inks. Logos, brand colors, custom artwork on all panels.
+
+Window options: Die-cut PET windows for product visibility. Custom shapes and sizes.
+
+Inserts: Cupcake inserts, donut trays, cardboard dividers. Prevents movement and frosting damage.
+
+Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count cupcake, donut boxes, gable boxes, and more.`,
+  overviewImage: '/images/bakery/bakery-overview.webp',
+  overviewHoverImage: '/images/bakery/bakery-overview-hover.webp',
+  variants: [
+    {
+      name: 'Cake Boxes',
+      image: '/images/bakery/Custom Cake Boxes.png',
+      description: 'Custom cake boxes for round, square, and tiered cakes. Rigid sides, secure lid closure. Sizes from 4-inch single-layer to 14-inch tiered. Window options for decorated tops.',
+      productOverview: {
+        title: 'Cake Boxes | Round, Square & Tiered',
+        description: 'Custom-sized cake boxes with rigid sides and secure lid. Sizes 4–14 inch. Window options for decorated tops. Food-safe board, grease-resistant coating.',
+        bullets: [
+          { title: 'Custom Sizing', description: 'Round, square, and rectangular cake boxes from 4-inch single-layer to 14-inch tiered cakes. Depth options for single, double, and triple layers.' },
+          { title: 'Rigid Construction', description: 'Heavy-duty paperboard sides prevent crushing during transport. Secure lid closure keeps cakes protected and fresh.' },
+          { title: 'Window and Branding', description: 'Optional top or side windows to showcase decorated cakes. Full-color printing for bakery branding on all panels.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Cake Boxes: Rigid Protection for Decorated Cakes',
+        subtitle: 'Round, square, tiered—sizing, windows, and transport protection',
+        features: [
+          { title: 'Custom Dimensions', description: 'Any size from 4-inch mini cakes to 14-inch celebration cakes. Depth matched to your layer count and frosting height.' },
+          { title: 'Transport-Safe Build', description: 'Rigid walls prevent crushing. Secure lid closure. Compatible with cake boards and bases for stability.' },
+          { title: 'Window Options', description: 'Top and side windows with clear PET film for decorated cakes. Shows the decoration without exposing the cake to air.' }
+        ],
+        faqs: [
+          { question: 'Can cake boxes be made for tiered cakes?', answer: 'Yes — we produce tall cake boxes with sufficient depth for double and triple-tier cakes, including options for separated tiers shipped in individual boxes.' },
+          { question: 'Are window tops available for cake boxes?', answer: 'Yes — clear PET window lids and side windows let customers see decorated cakes without opening the box, which is ideal for retail and custom order pickup.' },
+          { question: 'Can cake boxes accommodate a cake board?', answer: 'Yes — cake box dimensions can be sized to accommodate standard cake boards (quarter, half, full drum) so cakes are stable during transport.' },
+          { question: 'Are food-safe materials used for cake boxes?', answer: 'Yes — all cake boxes use FDA-compliant, food-grade paperboard with grease-resistant coatings and food-safe inks for direct and indirect food contact.' }
+        ],
+        cta: {
+          title: 'Order Custom Cake Boxes Today!',
+          subtitle: 'Perfect fit, food-safe, and fully branded. Get a quote in 24 hours.'
+        }
+      }
+    },
+    {
+      name: 'Cookie Boxes',
+      image: '/images/bakery/Custom Cookie Box.png',
+      description: 'Cookie boxes for retail and gifting. Window panels for visual appeal, tray inserts for individual cookies. Flat-pack and stack-ready. Custom branding for bakeries and holiday gifting.',
+      productOverview: {
+        title: 'Cookie Boxes | Retail, Gifting & Holiday',
+        description: 'Cookie boxes with window panels and optional tray inserts. Retail shelf and gift-ready. Holiday and seasonal printing. Flat-pack and stack-ready.',
+        bullets: [
+          { title: 'Window Display', description: 'Front or top window panels showcase cookie variety and decoration before purchase.' },
+          { title: 'Tray Inserts', description: 'Optional paper tray or divider inserts keep cookies organized and prevent breakage during transport.' },
+          { title: 'Gift and Holiday Ready', description: 'Seasonal and holiday printing. Ribbon slot options. Perfect for cookie gifting programs and seasonal sales.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Cookie Boxes: Retail Display and Gifting Packaging',
+        subtitle: 'Windows, trays, and holiday branding for cookie boxes',
+        features: [
+          { title: 'Window Panels', description: 'Front or top windows show cookie variety and visual appeal. Drive impulse purchases at retail counters and market stalls.' },
+          { title: 'Breakage Prevention', description: 'Tray inserts and dividers separate cookies and absorb minor impacts. Keeps stacked and fragile decorated cookies intact.' },
+          { title: 'Seasonal Branding', description: 'Holiday and seasonal printing for Christmas, Valentine\'s Day, Easter, and more. Great for gifting programs and seasonal bakery promotions.' }
+        ],
+        faqs: [
+          { question: 'Can cookie boxes include window panels?', answer: 'Yes — front, side, or top window cutouts with clear PET film are available and very effective for retail cookie boxes, showcasing variety and visual appeal.' },
+          { question: 'Are tray inserts available to separate individual cookies?', answer: 'Yes — paper tray inserts and cardboard dividers can be added to cookie boxes to keep individual cookies separated and prevent breakage.' },
+          { question: 'Can cookie boxes be branded for holidays?', answer: 'Yes — seasonal and holiday-themed cookie boxes are popular for Christmas, Valentine\'s Day, Easter, and other gifting occasions. Short-run production available.' },
+          { question: 'Are cookie boxes stackable for retail display?', answer: 'Yes — we engineer cookie box dimensions for clean stacking on retail shelves and bakery counter displays.' }
+        ],
+        cta: {
+          title: 'Order Custom Cookie Boxes!',
+          subtitle: 'Windows included. Holiday designs available. Quote in 24 hours.'
+        }
+      }
+    },
+    {
+      name: 'Cupcake Packaging Boxes',
+      image: '/images/bakery/Custom Cupcake Boxes.jpg',
+      description: 'Cupcake boxes with individual inserts for 1, 2, 4, 6, 9, and 12 counts. Prevents toppling and frosting damage. Window lid options. Custom branding.',
+      productOverview: {
+        title: 'Cupcake Packaging Boxes | 1 to 12 Count With Inserts',
+        description: 'Cupcake boxes with cardboard or cavity inserts for 1, 2, 4, 6, 9, and 12 cupcakes. Prevents toppling. Window lids. Food-safe, grease-resistant.',
+        bullets: [
+          { title: 'Individual Inserts', description: 'Cardboard cavity inserts hold each cupcake individually. Prevents toppling, shifting, and frosting contact during transport.' },
+          { title: 'Count Options', description: '1, 2, 4, 6, 9, and 12-count configurations. Custom counts and tray sizes available.' },
+          { title: 'Window Lid', description: 'Clear PET window lid shows cupcakes without opening. Ideal for retail bakeries and gifting.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Cupcake Packaging Boxes: Individual Inserts and Window Lids',
+        subtitle: '1–12 count cupcake packaging—inserts, windows, and branding',
+        features: [
+          { title: 'Cavity Inserts', description: 'Custom-depth cavities hold cupcakes upright. Frosting stays intact. Works for standard and jumbo cupcakes.' },
+          { title: 'Window Lid Showcase', description: 'Full-width PET window lids display all cupcakes at once. No opening needed. Perfect for gifting and retail.' },
+          { title: 'Custom Count', description: '1 to 12 counts as standard. Custom configurations for bakery production sizes.' }
+        ],
+        faqs: [
+          { question: 'Do cupcake boxes come with inserts?', answer: 'Yes — all our cupcake boxes include cardboard cavity inserts that hold each cupcake individually, preventing toppling and frosting damage during transport.' },
+          { question: 'Are jumbo cupcake inserts available?', answer: 'Yes — cavity depth and diameter can be customized for standard, large, and jumbo cupcake sizes. Just provide your cupcake dimensions.' },
+          { question: 'Can cupcake boxes have a full window lid?', answer: 'Yes — clear PET full-width window lids are a popular option for retail cupcake boxes, displaying all cupcakes clearly without opening the box.' },
+          { question: 'What counts are available for cupcake boxes?', answer: 'Standard counts include 1, 2, 4, 6, 9, and 12. Custom counts and tray configurations are available for bakery-specific production sizes.' }
+        ],
+        cta: {
+          title: 'Order Custom Cupcake Packaging Boxes!',
+          subtitle: 'Inserts included, window lids available. Quote in 24 hours.'
+        }
+      }
+    },
+    {
+      name: 'Donut Boxes',
+      image: '/images/bakery/Custom Donut Boxes.png',
+      description: 'Donut boxes for 1, 3, 6, and 12 counts. Grease-resistant board, tray inserts to prevent sticking. Window tops for product visibility. Custom bakery branding.',
+      productOverview: {
+        title: 'Donut Boxes | 1 to 12 Count Tray Packaging',
+        description: 'Donut boxes with grease-resistant board and tray inserts for 1, 3, 6, and 12 counts. Window tops. Full-color bakery branding.',
+        bullets: [
+          { title: 'Grease-Resistant Board', description: 'Heavy grease-resistant coating prevents glazing and oil from seeping through. Keeps boxes clean and presentable.' },
+          { title: 'Tray Inserts', description: 'Cardboard tray inserts separate and hold donuts in position. Prevents sticking and damage during stacking and transport.' },
+          { title: 'Count Configurations', description: '1, 3, 6, and 12-count boxes. Custom sizes for donut holes, specialty shapes, and full-dozen retail.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Donut Boxes: Grease-Resistant Tray Packaging',
+        subtitle: '1–12 count donut boxes—grease resistance, trays, and branding',
+        features: [
+          { title: 'Heavy Grease Resistance', description: 'Donuts are high in oil and glaze. Heavy-duty grease-resistant coating prevents seepage for the duration of shelf life and transit.' },
+          { title: 'Tray Separation', description: 'Tray inserts keep donuts apart. Prevents glaze sticking between donuts and maintains presentation from counter to customer.' },
+          { title: 'Window Top Options', description: 'Clear PET window tops let customers see the donut selection. Popular for specialty, gourmet, and artisan donut shops.' }
+        ],
+        faqs: [
+          { question: 'Are donut boxes grease-resistant?', answer: 'Yes — donut boxes use heavy-duty grease-resistant board and coatings that prevent glazing, frosting, and oil from seeping through, maintaining a clean presentation.' },
+          { question: 'Do donut boxes include tray inserts?', answer: 'Yes — tray inserts are standard for multi-count donut boxes to keep donuts separated, preventing glaze sticking and display damage.' },
+          { question: 'What donut counts are available?', answer: 'Standard counts include 1, 3, 6, and 12. Custom counts for half-dozen retail, donut holes, and specialty gourmet donut formats available on request.' },
+          { question: 'Can donut boxes have a window top?', answer: 'Yes — clear PET window lids and panel windows are available and very popular for gourmet and specialty donut shops that want to showcase their product.' }
+        ],
+        cta: {
+          title: 'Order Custom Donut Boxes!',
+          subtitle: 'Grease-resistant and fully branded. Quote in 24 hours.'
+        }
+      }
+    },
+    {
+      name: 'Gable Boxes',
+      image: '/images/bakery/Custom Gable Boxes.jpg',
+      description: 'Gable boxes with built-in handles for easy carrying. Ideal for bakery favors, cookie gift sets, and event packaging. One-piece construction, no assembly required. Window and custom print options.',
+      productOverview: {
+        title: 'Gable Boxes | Handle-Top Bakery Gifting',
+        description: 'One-piece gable boxes with integrated carry handle. No assembly. Ideal for bakery favors, cookie gift sets, and event packaging. Window and full-color print options.',
+        bullets: [
+          { title: 'Built-In Handle', description: 'Integrated cardboard handle makes gable boxes easy to carry and gift-ready straight out of the box. No ribbon or bag needed.' },
+          { title: 'One-Piece Construction', description: 'Folds flat for storage and pops open instantly. No assembly tools or adhesive. Speeds up packing at events and in the bakery.' },
+          { title: 'Window and Print Options', description: 'Side window cutouts showcase baked goods inside. Full-color print for bakery branding, wedding favors, and seasonal gifting.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Gable Boxes: Handle-Top Bakery Favor Packaging',
+        subtitle: 'Built-in handle, one-piece—bakery favors, events, and seasonal gifting',
+        features: [
+          { title: 'Integrated Handle', description: 'Built-in carry handle makes gable boxes instantly gift-ready. No extra ribbon or bag required. Easy for customers to carry from counter to car.' },
+          { title: 'Fast One-Piece Setup', description: 'Flat-packed and pops open with no assembly. Ideal for high-volume event packing and busy bakery counters.' },
+          { title: 'Event and Favor Ready', description: 'Popular for wedding favors, birthday parties, holiday gifting, and farmers market sales. Fully custom printed for any occasion.' }
+        ],
+        faqs: [
+          { question: 'What is a gable box?', answer: 'A gable box is a one-piece folding box with a peaked top and an integrated cardboard handle, making it instantly portable and gift-ready without additional ribbon or bags.' },
+          { question: 'Can gable boxes include a window?', answer: 'Yes — side window cutouts with clear PET film are available for gable boxes, letting customers see the baked goods inside before purchase.' },
+          { question: 'Are gable boxes suitable for wedding and event favors?', answer: 'They are one of the most popular formats for wedding favors, party favors, and event gifting because of their built-in handle, clean shape, and strong custom print surface.' },
+          { question: 'Do gable boxes require assembly?', answer: 'No — gable boxes are one-piece construction. They ship flat and pop open instantly with no glue, tape, or tools required, making them ideal for high-volume event packing.' }
+        ],
+        cta: {
+          title: 'Order Custom Gable Boxes!',
+          subtitle: 'Handle-top, gift-ready, and fully branded. Quote in 24 hours.'
+        }
+      }
+    },
+    {
+      name: 'Pastry Packaging Boxes',
+      image: '/images/bakery/Custom Pastry Packaging Boxes.png',
+      description: 'Pastry boxes for croissants, danishes, eclairs, macarons, and tarts. Shallow depth options, grease-resistant board. Window panels. Patisserie-level branding with soft-touch and foil options.',
+      productOverview: {
+        title: 'Pastry Packaging Boxes | Croissants, Eclairs & Tarts',
+        description: 'Shallow pastry boxes for croissants, danishes, eclairs, macarons, and tarts. Window panels. Grease-resistant board. Premium finishes for patisserie branding.',
+        bullets: [
+          { title: 'Shallow Depth Options', description: 'Low-profile box depths for flat pastries, croissants, and tarts without wasted vertical space.' },
+          { title: 'Window Display', description: 'Window panels show pastry detail, golden color, and filling. Ideal for patisserie retail counter display.' },
+          { title: 'Premium Finishes', description: 'Soft-touch, foil stamping, and embossing for patisserie brands requiring luxury presentation alongside food safety.' }
+        ]
+      },
+      learnMoreSection: {
+        title: 'Pastry Packaging Boxes: Patisserie Display and Gift Packaging',
+        subtitle: 'Croissants, eclairs, macarons—shallow depth, windows, and luxury finishes',
+        features: [
+          { title: 'Pastry-Specific Sizing', description: 'Shallow or custom-depth profiles for flat and delicate pastries. No wasted space. No crushed tops.' },
+          { title: 'Window Showcase', description: 'Panel and top windows for croissants, eclairs, and tarts. Shows filling, glaze, and form clearly at the counter.' },
+          { title: 'Patisserie Finishes', description: 'Soft-touch, foil, and embossing available for high-end patisserie brands alongside food-safe board and coatings.' }
+        ],
+        faqs: [
+          { question: 'Can pastry boxes be made shallow for croissants and tarts?', answer: 'Yes — shallow box depths are standard for pastry packaging. We match the internal depth precisely to your tallest pastry to prevent crushing.' },
+          { question: 'Are window panels available for pastry packaging boxes?', answer: 'Yes — window panels and full window lids are available to showcase golden pastry, filling color, and detail at retail counters.' },
+          { question: 'Are premium finishes available for patisserie pastry boxes?', answer: 'Yes — soft-touch matte, foil stamping, and embossing are available alongside food-safe board, allowing patisserie brands to achieve luxury packaging without compromising food safety.' },
+          { question: 'Can pastry boxes hold assortments with multiple types?', answer: 'Yes — we design assortment pastry boxes with divided trays or open layouts that hold mixed pastry types together in a gift-ready presentation.' }
+        ],
+        cta: {
+          title: 'Order Custom Pastry Packaging Boxes!',
+          subtitle: 'Patisserie-quality branding meets food-safe construction. Quote in 24 hours.'
+        }
+      }
+    }
+  ]
+},
   'tuck-boxes': {
     learnMoreSection: {
       title: 'Why Brands Choose Custom Tuck Boxes for Cosmetics, Jewelry & Retail',
@@ -409,101 +714,101 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
           }
         }
       },
-      {
-        name: 'Tuck Mailer Boxes',
-        image: '/images/Tuck Mailer Box.webp',
-        description: 'Tuck mailer boxes combine a tuck-end closure with mailer-grade construction. The flaps lock without tape, and the corrugated or heavy paperboard withstands shipping. Suited for subscription boxes, sample kits, and direct-to-consumer shipments.',
-        productOverview: {
-          title: 'Tuck Mailer Boxes | Self-Locking Ship-Ready Cartons',
-          description:
-            'Tuck mailer boxes blend tuck-end convenience with mailer-grade strength. They lock closed without tape and are built to ship subscription kits and compact e‑commerce orders.',
-          bullets: [
-            {
-              title: 'Tuck-End Closure With Mailer Strength',
-              description:
-                'Borrowed from retail cartons, the tuck closure gives a familiar unboxing motion while thicker board protects products in transit.'
-            },
-            {
-              title: 'Ideal for Small Subscription Kits',
-              description:
-                'Sized for discovery sets, sample bundles, and compact D2C shipments that need both shelf appeal and courier durability.'
-            },
-            {
-              title: 'Ships Without Outer Box',
-              description:
-                'Self-locking structure and mailer-grade materials let you ship as-is through USPS, UPS, FedEx, and other carriers.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Tuck Mailer Boxes: Self-Locking Shipping Cartons',
-          subtitle: 'When to use tuck mailers instead of RSC or traditional mailer boxes',
-          sections: [
-            {
-              heading: 'Blending Retail Shelf Style With Shipping Strength',
-              content: [
-                'Tuck mailer boxes borrow the familiar tuck‑end closure from folding cartons and combine it with thicker, mailer‑grade board for direct‑to‑consumer shipping.',
-                'This gives you a more compact, retail‑inspired silhouette than a typical mailer while still being strong enough for parcel networks when paired with the right board weight and inserts.'
-              ]
-            },
-            {
-              heading: 'When to Use Tuck Mailers Instead of Standard Mailers',
-              content: [
-                'Choose tuck mailers when your product is relatively compact and you want a more vertical, carton‑like profile that fits better into small mail slots, drawers, or retail displays.',
-                'They are also a great option for hybrid use cases where some inventory ships D2C and some is displayed on shelves, because the same box looks at home in both environments.'
-              ],
-              list: [
-                'Sample kits and discovery sets',
-                'Small electronics and accessories',
-                'Flat packed skincare, supplements, and wellness kits'
-              ]
-            },
-            {
-              heading: 'Design Considerations for Interior Packing',
-              content: [
-                'Because the tuck flaps close over the end of the box, it is important to design inserts that keep products away from the closure so flaps do not press directly on delicate items.',
-                'Custom die‑cut trays, partitions, or foam layers can hold products in a staged layout that feels considered while also protecting them from impact.'
-              ]
-            }
-          ],
-          features: [
-            {
-              title: 'Shipping-Grade Protection',
-              description: 'Sturdy tuck-in flaps lock tightly to keep contents secure through the rigors of transit and courier handling.'
-            },
-            {
-              title: 'No Tape Needed',
-              description: 'Self-locking tuck closure eliminates the need for tape or adhesive, creating a cleaner unboxing experience.'
-            },
-            {
-              title: 'Branded Shipping',
-              description: 'Custom exterior printing transforms every shipment into a marketing touchpoint for your brand.'
-            }
-          ],
-          faqs: [
-            {
-              question: 'How are tuck mailer boxes different from regular mailer boxes?',
-              answer: 'Tuck mailer boxes use a tuck-end closure mechanism (like a tuck box) rather than a separate lid, combining the convenience of a mailer with the familiar tuck-style assembly that many brands prefer.'
-            },
-            {
-              question: 'Are they suitable for subscription box services?',
-              answer: 'Absolutely. Their consistent structure and easy assembly make them excellent for subscription services that need to pack and ship at high volume with a great unboxing experience.'
-            },
-            {
-              question: 'Can I print inside the box too?',
-              answer: 'Yes! Interior printing is available and adds a memorable surprise for customers when they open their order — great for subscription and gifting brands.'
-            },
-            {
-              question: 'What sizes are available for tuck mailer boxes?',
-              answer: 'We custom-manufacture tuck mailer boxes in any dimension. Just provide your product measurements and we will engineer the perfect fit.'
-            }
-          ],
-          cta: {
-            title: 'Get Custom Tuck Mailer Boxes Today!',
-            subtitle: 'Secure, brandable, and efficient — the perfect mailer for subscriptions, gifts, and promotional shipments.'
-          }
-        }
-      },
+      // {
+      //   name: 'Tuck Mailer Boxes',
+      //   image: '/images/Tuck Mailer Box.webp',
+      //   description: 'Tuck mailer boxes combine a tuck-end closure with mailer-grade construction. The flaps lock without tape, and the corrugated or heavy paperboard withstands shipping. Suited for subscription boxes, sample kits, and direct-to-consumer shipments.',
+      //   productOverview: {
+      //     title: 'Tuck Mailer Boxes | Self-Locking Ship-Ready Cartons',
+      //     description:
+      //       'Tuck mailer boxes blend tuck-end convenience with mailer-grade strength. They lock closed without tape and are built to ship subscription kits and compact e‑commerce orders.',
+      //     bullets: [
+      //       {
+      //         title: 'Tuck-End Closure With Mailer Strength',
+      //         description:
+      //           'Borrowed from retail cartons, the tuck closure gives a familiar unboxing motion while thicker board protects products in transit.'
+      //       },
+      //       {
+      //         title: 'Ideal for Small Subscription Kits',
+      //         description:
+      //           'Sized for discovery sets, sample bundles, and compact D2C shipments that need both shelf appeal and courier durability.'
+      //       },
+      //       {
+      //         title: 'Ships Without Outer Box',
+      //         description:
+      //           'Self-locking structure and mailer-grade materials let you ship as-is through USPS, UPS, FedEx, and other carriers.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Tuck Mailer Boxes: Self-Locking Shipping Cartons',
+      //     subtitle: 'When to use tuck mailers instead of RSC or traditional mailer boxes',
+      //     sections: [
+      //       {
+      //         heading: 'Blending Retail Shelf Style With Shipping Strength',
+      //         content: [
+      //           'Tuck mailer boxes borrow the familiar tuck‑end closure from folding cartons and combine it with thicker, mailer‑grade board for direct‑to‑consumer shipping.',
+      //           'This gives you a more compact, retail‑inspired silhouette than a typical mailer while still being strong enough for parcel networks when paired with the right board weight and inserts.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'When to Use Tuck Mailers Instead of Standard Mailers',
+      //         content: [
+      //           'Choose tuck mailers when your product is relatively compact and you want a more vertical, carton‑like profile that fits better into small mail slots, drawers, or retail displays.',
+      //           'They are also a great option for hybrid use cases where some inventory ships D2C and some is displayed on shelves, because the same box looks at home in both environments.'
+      //         ],
+      //         list: [
+      //           'Sample kits and discovery sets',
+      //           'Small electronics and accessories',
+      //           'Flat packed skincare, supplements, and wellness kits'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Design Considerations for Interior Packing',
+      //         content: [
+      //           'Because the tuck flaps close over the end of the box, it is important to design inserts that keep products away from the closure so flaps do not press directly on delicate items.',
+      //           'Custom die‑cut trays, partitions, or foam layers can hold products in a staged layout that feels considered while also protecting them from impact.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       {
+      //         title: 'Shipping-Grade Protection',
+      //         description: 'Sturdy tuck-in flaps lock tightly to keep contents secure through the rigors of transit and courier handling.'
+      //       },
+      //       {
+      //         title: 'No Tape Needed',
+      //         description: 'Self-locking tuck closure eliminates the need for tape or adhesive, creating a cleaner unboxing experience.'
+      //       },
+      //       {
+      //         title: 'Branded Shipping',
+      //         description: 'Custom exterior printing transforms every shipment into a marketing touchpoint for your brand.'
+      //       }
+      //     ],
+      //     faqs: [
+      //       {
+      //         question: 'How are tuck mailer boxes different from regular mailer boxes?',
+      //         answer: 'Tuck mailer boxes use a tuck-end closure mechanism (like a tuck box) rather than a separate lid, combining the convenience of a mailer with the familiar tuck-style assembly that many brands prefer.'
+      //       },
+      //       {
+      //         question: 'Are they suitable for subscription box services?',
+      //         answer: 'Absolutely. Their consistent structure and easy assembly make them excellent for subscription services that need to pack and ship at high volume with a great unboxing experience.'
+      //       },
+      //       {
+      //         question: 'Can I print inside the box too?',
+      //         answer: 'Yes! Interior printing is available and adds a memorable surprise for customers when they open their order — great for subscription and gifting brands.'
+      //       },
+      //       {
+      //         question: 'What sizes are available for tuck mailer boxes?',
+      //         answer: 'We custom-manufacture tuck mailer boxes in any dimension. Just provide your product measurements and we will engineer the perfect fit.'
+      //       }
+      //     ],
+      //     cta: {
+      //       title: 'Get Custom Tuck Mailer Boxes Today!',
+      //       subtitle: 'Secure, brandable, and efficient — the perfect mailer for subscriptions, gifts, and promotional shipments.'
+      //     }
+      //   }
+      // },
       {
         name: 'Straight Tuck End Boxes',
         image: '/images/tuck/Straight Tuck End.png',
@@ -788,101 +1093,101 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
           }
         }
       },
-      {
-        name: 'Double Wall Tuck Top Boxes',
-        image: '/images/Double Wall tuck Box.webp',
-        description: 'Double wall tuck top boxes use two layers of corrugated or heavy paperboard for extra crush resistance. Suited for glass, ceramics, and fragile items that need more protection than a single-wall tuck box. Heavier than standard, but often eliminates the need for additional outer shippers.',
-        productOverview: {
-          title: 'Double Wall Tuck Top Boxes | Extra-Rigid Protective Cartons',
-          description:
-            'Double wall tuck top boxes add a second structural layer to boost crush resistance for fragile or high-value products.',
-          bullets: [
-            {
-              title: 'Two-Layer Wall Strength',
-              description:
-                'Inner and outer boards work together to resist compression, edge drops, and stacking forces far better than single-wall cartons.'
-            },
-            {
-              title: 'Reduce Over-Boxing',
-              description:
-                'Stronger primaries often eliminate the need for separate shippers or excessive void fill, simplifying your packaging system.'
-            },
-            {
-              title: 'Great for Glass & Ceramics',
-              description:
-                'Paired with inserts, double walls are a go-to for candles, mugs, bottles, and delicate sets shipping D2C.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Double Wall Tuck Top Boxes: Extra Protection for Fragile Items',
-          subtitle: 'Two-layer construction for glass and ceramics—often eliminates outer shippers',
-          sections: [
-            {
-              heading: 'When Single-Wall Packaging Is Not Enough',
-              content: [
-                'If you have already optimized inserts and still see damage from crushing or side impacts, the limiting factor is usually wall strength, not interior cushioning.',
-                'Double wall tuck top boxes add a second structural layer, dramatically increasing the carton’s ability to resist compression and protect what is inside.'
-              ]
-            },
-            {
-              heading: 'Using Double Wall to Simplify Your Packaging System',
-              content: [
-                'By upgrading the primary box to double wall, many brands can eliminate separate outer shippers or excessive void fill, simplifying their packing process.',
-                'This can reduce total materials, packing time, and storage complexity while actually improving delivered condition and customer satisfaction.'
-              ],
-              list: [
-                'Combine double wall with tailored inserts for best results',
-                'Use for SKUs with highest damage or return rates',
-                'Consider for international or long‑distance shipments'
-              ]
-            },
-            {
-              heading: 'Maintaining a Premium Look With Heavy-Duty Walls',
-              content: [
-                'Even with thicker board, the exterior of a double wall box can look sleek and refined with the right coatings and print choices.',
-                'Soft‑touch, foil, and spot UV finishes help communicate that the heavy construction is a premium feature, not just over‑engineering.'
-              ]
-            }
-          ],
-          features: [
-            {
-              title: 'Double-Wall Construction',
-              description: 'Two layers of board create significantly stronger walls that resist crushing, denting, and impact damage during shipping.'
-            },
-            {
-              title: 'Fragile Product Protection',
-              description: 'Ideal for glass, ceramics, electronics, and other delicate items that require robust packaging to arrive undamaged.'
-            },
-            {
-              title: 'Premium Exterior Printing',
-              description: 'Full-color outer surface printing ensures your brand looks great despite the heavy-duty internal construction.'
-            }
-          ],
-          faqs: [
-            {
-              question: 'How much stronger are double wall boxes compared to single wall?',
-              answer: 'Double wall construction typically provides 2–3x the crush and impact resistance of equivalent single-wall board, making them ideal for shipping fragile or high-value items.'
-            },
-            {
-              question: 'Are double wall tuck top boxes heavier to ship?',
-              answer: 'They are slightly heavier than single wall boxes, but the added protection often eliminates the need for extra void fill or inner packaging, which can offset shipping costs.'
-            },
-            {
-              question: 'Can double wall boxes still be custom printed?',
-              answer: 'Yes! The outer layer prints beautifully with full CMYK or Pantone colors and can receive any standard finish including matte, gloss, and spot UV.'
-            },
-            {
-              question: 'What products are best suited for double wall tuck top boxes?',
-              answer: 'Glass candles, ceramic mugs, electronics, heavy cosmetic sets, bottled products, and any item where damage during shipping would be costly or harmful to your brand.'
-            }
-          ],
-          cta: {
-            title: 'Protect Your Products With Double Wall Tuck Top Boxes!',
-            subtitle: 'When standard packaging is not enough — double wall construction gives your products the protection they deserve.'
-          }
-        }
-      },
+      // {
+      //   name: 'Double Wall Tuck Top Boxes',
+      //   image: '/images/Double Wall tuck Box.webp',
+      //   description: 'Double wall tuck top boxes use two layers of corrugated or heavy paperboard for extra crush resistance. Suited for glass, ceramics, and fragile items that need more protection than a single-wall tuck box. Heavier than standard, but often eliminates the need for additional outer shippers.',
+      //   productOverview: {
+      //     title: 'Double Wall Tuck Top Boxes | Extra-Rigid Protective Cartons',
+      //     description:
+      //       'Double wall tuck top boxes add a second structural layer to boost crush resistance for fragile or high-value products.',
+      //     bullets: [
+      //       {
+      //         title: 'Two-Layer Wall Strength',
+      //         description:
+      //           'Inner and outer boards work together to resist compression, edge drops, and stacking forces far better than single-wall cartons.'
+      //       },
+      //       {
+      //         title: 'Reduce Over-Boxing',
+      //         description:
+      //           'Stronger primaries often eliminate the need for separate shippers or excessive void fill, simplifying your packaging system.'
+      //       },
+      //       {
+      //         title: 'Great for Glass & Ceramics',
+      //         description:
+      //           'Paired with inserts, double walls are a go-to for candles, mugs, bottles, and delicate sets shipping D2C.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Double Wall Tuck Top Boxes: Extra Protection for Fragile Items',
+      //     subtitle: 'Two-layer construction for glass and ceramics—often eliminates outer shippers',
+      //     sections: [
+      //       {
+      //         heading: 'When Single-Wall Packaging Is Not Enough',
+      //         content: [
+      //           'If you have already optimized inserts and still see damage from crushing or side impacts, the limiting factor is usually wall strength, not interior cushioning.',
+      //           'Double wall tuck top boxes add a second structural layer, dramatically increasing the carton’s ability to resist compression and protect what is inside.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Using Double Wall to Simplify Your Packaging System',
+      //         content: [
+      //           'By upgrading the primary box to double wall, many brands can eliminate separate outer shippers or excessive void fill, simplifying their packing process.',
+      //           'This can reduce total materials, packing time, and storage complexity while actually improving delivered condition and customer satisfaction.'
+      //         ],
+      //         list: [
+      //           'Combine double wall with tailored inserts for best results',
+      //           'Use for SKUs with highest damage or return rates',
+      //           'Consider for international or long‑distance shipments'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Maintaining a Premium Look With Heavy-Duty Walls',
+      //         content: [
+      //           'Even with thicker board, the exterior of a double wall box can look sleek and refined with the right coatings and print choices.',
+      //           'Soft‑touch, foil, and spot UV finishes help communicate that the heavy construction is a premium feature, not just over‑engineering.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       {
+      //         title: 'Double-Wall Construction',
+      //         description: 'Two layers of board create significantly stronger walls that resist crushing, denting, and impact damage during shipping.'
+      //       },
+      //       {
+      //         title: 'Fragile Product Protection',
+      //         description: 'Ideal for glass, ceramics, electronics, and other delicate items that require robust packaging to arrive undamaged.'
+      //       },
+      //       {
+      //         title: 'Premium Exterior Printing',
+      //         description: 'Full-color outer surface printing ensures your brand looks great despite the heavy-duty internal construction.'
+      //       }
+      //     ],
+      //     faqs: [
+      //       {
+      //         question: 'How much stronger are double wall boxes compared to single wall?',
+      //         answer: 'Double wall construction typically provides 2–3x the crush and impact resistance of equivalent single-wall board, making them ideal for shipping fragile or high-value items.'
+      //       },
+      //       {
+      //         question: 'Are double wall tuck top boxes heavier to ship?',
+      //         answer: 'They are slightly heavier than single wall boxes, but the added protection often eliminates the need for extra void fill or inner packaging, which can offset shipping costs.'
+      //       },
+      //       {
+      //         question: 'Can double wall boxes still be custom printed?',
+      //         answer: 'Yes! The outer layer prints beautifully with full CMYK or Pantone colors and can receive any standard finish including matte, gloss, and spot UV.'
+      //       },
+      //       {
+      //         question: 'What products are best suited for double wall tuck top boxes?',
+      //         answer: 'Glass candles, ceramic mugs, electronics, heavy cosmetic sets, bottled products, and any item where damage during shipping would be costly or harmful to your brand.'
+      //       }
+      //     ],
+      //     cta: {
+      //       title: 'Protect Your Products With Double Wall Tuck Top Boxes!',
+      //       subtitle: 'When standard packaging is not enough — double wall construction gives your products the protection they deserve.'
+      //     }
+      //   }
+      // },
       {
         name: 'CBD Tuck Boxes',
         image: '/images/tuck/CBD Tuck Box (2).png',
@@ -2168,7 +2473,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Mailer Gift Boxes',
-        image: '/images/Gift Mailer Box.webp',
+        image: '/images/mailer/Durable, Secure & On-Brand – Corrugated Mailer Boxes You Can Trust.jpeg',
         description: 'Transform gifting with stylish mailer gift boxes. They combine durability with elegant presentation, ensuring contents are both secure and beautifully displayed upon arrival.',
         productOverview: {
           title: 'Mailer Gift Boxes | Ship-Ready Presentation Packaging',
@@ -2240,80 +2545,80 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
           }
         }
       },
-      {
-        name: 'Decorative Mailers',
-        image: '/images/Decorative Mailer Box.webp',
-        description: 'Decorative mailers feature eye-catching designs and finishes, ideal for special occasions, promotional campaigns, or subscription boxes looking to create a lasting impression.',
-        productOverview: {
-          title: 'Decorative Mailers | Full-Artwork Branded Cartons',
-          description:
-            'Decorative mailers prioritize pattern, illustration, and special finishes so every shipment doubles as a branded art piece.',
-          bullets: [
-            {
-              title: 'Full-Coverage Artwork',
-              description:
-                'Edge-to-edge graphics wrap all exterior panels, turning simple mailers into highly shareable packaging.'
-            },
-            {
-              title: 'Campaign & Seasonal Ready',
-              description:
-                'Short-run printing supports limited editions, collaborations, and seasonal drops without redesigning your core structure.'
-            },
-            {
-              title: 'Special Effects That Pop',
-              description:
-                'Glitter, holographic foil, and spot UV effects can be layered to match your brand’s level of boldness or subtlety.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Decorative Mailer Boxes: Artistic Branded Shipping',
-          subtitle: 'Full-bleed art, glitter, foil, and spot UV—special occasions and subscription unboxing',
-          sections: [
-            {
-              heading: 'Turning Shipping Cartons Into Collectible Art',
-              content: [
-                'Decorative mailer boxes are designed to be noticed and kept, not discarded without a second thought.',
-                'By covering the entire exterior in patterns, illustration, or photography, you transform a simple shipping box into a branded art piece that customers photograph and display.'
-              ]
-            },
-            {
-              heading: 'Planning Campaign and Season-Specific Designs',
-              content: [
-                'Many brands use decorative mailers as limited‑run canvases for product launches, collaborations, or seasonal drops.',
-                'Short‑run production lets you test new looks, celebrate special events, or create collector‑worthy packaging without committing to a design for years.'
-              ],
-              list: [
-                'Launch‑specific designs for new collections',
-                'Influencer and PR mailers with bespoke artwork',
-                'Limited‑edition subscription box art series'
-              ]
-            },
-            {
-              heading: 'Choosing Special Effects That Fit Your Brand',
-              content: [
-                'Glitter, holographic foil, and high‑gloss effects can create a loud, celebratory feel, while soft‑touch, embossing, and subtle foil details feel more elevated and understated.',
-                'We help you pick finish combinations that support your brand personality so the box feels like a natural extension of the products inside.'
-              ]
-            }
-          ],
-          features: [
-            { title: 'Artistic Full-Coverage Design', description: 'Rich patterns, illustrations, and full-bleed artwork transform the entire mailer into a design statement customers remember.' },
-            { title: 'Premium Finish Effects', description: 'Spot UV, glitter lamination, foil stamping, and embossing add dimension and luxury to decorative mailer designs.' },
-            { title: 'Occasion-Specific Customization', description: "Create seasonal, campaign-specific, or occasion-themed decorative mailers that align with your brand's marketing calendar." }
-          ],
-          faqs: [
-            { question: 'What occasions are decorative mailers best suited for?', answer: 'Holiday campaigns, product launches, Valentine\'s Day, birthdays, anniversaries, loyalty reward shipments, limited-edition subscription boxes, and promotional campaigns.' },
-            { question: 'Can I create different decorative designs for different seasons?', answer: 'Absolutely! Many brands create seasonal decorative mailer designs for holidays and campaigns. Our flexible production allows short-run seasonal orders.' },
-            { question: 'What special finishes are available for decorative mailers?', answer: 'Glitter lamination, holographic foil, spot UV, embossing, debossing, soft-touch lamination, and custom metallic foil stamping are all available.' },
-            { question: 'Are decorative mailers more expensive than plain mailers?', answer: 'Decorative mailers with premium finishes do carry a higher per-unit cost, but the increased customer engagement and shareability typically deliver strong marketing ROI.' }
-          ],
-          cta: {
-            title: 'Create Stunning Decorative Mailers for Your Brand!',
-            subtitle: 'Turn every delivery into a moment. Decorative mailers that customers photograph, share, and remember long after opening.'
-          }
-        }
-      },
+      // {
+      //   name: 'Decorative Mailers',
+      //   image: '/images/Decorative Mailer Box.webp',
+      //   description: 'Decorative mailers feature eye-catching designs and finishes, ideal for special occasions, promotional campaigns, or subscription boxes looking to create a lasting impression.',
+      //   productOverview: {
+      //     title: 'Decorative Mailers | Full-Artwork Branded Cartons',
+      //     description:
+      //       'Decorative mailers prioritize pattern, illustration, and special finishes so every shipment doubles as a branded art piece.',
+      //     bullets: [
+      //       {
+      //         title: 'Full-Coverage Artwork',
+      //         description:
+      //           'Edge-to-edge graphics wrap all exterior panels, turning simple mailers into highly shareable packaging.'
+      //       },
+      //       {
+      //         title: 'Campaign & Seasonal Ready',
+      //         description:
+      //           'Short-run printing supports limited editions, collaborations, and seasonal drops without redesigning your core structure.'
+      //       },
+      //       {
+      //         title: 'Special Effects That Pop',
+      //         description:
+      //           'Glitter, holographic foil, and spot UV effects can be layered to match your brand’s level of boldness or subtlety.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Decorative Mailer Boxes: Artistic Branded Shipping',
+      //     subtitle: 'Full-bleed art, glitter, foil, and spot UV—special occasions and subscription unboxing',
+      //     sections: [
+      //       {
+      //         heading: 'Turning Shipping Cartons Into Collectible Art',
+      //         content: [
+      //           'Decorative mailer boxes are designed to be noticed and kept, not discarded without a second thought.',
+      //           'By covering the entire exterior in patterns, illustration, or photography, you transform a simple shipping box into a branded art piece that customers photograph and display.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Planning Campaign and Season-Specific Designs',
+      //         content: [
+      //           'Many brands use decorative mailers as limited‑run canvases for product launches, collaborations, or seasonal drops.',
+      //           'Short‑run production lets you test new looks, celebrate special events, or create collector‑worthy packaging without committing to a design for years.'
+      //         ],
+      //         list: [
+      //           'Launch‑specific designs for new collections',
+      //           'Influencer and PR mailers with bespoke artwork',
+      //           'Limited‑edition subscription box art series'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Choosing Special Effects That Fit Your Brand',
+      //         content: [
+      //           'Glitter, holographic foil, and high‑gloss effects can create a loud, celebratory feel, while soft‑touch, embossing, and subtle foil details feel more elevated and understated.',
+      //           'We help you pick finish combinations that support your brand personality so the box feels like a natural extension of the products inside.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       { title: 'Artistic Full-Coverage Design', description: 'Rich patterns, illustrations, and full-bleed artwork transform the entire mailer into a design statement customers remember.' },
+      //       { title: 'Premium Finish Effects', description: 'Spot UV, glitter lamination, foil stamping, and embossing add dimension and luxury to decorative mailer designs.' },
+      //       { title: 'Occasion-Specific Customization', description: "Create seasonal, campaign-specific, or occasion-themed decorative mailers that align with your brand's marketing calendar." }
+      //     ],
+      //     faqs: [
+      //       { question: 'What occasions are decorative mailers best suited for?', answer: 'Holiday campaigns, product launches, Valentine\'s Day, birthdays, anniversaries, loyalty reward shipments, limited-edition subscription boxes, and promotional campaigns.' },
+      //       { question: 'Can I create different decorative designs for different seasons?', answer: 'Absolutely! Many brands create seasonal decorative mailer designs for holidays and campaigns. Our flexible production allows short-run seasonal orders.' },
+      //       { question: 'What special finishes are available for decorative mailers?', answer: 'Glitter lamination, holographic foil, spot UV, embossing, debossing, soft-touch lamination, and custom metallic foil stamping are all available.' },
+      //       { question: 'Are decorative mailers more expensive than plain mailers?', answer: 'Decorative mailers with premium finishes do carry a higher per-unit cost, but the increased customer engagement and shareability typically deliver strong marketing ROI.' }
+      //     ],
+      //     cta: {
+      //       title: 'Create Stunning Decorative Mailers for Your Brand!',
+      //       subtitle: 'Turn every delivery into a moment. Decorative mailers that customers photograph, share, and remember long after opening.'
+      //     }
+      //   }
+      // },
       {
         name: 'Holiday Mailer Boxes',
         image: '/images/mailer/Holiday Mailer Box.jpg',
@@ -2388,157 +2693,157 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
           }
         }
       },
-      {
-        name: 'Book Mailers',
-        image: '/images/Book Mailer Box.webp',
-        description: 'Designed specifically for books, these mailers shield contents from bending or corner damage, keeping your reading materials safe from warehouse to doorstep.',
-        productOverview: {
-          title: 'Book Mailers | Purpose-Built Book Shipping Cartons',
-          description:
-            'Book mailers are scored and sized for paperbacks, hardcovers, and box sets to keep spines and corners pristine in transit.',
-          bullets: [
-            {
-              title: 'Spine & Corner Protection',
-              description:
-                'Rigid panels and tight scoring minimize flex so covers, corners, and dust jackets arrive undamaged.'
-            },
-            {
-              title: 'Single & Multi-Book Options',
-              description:
-                'Structures can cradle a single title or add dividers and flaps to separate multiple books in one shipment.'
-            },
-            {
-              title: 'Author & Publisher Branding',
-              description:
-                'Exterior printing showcases imprints, series branding, or campaign art to elevate preorders and signed editions.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Book Mailer Boxes: Protect Books in Transit',
-          subtitle: 'Rigid construction prevents bending and spine damage—paperback to hardcover sizes',
-          sections: [
-            {
-              heading: 'Engineered Specifically for Books, Not Just Boxes',
-              content: [
-                'Book mailers are sized and scored to match common book formats so that covers, corners, and spines sit flush against reinforced panels.',
-                'Unlike generic cartons, they minimize internal voids and flex, which are the main causes of crushed corners and cracked spines in transit.'
-              ]
-            },
-            {
-              heading: 'Supporting Authors, Publishers, and Bookstores',
-              content: [
-                'For independent authors and publishers, packaging quality is part of the reading experience — damaged books mean returns, replacements, and disappointed fans.',
-                'Custom‑printed book mailers give you a professional, bookstore‑grade presentation even when shipping directly from a small warehouse or home office.'
-              ],
-              list: [
-                'Launch and pre‑order campaigns with branded mailers',
-                'Special mailers for signed and limited editions',
-                'Retail‑branded packaging for bookstores and online shops'
-              ]
-            },
-            {
-              heading: 'Handling Single Books vs. Multi-Book Shipments',
-              content: [
-                'Single‑book mailers keep one title snug and protected, while multi‑book designs add dividers or reinforced walls to stop books from colliding with each other.',
-                'We help you pick structures that balance ease of packing with the level of protection needed for your particular catalog and customer expectations.'
-              ]
-            }
-          ],
-          features: [
-            { title: 'Corner & Edge Protection', description: 'Reinforced corners and rigid walls prevent the corner crushing and spine damage that destroys books during standard shipping.' },
-            { title: 'Bending Prevention', description: 'Rigid construction eliminates the flexing that causes page fanning, cover creasing, and permanent spine damage.' },
-            { title: 'Custom Size Range', description: 'Available for paperbacks, hardcovers, coffee table books, journals, and box sets in any format or combination.' }
-          ],
-          faqs: [
-            { question: 'Do book mailers prevent spine damage?', answer: 'Yes — our rigid book mailers prevent the flexing and impact that cause spine cracking, keeping books in mint condition from warehouse to customer.' },
-            { question: 'Can book mailers hold multiple books?', answer: 'Yes. We create multi-book mailers with appropriate sizing and internal structure to hold 2, 3, or more books securely without movement.' },
-            { question: 'Are book mailers suitable for signed editions and collector items?', answer: 'Absolutely. For valuable signed or collector editions, we recommend double-wall construction and foam corner inserts for maximum protection.' },
-            { question: 'Can I brand book mailers for my bookstore or publishing house?', answer: 'Yes! Custom printing turns your book mailers into branded marketing pieces that build recognition and professionalism with every order shipped.' }
-          ],
-          cta: {
-            title: 'Ship Books Safely With Custom Book Mailers!',
-            subtitle: 'Purpose-built rigid protection that keeps every book in perfect condition from your warehouse to the reader\'s hands.'
-          }
-        }
-      },
-      {
-        name: 'Ear Lock Mailer Box',
-        image: '/images/Ear Lock Mailer Box.webp',
-        description: 'The ear lock design secures the lid in place, providing extra protection against accidental opening and making it ideal for more delicate or valuable contents.',
-        productOverview: {
-          title: 'Ear Lock Mailer Boxes | Built-In Tab-Locked Security',
-          description:
-            'Ear lock mailers add side “ear” tabs that lock into the lid, creating a tamper-resistant closure without tape.',
-          bullets: [
-            {
-              title: 'Mechanical Locking Closure',
-              description:
-                'Die-cut ear tabs engage with lid slots to hold the box firmly closed through handling and shipping.'
-            },
-            {
-              title: 'Great for High-Value Goods',
-              description:
-                'Ideal for jewelry, electronics, curated kits, and other products where accidental opening would be costly.'
-            },
-            {
-              title: 'Clean, Tape-Free Look',
-              description:
-                'Because security is built into the structure, exteriors stay free of noisy tape or extra straps in unboxing photos.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Ear Lock Mailer Boxes: Tamper-Resistant Secure Closure',
-          subtitle: 'Folding ear tabs lock the lid—no tape needed, secure for delicate or valuable contents',
-          sections: [
-            {
-              heading: 'How Ear Lock Closures Work',
-              content: [
-                'Ear lock mailers use side tabs that fold inward and engage with slots in the lid, creating a mechanical lock that resists accidental opening.',
-                'Because the lock is built into the structure, there is no adhesive to fail in cold, hot, or humid conditions — a key advantage over tape‑only closures.'
-              ]
-            },
-            {
-              heading: 'When to Choose Ear Lock Over Standard Mailers',
-              content: [
-                'Ear lock designs are ideal when you ship products that would be compromised if the lid popped open in transit, such as delicate goods, high‑value items, or neatly arranged gift sets.',
-                'They also work well in retail environments where boxes may be handled frequently before purchase and need extra resistance to being opened on the shelf.'
-              ],
-              list: [
-                'Jewelry and accessory shipments that need tamper resistance',
-                'Neatly arranged gift sets that must arrive exactly as packed',
-                'High‑value electronics or collectibles that demand secure closure'
-              ]
-            },
-            {
-              heading: 'Combining Ear Locks With Tamper-Evident Features',
-              content: [
-                'For even higher security, ear lock mailers can be paired with tamper‑evident labels or perforated seals that clearly show if a package has been opened.',
-                'This combination gives customers confidence that what they receive is exactly what you shipped, untouched and intact.'
-              ]
-            }
-          ],
-          features: [
-            { title: 'Ear Lock Security', description: 'Folding ear tabs lock the lid securely in position, preventing accidental opening during transit and handling.' },
-            { title: 'No Tape Required', description: 'The ear lock closure provides sufficient security for most shipments without tape, creating a cleaner, more professional unboxing experience.' },
-            { title: 'Premium Contents Protection', description: 'The secure closure is ideal for delicate, valuable, or fragile contents where accidental lid opening would be damaging or problematic.' }
-          ],
-          faqs: [
-            { question: 'How secure is the ear lock closure?', answer: 'Ear lock closures are secure enough for standard courier shipping without tape. For extremely heavy or sensitive contents, we recommend adding a light adhesive strip or tamper-evident seal.' },
-            { question: 'Is the ear lock easy to open for recipients?', answer: 'Yes — while the ear lock holds securely during transit, recipients can open it easily by simply releasing the ear tabs, creating a smooth and satisfying unboxing experience.' },
-            { question: 'Can ear lock mailer boxes be custom printed?', answer: 'Absolutely! Full exterior and interior printing is available with all standard finishes including matte, gloss, soft-touch, and spot UV.' },
-            { question: 'What sizes are available for ear lock mailer boxes?', answer: 'We manufacture ear lock mailer boxes in any custom size to fit your specific products and shipping requirements.' }
-          ],
-          cta: {
-            title: 'Secure Every Shipment With Ear Lock Mailer Boxes!',
-            subtitle: 'Reliable ear lock closure that protects your products in transit — no tape needed, professional every time.'
-          }
-        }
-      },
+      // {
+      //   name: 'Book Mailers',
+      //   image: '/images/Book Mailer Box.webp',
+      //   description: 'Designed specifically for books, these mailers shield contents from bending or corner damage, keeping your reading materials safe from warehouse to doorstep.',
+      //   productOverview: {
+      //     title: 'Book Mailers | Purpose-Built Book Shipping Cartons',
+      //     description:
+      //       'Book mailers are scored and sized for paperbacks, hardcovers, and box sets to keep spines and corners pristine in transit.',
+      //     bullets: [
+      //       {
+      //         title: 'Spine & Corner Protection',
+      //         description:
+      //           'Rigid panels and tight scoring minimize flex so covers, corners, and dust jackets arrive undamaged.'
+      //       },
+      //       {
+      //         title: 'Single & Multi-Book Options',
+      //         description:
+      //           'Structures can cradle a single title or add dividers and flaps to separate multiple books in one shipment.'
+      //       },
+      //       {
+      //         title: 'Author & Publisher Branding',
+      //         description:
+      //           'Exterior printing showcases imprints, series branding, or campaign art to elevate preorders and signed editions.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Book Mailer Boxes: Protect Books in Transit',
+      //     subtitle: 'Rigid construction prevents bending and spine damage—paperback to hardcover sizes',
+      //     sections: [
+      //       {
+      //         heading: 'Engineered Specifically for Books, Not Just Boxes',
+      //         content: [
+      //           'Book mailers are sized and scored to match common book formats so that covers, corners, and spines sit flush against reinforced panels.',
+      //           'Unlike generic cartons, they minimize internal voids and flex, which are the main causes of crushed corners and cracked spines in transit.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Supporting Authors, Publishers, and Bookstores',
+      //         content: [
+      //           'For independent authors and publishers, packaging quality is part of the reading experience — damaged books mean returns, replacements, and disappointed fans.',
+      //           'Custom‑printed book mailers give you a professional, bookstore‑grade presentation even when shipping directly from a small warehouse or home office.'
+      //         ],
+      //         list: [
+      //           'Launch and pre‑order campaigns with branded mailers',
+      //           'Special mailers for signed and limited editions',
+      //           'Retail‑branded packaging for bookstores and online shops'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Handling Single Books vs. Multi-Book Shipments',
+      //         content: [
+      //           'Single‑book mailers keep one title snug and protected, while multi‑book designs add dividers or reinforced walls to stop books from colliding with each other.',
+      //           'We help you pick structures that balance ease of packing with the level of protection needed for your particular catalog and customer expectations.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       { title: 'Corner & Edge Protection', description: 'Reinforced corners and rigid walls prevent the corner crushing and spine damage that destroys books during standard shipping.' },
+      //       { title: 'Bending Prevention', description: 'Rigid construction eliminates the flexing that causes page fanning, cover creasing, and permanent spine damage.' },
+      //       { title: 'Custom Size Range', description: 'Available for paperbacks, hardcovers, coffee table books, journals, and box sets in any format or combination.' }
+      //     ],
+      //     faqs: [
+      //       { question: 'Do book mailers prevent spine damage?', answer: 'Yes — our rigid book mailers prevent the flexing and impact that cause spine cracking, keeping books in mint condition from warehouse to customer.' },
+      //       { question: 'Can book mailers hold multiple books?', answer: 'Yes. We create multi-book mailers with appropriate sizing and internal structure to hold 2, 3, or more books securely without movement.' },
+      //       { question: 'Are book mailers suitable for signed editions and collector items?', answer: 'Absolutely. For valuable signed or collector editions, we recommend double-wall construction and foam corner inserts for maximum protection.' },
+      //       { question: 'Can I brand book mailers for my bookstore or publishing house?', answer: 'Yes! Custom printing turns your book mailers into branded marketing pieces that build recognition and professionalism with every order shipped.' }
+      //     ],
+      //     cta: {
+      //       title: 'Ship Books Safely With Custom Book Mailers!',
+      //       subtitle: 'Purpose-built rigid protection that keeps every book in perfect condition from your warehouse to the reader\'s hands.'
+      //     }
+      //   }
+      // },
+      // {
+      //   name: 'Ear Lock Mailer Box',
+      //   image: '/images/Ear Lock Mailer Box.webp',
+      //   description: 'The ear lock design secures the lid in place, providing extra protection against accidental opening and making it ideal for more delicate or valuable contents.',
+      //   productOverview: {
+      //     title: 'Ear Lock Mailer Boxes | Built-In Tab-Locked Security',
+      //     description:
+      //       'Ear lock mailers add side “ear” tabs that lock into the lid, creating a tamper-resistant closure without tape.',
+      //     bullets: [
+      //       {
+      //         title: 'Mechanical Locking Closure',
+      //         description:
+      //           'Die-cut ear tabs engage with lid slots to hold the box firmly closed through handling and shipping.'
+      //       },
+      //       {
+      //         title: 'Great for High-Value Goods',
+      //         description:
+      //           'Ideal for jewelry, electronics, curated kits, and other products where accidental opening would be costly.'
+      //       },
+      //       {
+      //         title: 'Clean, Tape-Free Look',
+      //         description:
+      //           'Because security is built into the structure, exteriors stay free of noisy tape or extra straps in unboxing photos.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Ear Lock Mailer Boxes: Tamper-Resistant Secure Closure',
+      //     subtitle: 'Folding ear tabs lock the lid—no tape needed, secure for delicate or valuable contents',
+      //     sections: [
+      //       {
+      //         heading: 'How Ear Lock Closures Work',
+      //         content: [
+      //           'Ear lock mailers use side tabs that fold inward and engage with slots in the lid, creating a mechanical lock that resists accidental opening.',
+      //           'Because the lock is built into the structure, there is no adhesive to fail in cold, hot, or humid conditions — a key advantage over tape‑only closures.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'When to Choose Ear Lock Over Standard Mailers',
+      //         content: [
+      //           'Ear lock designs are ideal when you ship products that would be compromised if the lid popped open in transit, such as delicate goods, high‑value items, or neatly arranged gift sets.',
+      //           'They also work well in retail environments where boxes may be handled frequently before purchase and need extra resistance to being opened on the shelf.'
+      //         ],
+      //         list: [
+      //           'Jewelry and accessory shipments that need tamper resistance',
+      //           'Neatly arranged gift sets that must arrive exactly as packed',
+      //           'High‑value electronics or collectibles that demand secure closure'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Combining Ear Locks With Tamper-Evident Features',
+      //         content: [
+      //           'For even higher security, ear lock mailers can be paired with tamper‑evident labels or perforated seals that clearly show if a package has been opened.',
+      //           'This combination gives customers confidence that what they receive is exactly what you shipped, untouched and intact.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       { title: 'Ear Lock Security', description: 'Folding ear tabs lock the lid securely in position, preventing accidental opening during transit and handling.' },
+      //       { title: 'No Tape Required', description: 'The ear lock closure provides sufficient security for most shipments without tape, creating a cleaner, more professional unboxing experience.' },
+      //       { title: 'Premium Contents Protection', description: 'The secure closure is ideal for delicate, valuable, or fragile contents where accidental lid opening would be damaging or problematic.' }
+      //     ],
+      //     faqs: [
+      //       { question: 'How secure is the ear lock closure?', answer: 'Ear lock closures are secure enough for standard courier shipping without tape. For extremely heavy or sensitive contents, we recommend adding a light adhesive strip or tamper-evident seal.' },
+      //       { question: 'Is the ear lock easy to open for recipients?', answer: 'Yes — while the ear lock holds securely during transit, recipients can open it easily by simply releasing the ear tabs, creating a smooth and satisfying unboxing experience.' },
+      //       { question: 'Can ear lock mailer boxes be custom printed?', answer: 'Absolutely! Full exterior and interior printing is available with all standard finishes including matte, gloss, soft-touch, and spot UV.' },
+      //       { question: 'What sizes are available for ear lock mailer boxes?', answer: 'We manufacture ear lock mailer boxes in any custom size to fit your specific products and shipping requirements.' }
+      //     ],
+      //     cta: {
+      //       title: 'Secure Every Shipment With Ear Lock Mailer Boxes!',
+      //       subtitle: 'Reliable ear lock closure that protects your products in transit — no tape needed, professional every time.'
+      //     }
+      //   }
+      // },
       {
         name: 'CBD Mailer Boxes',
-        image: '/images/CBD Mailer Box.webp',
+        image: '/images/mailer/cbd mailer box.png',
         description: 'CBD mailer boxes are sized for supplements, oils, gummies, and topicals. Ample panel space for ingredient lists, lab QR codes, and disclaimers. Tamper-evident options. Used by D2C and e-commerce CBD brands for compliant, branded shipping.',
         productOverview: {
           title: 'CBD Mailer Boxes | Compliant Wellness Shipping',
@@ -2599,7 +2904,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Ecommerce Mailers',
-        image: '/images/Ecomerce Mailer Box.webp',
+        image: '/images/mailer/Custom Printed Flute E-commerce Packaging Box Corrugated Cardboard Shipping Mailer White Tab Locking Literature Mailer Box.jpg.jpeg',
         description: 'Streamline online orders with eCommerce mailers that combine secure protection, easy assembly, and efficient branding for direct-to-consumer shipments.',
         productOverview: {
           title: 'Ecommerce Mailer Boxes | D2C-Focused Shipping Cartons',
@@ -2673,7 +2978,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Sleeved Mailer Boxes',
-        image: '/images/Sleeved Mailer Box.webp',
+        image: '/images/mailer/sleeved mailer box.jpeg',
         description: 'These boxes feature an additional sleeve exterior, giving an upscale touch and added layer of design and protection, perfect for premium products.',
         productOverview: {
           title: 'Sleeved Mailer Boxes | Outer-Sleeve Premium Reveal',
@@ -2745,80 +3050,80 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
           }
         }
       },
-      {
-        name: 'Mailer Shipping Boxes',
-        image: '/images/Mailer shipping box.webp',
-        description: 'Durable and customizable, mailer shipping boxes are tailored for logistics. They ensure damage-free delivery and can be printed for consistent brand identity.',
-        productOverview: {
-          title: 'Mailer Shipping Boxes | Logistics-Grade D2C Cartons',
-          description:
-            'Mailer shipping boxes use heavier board specs and reinforced seams for brands shipping high volumes through complex networks.',
-          bullets: [
-            {
-              title: 'Warehouse-Ready Strength',
-              description:
-                'Built to handle pallet stacking, conveyors, and long-haul routes without panel bowing or seam failures.'
-            },
-            {
-              title: 'Rationalized Size Families',
-              description:
-                'Size sets are designed to cover your SKU mix with as few box SKUs as possible, simplifying inventory and packing.'
-            },
-            {
-              title: 'Consistent High-Volume Branding',
-              description:
-                'Print management keeps logos, colors, and messaging consistent across large, repeated production runs.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Mailer Shipping Boxes: Heavy-Duty Logistics Packaging',
-          subtitle: 'Stacking, compression, moisture resistance—built for high-volume fulfillment',
-          sections: [
-            {
-              heading: 'Engineered for Warehouses, Not Just Doorsteps',
-              content: [
-                'Mailer shipping boxes are designed to survive pallet stacking, conveyor systems, cross‑docking, and long‑haul transit — not just the final mile.',
-                'Board grades, flute selection, and seam construction are chosen to prevent panel bowing, corner blowouts, and seam ruptures under real‑world warehouse loads.'
-              ]
-            },
-            {
-              heading: 'Designing a Size Range for Your SKU Mix',
-              content: [
-                'Most growing brands benefit from a rationalized size family — a small, medium, and large box set that can ship the majority of SKUs efficiently.',
-                'We analyze your product dimensions and order history to propose a size range that minimizes void fill and over‑boxing while keeping carton SKUs manageable for your operations team.'
-              ],
-              list: [
-                'Right‑sized boxes for best‑selling SKUs',
-                'Oversize options for bundled or promotional kits',
-                'Slim cartons for flat or document‑style items'
-              ]
-            },
-            {
-              heading: 'Maintaining Brand Consistency at Scale',
-              content: [
-                'When you are shipping thousands of orders per week, inconsistencies in color, logo placement, or messaging quickly become noticeable.',
-                'Our production processes and print management keep your branding consistent from one run to the next so every outbound shipment looks intentional and professional.'
-              ]
-            }
-          ],
-          features: [
-            { title: 'Logistics-Grade Construction', description: 'Engineered to withstand stacking, compression, moisture exposure, and impact forces encountered throughout the shipping supply chain.' },
-            { title: 'Brand Consistency at Scale', description: 'Consistent custom printing across high-volume orders ensures every package that leaves your warehouse reinforces your brand identity.' },
-            { title: 'Flexible Size Range', description: 'Available in a wide range of sizes to accommodate diverse product assortments and shipping configurations efficiently.' }
-          ],
-          faqs: [
-            { question: 'How do mailer shipping boxes differ from standard mailer boxes?', answer: 'Mailer shipping boxes use heavier board weights and more robust construction optimized for logistics demands, including heavier payloads and longer transit distances.' },
-            { question: 'Are mailer shipping boxes suitable for international shipping?', answer: 'Yes — our shipping boxes can be produced to ISTA and ASTM standards for international courier and freight shipping requirements.' },
-            { question: 'Can mailer shipping boxes be custom branded?', answer: 'Yes! Custom exterior printing is available to maintain consistent brand identity across all outbound shipments, regardless of volume.' },
-            { question: 'Do you offer bulk discounts on mailer shipping boxes?', answer: 'Yes — significant volume discounts are available. Contact our team for a custom quote based on your anticipated order volumes.' }
-          ],
-          cta: {
-            title: 'Ship At Scale With Custom Mailer Shipping Boxes!',
-            subtitle: 'Heavy-duty, fully branded, and built for logistics — the professional shipping solution for growing e-commerce brands.'
-          }
-        }
-      },
+      // {
+      //   name: 'Mailer Shipping Boxes',
+      //   image: '/images/Mailer shipping box.webp',
+      //   description: 'Durable and customizable, mailer shipping boxes are tailored for logistics. They ensure damage-free delivery and can be printed for consistent brand identity.',
+      //   productOverview: {
+      //     title: 'Mailer Shipping Boxes | Logistics-Grade D2C Cartons',
+      //     description:
+      //       'Mailer shipping boxes use heavier board specs and reinforced seams for brands shipping high volumes through complex networks.',
+      //     bullets: [
+      //       {
+      //         title: 'Warehouse-Ready Strength',
+      //         description:
+      //           'Built to handle pallet stacking, conveyors, and long-haul routes without panel bowing or seam failures.'
+      //       },
+      //       {
+      //         title: 'Rationalized Size Families',
+      //         description:
+      //           'Size sets are designed to cover your SKU mix with as few box SKUs as possible, simplifying inventory and packing.'
+      //       },
+      //       {
+      //         title: 'Consistent High-Volume Branding',
+      //         description:
+      //           'Print management keeps logos, colors, and messaging consistent across large, repeated production runs.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Mailer Shipping Boxes: Heavy-Duty Logistics Packaging',
+      //     subtitle: 'Stacking, compression, moisture resistance—built for high-volume fulfillment',
+      //     sections: [
+      //       {
+      //         heading: 'Engineered for Warehouses, Not Just Doorsteps',
+      //         content: [
+      //           'Mailer shipping boxes are designed to survive pallet stacking, conveyor systems, cross‑docking, and long‑haul transit — not just the final mile.',
+      //           'Board grades, flute selection, and seam construction are chosen to prevent panel bowing, corner blowouts, and seam ruptures under real‑world warehouse loads.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Designing a Size Range for Your SKU Mix',
+      //         content: [
+      //           'Most growing brands benefit from a rationalized size family — a small, medium, and large box set that can ship the majority of SKUs efficiently.',
+      //           'We analyze your product dimensions and order history to propose a size range that minimizes void fill and over‑boxing while keeping carton SKUs manageable for your operations team.'
+      //         ],
+      //         list: [
+      //           'Right‑sized boxes for best‑selling SKUs',
+      //           'Oversize options for bundled or promotional kits',
+      //           'Slim cartons for flat or document‑style items'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Maintaining Brand Consistency at Scale',
+      //         content: [
+      //           'When you are shipping thousands of orders per week, inconsistencies in color, logo placement, or messaging quickly become noticeable.',
+      //           'Our production processes and print management keep your branding consistent from one run to the next so every outbound shipment looks intentional and professional.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       { title: 'Logistics-Grade Construction', description: 'Engineered to withstand stacking, compression, moisture exposure, and impact forces encountered throughout the shipping supply chain.' },
+      //       { title: 'Brand Consistency at Scale', description: 'Consistent custom printing across high-volume orders ensures every package that leaves your warehouse reinforces your brand identity.' },
+      //       { title: 'Flexible Size Range', description: 'Available in a wide range of sizes to accommodate diverse product assortments and shipping configurations efficiently.' }
+      //     ],
+      //     faqs: [
+      //       { question: 'How do mailer shipping boxes differ from standard mailer boxes?', answer: 'Mailer shipping boxes use heavier board weights and more robust construction optimized for logistics demands, including heavier payloads and longer transit distances.' },
+      //       { question: 'Are mailer shipping boxes suitable for international shipping?', answer: 'Yes — our shipping boxes can be produced to ISTA and ASTM standards for international courier and freight shipping requirements.' },
+      //       { question: 'Can mailer shipping boxes be custom branded?', answer: 'Yes! Custom exterior printing is available to maintain consistent brand identity across all outbound shipments, regardless of volume.' },
+      //       { question: 'Do you offer bulk discounts on mailer shipping boxes?', answer: 'Yes — significant volume discounts are available. Contact our team for a custom quote based on your anticipated order volumes.' }
+      //     ],
+      //     cta: {
+      //       title: 'Ship At Scale With Custom Mailer Shipping Boxes!',
+      //       subtitle: 'Heavy-duty, fully branded, and built for logistics — the professional shipping solution for growing e-commerce brands.'
+      //     }
+      //   }
+      // },
       {
         name: 'Custom Mailer Boxes With Tear Strip',
         image: '/images/mailer/Custom Tear Strip Mailer Box.png',
@@ -2967,80 +3272,80 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
           }
         }
       },
-      {
-        name: 'Tab Lock Boxes',
-        image: '/images/Tab Lock Mailer Box.webp',
-        description: 'Tab lock designs help securely close the box without tape or glue, ensuring tamper resistance and neat presentation—ideal for retail packaging.',
-        productOverview: {
-          title: 'Tab Lock Mailer Boxes | Tape-Free Tab-and-Slot Closure',
-          description:
-            'Tab lock boxes use die-cut tabs that click into front slots, creating a clean, tape-free closure for retail and shipping.',
-          bullets: [
-            {
-              title: 'Positive Mechanical Lock',
-              description:
-                'Front tabs engage with matching slots so the lid stays closed through handling without relying on adhesive.'
-            },
-            {
-              title: 'Tamper-Aware Presentation',
-              description:
-                'Visible tab engagement and optional seals make it easy to spot if a box has been opened before purchase or delivery.'
-            },
-            {
-              title: 'Shelf & Ship Ready',
-              description:
-                'Neat, tape-free edges look polished on shelves, in e‑commerce unboxings, and in gift applications.'
-            }
-          ]
-        },
-        learnMoreSection: {
-          title: 'Tab Lock Mailer Boxes: Tape-Free Tab Closure',
-          subtitle: 'Interlocking tab and slot—secure closure, tamper-resistant, retail-ready',
-          sections: [
-            {
-              heading: 'How Tab Lock Closures Differ From Standard Mailers',
-              content: [
-                'Tab lock mailer boxes rely on die‑cut tabs that slot into corresponding openings, creating a positive mechanical lock at the front edge of the box.',
-                'This closure is more structured than simple tuck‑in flaps, making it well‑suited for retail packaging where boxes are handled and stacked repeatedly.'
-              ]
-            },
-            {
-              heading: 'Design Options for Tab Shapes and Positions',
-              content: [
-                'Tabs can be sized and positioned to change how the box opens and how secure it feels in the hand.',
-                'Subtle changes to tab geometry affect ease of opening, resistance to accidental release, and the overall visual look of the front panel.'
-              ],
-              list: [
-                'Single‑tab designs for simple, quick access',
-                'Dual‑tab layouts for extra tamper resistance',
-                'Hidden tabs integrated into front panel artwork'
-              ]
-            },
-            {
-              heading: 'Retail and Unboxing Considerations',
-              content: [
-                'Because tab lock boxes do not need tape, they present cleanly at retail and are easy for customers to open at home without tools.',
-                'The smooth opening motion and tidy edges also make them appealing for giftable products, where first impressions matter as much as structural performance.'
-              ]
-            }
-          ],
-          features: [
-            { title: 'Tape-Free Secure Closure', description: 'Interlocking tab and slot closure holds the box firmly shut during transit and retail display without any tape or adhesive.' },
-            { title: 'Tamper-Resistance', description: 'The tab lock mechanism shows visible signs of tampering if someone attempts to open and reclose the box, protecting product integrity.' },
-            { title: 'Neat Professional Finish', description: 'Clean closure with no tape residue or torn edges creates a polished, professional appearance ideal for retail environments.' }
-          ],
-          faqs: [
-            { question: 'How secure is a tab lock closure for shipping?', answer: 'Tab lock closures provide reliable security for standard courier shipping. For very heavy items, we recommend combining with a tamper-evident label for additional assurance.' },
-            { question: 'Are tab lock boxes easy to open for customers?', answer: 'Yes — the tab releases smoothly with a gentle push, creating an easy and satisfying opening experience without the frustration of tape removal.' },
-            { question: 'Can tab lock boxes be used for retail display as well as shipping?', answer: 'Absolutely. The clean closure and professional appearance make tab lock boxes excellent for both retail display and direct shipping applications.' },
-            { question: 'What customization options are available?', answer: 'Full-color CMYK and Pantone printing, matte and gloss lamination, spot UV, embossing, foil stamping, and window cutouts are all available on tab lock boxes.' }
-          ],
-          cta: {
-            title: 'Order Custom Tab Lock Boxes Today!',
-            subtitle: 'Secure, tape-free, and professionally finished — tab lock boxes that perform flawlessly in retail and shipping environments.'
-          }
-        }
-      }
+      // {
+      //   name: 'Tab Lock Boxes',
+      //   image: '/images/Tab Lock Mailer Box.webp',
+      //   description: 'Tab lock designs help securely close the box without tape or glue, ensuring tamper resistance and neat presentation—ideal for retail packaging.',
+      //   productOverview: {
+      //     title: 'Tab Lock Mailer Boxes | Tape-Free Tab-and-Slot Closure',
+      //     description:
+      //       'Tab lock boxes use die-cut tabs that click into front slots, creating a clean, tape-free closure for retail and shipping.',
+      //     bullets: [
+      //       {
+      //         title: 'Positive Mechanical Lock',
+      //         description:
+      //           'Front tabs engage with matching slots so the lid stays closed through handling without relying on adhesive.'
+      //       },
+      //       {
+      //         title: 'Tamper-Aware Presentation',
+      //         description:
+      //           'Visible tab engagement and optional seals make it easy to spot if a box has been opened before purchase or delivery.'
+      //       },
+      //       {
+      //         title: 'Shelf & Ship Ready',
+      //         description:
+      //           'Neat, tape-free edges look polished on shelves, in e‑commerce unboxings, and in gift applications.'
+      //       }
+      //     ]
+      //   },
+      //   learnMoreSection: {
+      //     title: 'Tab Lock Mailer Boxes: Tape-Free Tab Closure',
+      //     subtitle: 'Interlocking tab and slot—secure closure, tamper-resistant, retail-ready',
+      //     sections: [
+      //       {
+      //         heading: 'How Tab Lock Closures Differ From Standard Mailers',
+      //         content: [
+      //           'Tab lock mailer boxes rely on die‑cut tabs that slot into corresponding openings, creating a positive mechanical lock at the front edge of the box.',
+      //           'This closure is more structured than simple tuck‑in flaps, making it well‑suited for retail packaging where boxes are handled and stacked repeatedly.'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Design Options for Tab Shapes and Positions',
+      //         content: [
+      //           'Tabs can be sized and positioned to change how the box opens and how secure it feels in the hand.',
+      //           'Subtle changes to tab geometry affect ease of opening, resistance to accidental release, and the overall visual look of the front panel.'
+      //         ],
+      //         list: [
+      //           'Single‑tab designs for simple, quick access',
+      //           'Dual‑tab layouts for extra tamper resistance',
+      //           'Hidden tabs integrated into front panel artwork'
+      //         ]
+      //       },
+      //       {
+      //         heading: 'Retail and Unboxing Considerations',
+      //         content: [
+      //           'Because tab lock boxes do not need tape, they present cleanly at retail and are easy for customers to open at home without tools.',
+      //           'The smooth opening motion and tidy edges also make them appealing for giftable products, where first impressions matter as much as structural performance.'
+      //         ]
+      //       }
+      //     ],
+      //     features: [
+      //       { title: 'Tape-Free Secure Closure', description: 'Interlocking tab and slot closure holds the box firmly shut during transit and retail display without any tape or adhesive.' },
+      //       { title: 'Tamper-Resistance', description: 'The tab lock mechanism shows visible signs of tampering if someone attempts to open and reclose the box, protecting product integrity.' },
+      //       { title: 'Neat Professional Finish', description: 'Clean closure with no tape residue or torn edges creates a polished, professional appearance ideal for retail environments.' }
+      //     ],
+      //     faqs: [
+      //       { question: 'How secure is a tab lock closure for shipping?', answer: 'Tab lock closures provide reliable security for standard courier shipping. For very heavy items, we recommend combining with a tamper-evident label for additional assurance.' },
+      //       { question: 'Are tab lock boxes easy to open for customers?', answer: 'Yes — the tab releases smoothly with a gentle push, creating an easy and satisfying opening experience without the frustration of tape removal.' },
+      //       { question: 'Can tab lock boxes be used for retail display as well as shipping?', answer: 'Absolutely. The clean closure and professional appearance make tab lock boxes excellent for both retail display and direct shipping applications.' },
+      //       { question: 'What customization options are available?', answer: 'Full-color CMYK and Pantone printing, matte and gloss lamination, spot UV, embossing, foil stamping, and window cutouts are all available on tab lock boxes.' }
+      //     ],
+      //     cta: {
+      //       title: 'Order Custom Tab Lock Boxes Today!',
+      //       subtitle: 'Secure, tape-free, and professionally finished — tab lock boxes that perform flawlessly in retail and shipping environments.'
+      //     }
+      //   }
+      // }
     ]
   },
 
@@ -5186,7 +5491,7 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Hair Extension Boxes',
-        image: '/images/hair extension box.webp',
+        image: '/images/cosmetic/Straightway Pack your Hair Extension without any Stress into the Print Box.jpg.jpeg',
         description: 'Hair extension boxes for clip-ins, wefts, wigs. Lengths 10–32 inches. Smooth interior to avoid tangling. Window options for texture and color visibility.',
         productOverview: {
           title: 'Hair Extension Boxes | Clip-Ins, Wefts & Wigs',

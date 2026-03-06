@@ -68,6 +68,14 @@ const products = [
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.43.00_AM__1_-removebg-preview.webp',
     href: '/products/cosmetic-boxes',
   },
+  {
+    id: 9,
+    name: 'Bakery Boxes',
+    description: 'Custom bakery boxes for bread, pastries, and baked goods. Compliant packaging for food safety. Print options for branding and product information.',
+    image: '/images/bakery/Bakery Box MAIN PAGE.jpg',
+    hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.49.00_AM__1_-removebg-preview.webp',
+    href: '/products/bakery-boxes',
+  },
 ]
 
 export default function ProductGrid() {

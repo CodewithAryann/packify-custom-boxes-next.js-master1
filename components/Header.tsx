@@ -23,6 +23,7 @@ const boxTypes = [
   { name: 'Burger Boxes', href: '/products/burger-boxes' },
   { name: 'Magnetic Closure', href: '/products/magnetic-closure' },
   { name: 'Cosmetic Boxes', href: '/products/cosmetic-boxes' },
+  { name: 'Bakery Boxes', href: '/products/bakery-boxes' },
 ]
 
 export default function Header() {
