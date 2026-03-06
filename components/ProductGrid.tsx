@@ -104,13 +104,13 @@ export default function ProductGrid() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-contain transition-opacity duration-500 opacity-100 group-hover:opacity-0"
                 />
-                <Image
+                {/* <Image
                   src={product.hoverImage}
                   alt={`${product.name} Hover`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-contain transition-opacity duration-500 opacity-0 group-hover:opacity-100"
-                />
+                /> */}
               </div>
               <div className="p-5 text-left">
                 <p className="text-xl text-black font-semibold mb-2">{product.name}</p>
