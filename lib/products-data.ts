@@ -170,7 +170,7 @@ Window options: Die-cut PET windows for product visibility. Custom shapes and si
 Inserts: Cupcake inserts, donut trays, cardboard dividers. Prevents movement and frosting damage.
 
 Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count cupcake, donut boxes, gable boxes, and more.`,
-  overviewImage: '/images/bakery/bakery-overview.webp',
+  overviewImage: '/images/bakery/Bakery Box MAIN PAGE.png',
   overviewHoverImage: '/images/bakery/bakery-overview-hover.webp',
   variants: [
     {
@@ -507,7 +507,7 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
       'folding carton packaging',
       'wholesale tuck boxes'
     ],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_3.24.40_AM-removebg-preview.webp',
+    mainImage: '/images/tuck/Tuck Top MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.24.39_AM-removebg-preview.webp',
     description: 'Tuck boxes are folding cartons with interlocking flaps that close without glue or tape. Ideal for cosmetics, jewelry, supplements, and small retail products. Full-color printing, multiple closure styles, and fast assembly. Order from 100 units with 7–10 day production and free US shipping.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -521,7 +521,7 @@ Materials: SBS (bright white), kraft (natural brown), recycled content, food-gra
 Printing: CMYK or Pantone, matte/gloss lamination, spot UV, foil stamping, embossing. Window cutouts available.
 
 Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, snacks, small electronics, promotional kits.`,
-    overviewImage: '/images/Tuck-boxes.webp',
+    overviewImage: '/images/tuck/Tuck box photo.jpeg',
     overviewHoverImage: '/images/Tuck-boxes-1.webp',
     variants: [
       {
@@ -1628,7 +1628,7 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
     slug: 'dispenser-boxes',
     metaDescription: 'Order custom dispenser boxes for candy, gum, snacks, and retail. Tear-out or flip-top access. Full-color printing, food-safe options. Low minimums, free US shipping.',
     keywords: ['dispenser boxes', 'candy dispenser packaging', 'flip top display boxes', 'retail dispenser boxes', 'point of sale packaging', 'tear out dispenser', 'gum dispenser boxes'],
-    mainImage: '/images/Dispenser-1.webp',
+    mainImage: '/images/dispenser/Dispenser Box MAIN PAGE.png',
     hoverImage: '/images/Dispenser-2.webp',
     description: 'Dispenser boxes package multiple units with a perforated or flip-top opening for controlled access. Customers tear or flip to remove one item at a time. Common for candy, gum, snacks, sachets, and small retail products. Stand-up design maximizes shelf visibility.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -1640,7 +1640,7 @@ Applications: Candy, gum, snacks, protein bars, sachets, travel-size cosmetics, 
 Materials: Cardboard, corrugated. Food-safe options for edible products. Grease-resistant coating where needed.
 
 Printing: Full-color branding on all sides. High visibility at point-of-sale. Custom sizing to fit your product format.`,
-    overviewImage: '/images/CBD Mailer Box.webp',
+    overviewImage: '/images/dispenser/Dispenser Box photo.jpg',
     overviewHoverImage: '/images/Pink Mailer Box.webp',
   },
 
@@ -1711,7 +1711,7 @@ Printing: Full-color branding on all sides. High visibility at point-of-sale. Cu
     },
     metaDescription: 'Custom mailer boxes for e-commerce, subscription, and D2C shipping. Self-locking design, full-color printing. Corrugated, kraft, white board. Low minimums, free US shipping.',
     keywords: ['custom mailer boxes', 'e-commerce mailer boxes', 'subscription box packaging', 'shipping mailers', 'corrugated mailer boxes', 'branded shipping boxes', 'kraft mailer boxes'],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_3.48.16_AM-removebg-preview.webp',
+    mainImage: '/images/mailer/Mailer Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.48.17_AM-removebg-preview.webp',
     description: 'Mailer boxes are self-locking shipping cartons that close without tape. Corrugated or heavy paperboard protects products in transit. Full-color printing on exterior and interior. Used for e-commerce, subscription boxes, and direct-to-consumer shipments.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -1725,7 +1725,7 @@ Materials: White SBS, kraft, corrugated. Eco-friendly and recyclable options.
 Printing: Full-color CMYK, Pantone. Exterior and interior printing available. Matte, gloss, soft-touch lamination. Spot UV, foil stamping.
 
 Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and shipping cost.`,
-    overviewImage: '/images/Mailer-1.webp',
+    overviewImage: '/images/mailer/Mailer box photo.jpg',
     overviewHoverImage: '/images/Mailer-2.webp',
     variants: [
       {
@@ -3407,7 +3407,7 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
     slug: 'rigid-boxes',
     metaDescription: 'Custom rigid boxes for jewelry, cosmetics, electronics, and luxury gifts. Chipboard construction, premium finishes. Magnetic closure, satin lining, foam inserts. Low minimums, free US shipping.',
     keywords: ['rigid boxes', 'luxury rigid packaging', 'premium gift boxes', 'magnetic closure boxes', 'jewelry boxes', 'cosmetic rigid boxes', 'presentation boxes'],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_3.57.58_AM-removebg-preview.webp',
+    mainImage: '/images/rigid/Rigid Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.57.58_AM__1_-removebg-preview.webp',
     description: 'Rigid boxes use thick chipboard (1200–1800 GSM) that holds its shape. Unlike folding cartons, they do not collapse. Wrapped in art paper, fabric, or leather. Ideal for jewelry, watches, high-end cosmetics, electronics, and luxury gifts. Premium unboxing experience.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -3421,7 +3421,7 @@ Finishes: Soft-touch lamination, foil stamping, embossing, debossing, spot UV. S
 Closures: Magnetic closure, ribbon pull, two-piece lid-and-base, flip-top hinge, drawer slide.
 
 Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost per unit, premium unboxing experience.`,
-    overviewImage: '/images/rigid-end.webp',
+    overviewImage: '/images/rigid/Rigid Box photo.jpg',
     overviewHoverImage: '/images/rigid-end-1.webp',
     variants: [
       {
@@ -4233,13 +4233,13 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     slug: 'cigarette-boxes',
     metaDescription: 'Custom vape and e-cigarette boxes with space for compliance labeling. Child-resistant options. CBD, THC, nicotine. Tamper-evident seals. Low minimums, free US shipping.',
     keywords: ['vape box packaging', 'e-cigarette boxes', 'CBD vape packaging', 'cigarette boxes', 'child resistant vape boxes', 'vape cartridge boxes', 'disposable vape packaging'],
-    mainImage: '/images/Cigarette-1.webp',
+    mainImage: '/images/cigarette/Cigarette Box photo.jpg',
     hoverImage: '/images/Cigarette-2.webp',
     description: 'Vape and e-cigarette boxes are sized for cartridges, pens, and disposables. Designed with panel space for required warnings, ingredient lists, and lab QR codes. Child-resistant closures and tamper-evident seals available where regulations apply.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
     overviewTitle: 'Luxury Rigid Boxes to Portray Your Premium E Cigarette Brand',
     overviewContent: 'Everyone wants to buy attention-grabbing bespoke E-cigarette display boxes to shine out in front of customers and on shelves as well as to keep fragile products safe. We satisfy the brands requirement for high-quality printing on the boxes. Our expert designers develop an attractive display of E-cigarette boxes so your brand gets more well-known and adored.',
-    overviewImage: '/images/CBD E cigarette box.webp',
+    overviewImage: '/images/cigarette/Cigarette Box photo.jpg',
     overviewHoverImage: '/images/e cigarette box.webp',
     variants: [
       {
@@ -4996,7 +4996,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     slug: 'burger-boxes',
     metaDescription: 'Custom burger boxes for restaurants and food trucks. Grease-resistant, heat-retaining. FDA food-safe materials. Dine-in, takeout, delivery. Full-color branding. Low minimums, free US shipping.',
     keywords: ['burger boxes', 'burger packaging', 'takeout burger boxes', 'restaurant packaging', 'food delivery boxes', 'grease resistant packaging', 'fast food boxes'],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_4.12.26_AM-removebg-preview.webp',
+    mainImage: '/images/burger/Buger Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_4.12.27_AM-removebg-preview.webp',
     description: 'Burger boxes use grease-resistant coatings and insulated materials to keep food hot and contained. FDA-compliant board and inks. Custom sizes for sliders, single burgers, and combo meals. Full-color printing for logos and branding.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -5008,7 +5008,7 @@ Materials: FDA-compliant paperboard with grease-resistant coating. Optional bamb
 Printing: Full-color CMYK, logos, brand colors. Food-safe inks. Custom sizes for sliders, singles, combos.
 
 Use cases: Fast food, food trucks, cloud kitchens, catering, gourmet burgers.`,
-    overviewImage: '/images/WhatsApp_Image_2025-08-05_at_4.12.26_AM-removebg-preview.webp',
+    overviewImage: '/images/burger/Buger Box MAIN PAGE.png',
     overviewHoverImage: '/images/WhatsApp_Image_2025-08-05_at_4.12.27_AM-removebg-preview.webp',
   },
 
@@ -5057,7 +5057,7 @@ Use cases: Fast food, food trucks, cloud kitchens, catering, gourmet burgers.`,
     slug: 'magnetic-closure',
     metaDescription: 'Magnetic closure boxes for jewelry, cosmetics, and luxury gifts. Neodymium magnets, chipboard construction. Soft-touch, foil stamping, satin lining. Reusable keepsake packaging. Low minimums, free US shipping.',
     keywords: ['magnetic closure boxes', 'magnetic gift boxes', 'luxury magnetic boxes', 'jewelry box with magnet', 'premium presentation boxes', 'reusable gift boxes'],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_3.37.56_AM-removebg-preview.webp',
+    mainImage: '/images/magnetic/Magneitc Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.37.56_AM__1_-removebg-preview.webp',
     description: 'Magnetic closure boxes use embedded neodymium magnets so the lid clicks shut with a satisfying snap. Rigid chipboard construction wrapped in premium materials. Popular for jewelry, watches, cosmetics, and high-end gifts. Reusable—customers often keep them.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -5069,7 +5069,7 @@ Structure: Rigid chipboard (1200–1800 GSM) wrapped in art paper, linen, or lea
 Finishes: Soft-touch lamination, foil stamping, embossing. Satin lining, foam inserts, ribbon pulls available.
 
 Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Customers often reuse them for storage.`,
-    overviewImage: '/images/cosmetic lables.webp',
+    overviewImage: '/images/magnetic/Magnetic Closure Box.jpg',
     overviewHoverImage: '/images/cosmetic display box.webp',
   },
 
@@ -5148,7 +5148,7 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Customers ofte
     slug: 'cosmetic-boxes',
     metaDescription: 'Custom cosmetic boxes for skincare, makeup, and beauty. Tuck, rigid, and mailer styles. Full-color printing, window cutouts, premium finishes. Low minimums, free US shipping.',
     keywords: ['cosmetic boxes', 'beauty packaging', 'skincare boxes', 'makeup packaging', 'cosmetic packaging', 'luxury cosmetic boxes', 'custom makeup boxes'],
-    mainImage: '/images/WhatsApp_Image_2025-08-05_at_3.43.00_AM-removebg-preview.webp',
+    mainImage: '/images/cosmetic/Cosmetic Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.43.00_AM__1_-removebg-preview.webp',
     description: 'Cosmetic boxes come in tuck, rigid, and mailer formats—each suited to different products and price points. Full-color printing, matte or gloss lamination, window cutouts for product visibility. Used for compacts, lipstick, skincare jars, and gift sets.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
@@ -5162,7 +5162,7 @@ Rigid boxes: Chipboard construction for premium gift sets and high-end products.
 Mailers: Self-locking boxes for e-commerce shipping. Full-color printing, interior branding.
 
 Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, embossing.`,
-    overviewImage: '/images/Tuck Mailer Box.webp',
+    overviewImage: '/images/cosmetic/Cosmetic Box photo.jpg',
     overviewHoverImage: '/images/Book Mailer Box.webp',
     variants: [
       {

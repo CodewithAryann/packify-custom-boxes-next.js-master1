@@ -14,18 +14,12 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         Custom {product.title} USA
       </h1>
       
-      <div className="relative w-full h-[350px] overflow-hidden rounded-xl mb-6 bg-[#f7f4ef] group">
+      <div className="relative w-full h-[350px] overflow-hidden rounded-xl mb-6 bg-[#f7f4ef]">
         <Image
           src={product.mainImage}
           alt={product.title}
           fill
-          className="object-contain transition-opacity duration-500 opacity-100 group-hover:opacity-0"
-        />
-        <Image
-          src={product.hoverImage}
-          alt={`${product.title} Hover`}
-          fill
-          className="object-contain absolute inset-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
+          className="object-contain"
         />
       </div>
       

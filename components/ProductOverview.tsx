@@ -28,19 +28,13 @@ export default function ProductOverview({ product }: ProductOverviewProps) {
           </Link>
         </div>
 
-        {/* Right Image with Hover */}
-        <div className="relative w-full h-80 lg:h-[37rem] rounded-xl overflow-hidden shadow-lg group">
+        {/* Right Image */}
+        <div className="relative w-full h-80 lg:h-[37rem] rounded-xl overflow-hidden shadow-lg">
           <Image
             src={product.overviewImage}
             alt={product.title}
             fill
-            className="object-cover absolute inset-0 transition-opacity duration-500 opacity-100 group-hover:opacity-0"
-          />
-          <Image
-            src={product.overviewHoverImage}
-            alt={`${product.title} Overview`}
-            fill
-            className="object-cover absolute inset-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
+            className="object-cover"
           />
         </div>
       </div>
