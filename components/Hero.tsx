@@ -4,9 +4,16 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="relative text-white overflow-hidden px-[40px] pt-0 pb-0 group">
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-[#f97316] bg-opacity-100 transition duration-500 z-0" />
+    <section
+      className="relative text-white overflow-hidden px-[40px] pt-0 pb-0"
+      style={{
+        backgroundImage: "url('/images/banner.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
 
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center relative z-10 min-h-[400px] pt-[6rem]">
         {/* Left Text Content */}
@@ -31,23 +38,7 @@ export default function Hero() {
             Start Your Custom Box
           </Link>
         </div>
-
-        {/* Right Media Block */}
-        <div className="relative w-full h-full flex items-center justify-center px-6 py-10 md:flex">
-          <video
-            src="/videos/1754748684485.mp4"
-            poster="/images/hero-200.webp"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="metadata"
-            className="rounded-xl shadow-lg w-full max-w-[450px] h-[360px] object-cover"
-          />
-        </div>
       </div>
     </section>
-
-    
   )
 }

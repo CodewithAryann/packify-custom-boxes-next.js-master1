@@ -68,10 +68,10 @@ export interface Product {
 }
 
 export const productsData = {
-  'bakery-boxes': {
+'bakery-boxes': {
   productOverview: {
-    title: 'Bakery Boxes | Fresh-Baked Packaging for Retail & Delivery',
-    description: 'Custom bakery boxes for cakes, cupcakes, cookies, pastries, donuts, and gable boxes. Food-safe board, grease-resistant coatings, and window options to showcase your baked goods. Full-color branding for retail shelves, farmers markets, and delivery.',
+    title: 'Custom Bakery Boxes | Cakes, Cupcakes, Cookies, Donuts & Pastries',
+    description: 'FDA-compliant bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. Grease-resistant board, PET window cutouts, custom inserts. Full-color bakery branding. Retail, farmers markets, delivery. Orders from 100 units.',
     bullets: [
       { title: 'Food-Safe Construction', description: 'FDA-compliant paperboard with grease-resistant coatings keeps baked goods fresh and prevents oil seepage while maintaining a clean, professional presentation.' },
       { title: 'Window Options', description: 'Die-cut PET windows let customers see your baked goods before purchase—ideal for cookies, macarons, cupcakes, and artisan breads at retail and farmers markets.' },
@@ -109,8 +109,8 @@ export const productsData = {
     }
   },
   learnMoreSection: {
-    title: 'Bakery Boxes: Food-Safe Packaging for Every Baked Good',
-    subtitle: 'Cakes, cupcakes, cookies, donuts, pastries, gable boxes—grease-resistant, windowed, and fully branded',
+    title: 'Custom Bakery Boxes: Food-Safe Packaging for Cakes, Cupcakes & More',
+    subtitle: 'FDA-compliant, grease-resistant. Cake, cupcake, cookie, donut, pastry, gable boxes. Windows, inserts, branding.',
     features: [
       { title: 'Grease-Resistant Coating', description: 'Food-safe coating prevents butter, oil, and cream from seeping through the box. Maintains clean presentation for retail, delivery, and gifting.' },
       { title: 'Window Options', description: 'PET window cutouts let customers see the product before buying. Ideal for cookies, cupcakes, macarons, and pastries at bakery counters.' },
@@ -123,8 +123,8 @@ export const productsData = {
       { question: 'Can I print my bakery logo on the boxes?', answer: 'Yes. Full-color CMYK or Pantone printing with food-safe inks on all panels. Your logo, brand colors, and messaging on every box.' }
     ],
     cta: {
-      title: 'Order Custom Bakery Boxes Today!',
-      subtitle: 'Food-safe, beautifully branded, and perfectly sized for every baked good. Free US shipping, no minimums.'
+      title: 'Order Custom Bakery Boxes',
+      subtitle: 'Cakes, cupcakes, cookies, donuts, pastries. Food-safe. 100 min. Free shipping. Quote in 24 hours.'
     }
   },
   capabilitiesSection: {
@@ -138,48 +138,51 @@ export const productsData = {
       { label: 'Shipping', value: 'Free continental US' }
     ]
   },
+
   customization: {},
   faqs: false,
   title: 'Bakery Boxes',
   slug: 'bakery-boxes',
-  metaDescription: 'Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. Food-safe, grease-resistant. Window cutouts, custom inserts. Full-color branding. Low minimums, free US shipping.',
+  metaDescription: 'Custom bakery boxes: cake boxes, cupcake boxes, cookie boxes, donut boxes, pastry boxes, gable boxes. FDA-compliant, grease-resistant. PET windows, custom inserts. Bakery branding. 100 min order. Free shipping. 7–10 days.',
   keywords: [
     'bakery boxes',
     'custom cake boxes',
-    'cupcake packaging boxes',
-    'cookie boxes',
-    'donut boxes',
+    'custom cupcake boxes',
+    'cookie packaging boxes',
+    'donut boxes wholesale',
     'pastry packaging boxes',
-    'gable boxes',
-    'food packaging boxes',
-    'bakery packaging USA'
+    'gable boxes bakery',
+    'food-safe packaging',
+    'bakery packaging',
+    'wedding cake boxes',
+    'wholesale bakery boxes'
   ],
   mainImage: '/images/bakery/Bakery Box MAIN PAGE.jpg',
   hoverImage: '/images/bakery/bakery-box-hover.webp',
-  description: 'Bakery boxes use food-safe, grease-resistant paperboard to keep cakes, cupcakes, cookies, donuts, and pastries fresh and presentable. Window cutouts for product visibility. Custom inserts and trays. Gable boxes for gifting and takeout. Full-color branding with food-safe inks.',
+  description: 'Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. FDA-compliant, food-safe packaging for retail bakeries, wedding cakes, farmers markets, and delivery.',
   features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
-  overviewTitle: 'Custom Bakery Boxes | Cakes, Cupcakes, Cookies, Donuts & More',
-  overviewContent: `Bakery boxes are food-safe packaging for cakes, cupcakes, cookies, donuts, pastries, and gable-style gifting.
+  overviewTitle: 'Custom Bakery Boxes | Food-Safe Packaging for Every Baked Good',
+  overviewContent: `Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. FDA-compliant, food-safe packaging for retail bakeries, wedding cakes, farmers markets, and delivery.
 
-Materials: FDA-compliant paperboard with grease-resistant coating. Kraft, white, or recycled board. Eco-friendly and compostable options available.
+Materials: FDA-compliant paperboard with grease-resistant coating. Kraft, white, recycled board. Eco-friendly options.
 
-Printing: Full-color CMYK or Pantone, food-safe inks. Logos, brand colors, custom artwork on all panels.
+Printing: Full-color CMYK or Pantone with food-safe inks. Bakery logos, brand colors, custom artwork.
 
-Window options: Die-cut PET windows for product visibility. Custom shapes and sizes.
+Window options: Die-cut PET windows for product visibility. Ideal for cookies, cupcakes, pastries, donuts at retail.
 
-Inserts: Cupcake inserts, donut trays, cardboard dividers. Prevents movement and frosting damage.
+Inserts: Cupcake cavity inserts, donut trays, cookie dividers. Prevents toppling, frosting damage, sticking.
 
-Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count cupcake, donut boxes, gable boxes, and more.`,
+Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gable boxes, pastry trays. Orders from 100 units. Free shipping.`,
   overviewImage: '/images/bakery/Bakery Box MAIN PAGE.png',
   overviewHoverImage: '/images/bakery/bakery-overview-hover.webp',
   variants: [
     {
       name: 'Cake Boxes',
       image: '/images/bakery/Custom Cake Boxes.png',
-      description: 'Custom cake boxes for round, square, and tiered cakes. Rigid sides, secure lid closure. Sizes from 4-inch single-layer to 14-inch tiered. Window options for decorated tops.',
+      description: 'Custom cake boxes for round, square, and tiered cakes. Rigid paperboard prevents crushing. Sizes 4" to 14" — birthday, wedding, sheet cake. Optional PET window tops for decorated cakes. Food-safe, grease-resistant. Bakery branding.',
       productOverview: {
-        title: 'Cake Boxes | Round, Square & Tiered',
-        description: 'Custom-sized cake boxes with rigid sides and secure lid. Sizes 4–14 inch. Window options for decorated tops. Food-safe board, grease-resistant coating.',
+        title: 'Custom Cake Boxes | Birthday, Wedding & Sheet Cakes',
+        description: 'Food-safe cake boxes for round, square, and tiered cakes. Rigid construction 4"–14". Optional PET window tops. Grease-resistant coating. Ideal for bakeries, wedding cakes, celebration cakes.',
         bullets: [
           { title: 'Custom Sizing', description: 'Round, square, and rectangular cake boxes from 4-inch single-layer to 14-inch tiered cakes. Depth options for single, double, and triple layers.' },
           { title: 'Rigid Construction', description: 'Heavy-duty paperboard sides prevent crushing during transport. Secure lid closure keeps cakes protected and fresh.' },
@@ -187,12 +190,42 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
         ]
       },
       learnMoreSection: {
-        title: 'Cake Boxes: Rigid Protection for Decorated Cakes',
-        subtitle: 'Round, square, tiered—sizing, windows, and transport protection',
+        title: 'Custom Cake Boxes: Wedding, Birthday & Sheet Cake Packaging',
+        subtitle: 'Rigid cake boxes 4"–14" — round, square, tiered. Window tops. Transport-safe for bakeries and caterers.',
+        sections: [
+          {
+            heading: 'Why Cake Boxes Need Rigid Construction',
+            content: ['Decorated cakes are fragile. Frosting, fondant, and delicate toppings can crack, smudge, or collapse if the box flexes during transport. Standard flimsy cartons simply do not provide the structural support that tiered or elaborately decorated cakes require. Custom cake boxes are engineered with rigid paperboard sides and secure lid closures that prevent crushing and movement. The walls hold their shape from bakery to delivery, whether you are transporting a single-layer sheet cake or a three-tier wedding masterpiece.']
+          },
+          {
+            heading: 'Matching Box Dimensions to Cake Size and Shape',
+            content: [
+              'Cake dimensions vary dramatically—from 4-inch mini cakes to 14-inch celebration tiers. The wrong box size leads to sliding, crushing, or wasted space that invites damage. We custom-size every cake box to your exact dimensions, including depth for frosting height and layer count. Round, square, and rectangular formats are standard. For tiered cakes, we can produce separate boxes for each tier or a single tall box with internal supports.',
+              '4–6 inch rounds for mini and single-layer cakes',
+              '8–10 inch for standard celebration and sheet cakes',
+              '12–14 inch for large tiers and special events',
+              'Custom depths for double and triple-tier structures'
+            ]
+          },
+          {
+            heading: 'Window Tops and Side Panels for Decorative Cakes',
+            content: ['Customers and gift recipients want to see the cake before opening the box. Clear PET window lids and side panels let everyone admire the decoration without exposing the cake to air, dust, or handling. Window placement is critical—top windows showcase decorated tops, while side windows work well for layered or sculpted designs. We help you choose the right configuration for your cake style and transport needs.']
+          },
+          {
+            heading: 'Cake Boxes for Every Occasion',
+            content: [
+              'Birthday cakes, wedding tiers, gender reveals, corporate celebrations, and custom-order pickups—each occasion has different size, depth, and presentation needs. We size boxes for single-slice minis, 6-inch rounds, full sheet cakes, and multi-tier wedding structures. Whether you need a dozen matching birthday boxes or one-off specialty shapes, custom sizing ensures every cake travels safely and arrives ready to impress.',
+              'Birthday and celebration cakes—6", 8", 10" rounds and sheets',
+              'Wedding tiers—separate or stacked, with cake board accommodation',
+              'Gender reveal and themed cakes—custom shapes and depths',
+              'Retail and custom-order pickup—consistent branding across sizes'
+            ]
+          }
+        ],
         features: [
-          { title: 'Custom Dimensions', description: 'Any size from 4-inch mini cakes to 14-inch celebration cakes. Depth matched to your layer count and frosting height.' },
-          { title: 'Transport-Safe Build', description: 'Rigid walls prevent crushing. Secure lid closure. Compatible with cake boards and bases for stability.' },
-          { title: 'Window Options', description: 'Top and side windows with clear PET film for decorated cakes. Shows the decoration without exposing the cake to air.' }
+          { title: 'Custom Dimensions', description: '4-inch mini cakes to 14-inch tiers. Depth matched to layer count and frosting height. Round, square, and rectangular formats.' },
+          { title: 'Transport-Safe Build', description: 'Rigid paperboard walls prevent crushing. Secure lid closure. Sized to fit quarter, half, and full cake boards for stability.' },
+          { title: 'Top & Side Windows', description: 'Clear PET window tops showcase decorated and tiered cakes. Side windows for sculpted or layered designs. No exposure to air or handling.' }
         ],
         faqs: [
           { question: 'Can cake boxes be made for tiered cakes?', answer: 'Yes — we produce tall cake boxes with sufficient depth for double and triple-tier cakes, including options for separated tiers shipped in individual boxes.' },
@@ -201,18 +234,18 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'Are food-safe materials used for cake boxes?', answer: 'Yes — all cake boxes use FDA-compliant, food-grade paperboard with grease-resistant coatings and food-safe inks for direct and indirect food contact.' }
         ],
         cta: {
-          title: 'Order Custom Cake Boxes Today!',
-          subtitle: 'Perfect fit, food-safe, and fully branded. Get a quote in 24 hours.'
+          title: 'Order Custom Cake Boxes',
+          subtitle: 'Birthday, wedding, sheet cakes. Rigid, food-safe. Quote in 24 hours. Free shipping.'
         }
       }
     },
     {
       name: 'Cookie Boxes',
       image: '/images/bakery/Custom Cookie Box.png',
-      description: 'Cookie boxes for retail and gifting. Window panels for visual appeal, tray inserts for individual cookies. Flat-pack and stack-ready. Custom branding for bakeries and holiday gifting.',
+      description: 'Custom cookie boxes for retail, holiday gifting, and bakeries. Front or top PET window panels showcase iced cookies, gingerbread, assortments. Tray inserts prevent breakage. Christmas, Valentine, Easter designs. Stackable for retail.',
       productOverview: {
-        title: 'Cookie Boxes | Retail, Gifting & Holiday',
-        description: 'Cookie boxes with window panels and optional tray inserts. Retail shelf and gift-ready. Holiday and seasonal printing. Flat-pack and stack-ready.',
+        title: 'Custom Cookie Boxes | Retail Display & Holiday Gifting',
+        description: 'Cookie boxes with front/top PET windows and tray inserts. Holiday designs—Christmas, Valentine, Easter. Gift-ready. Stackable for bakery retail.',
         bullets: [
           { title: 'Window Display', description: 'Front or top window panels showcase cookie variety and decoration before purchase.' },
           { title: 'Tray Inserts', description: 'Optional paper tray or divider inserts keep cookies organized and prevent breakage during transport.' },
@@ -220,12 +253,32 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
         ]
       },
       learnMoreSection: {
-        title: 'Cookie Boxes: Retail Display and Gifting Packaging',
-        subtitle: 'Windows, trays, and holiday branding for cookie boxes',
+        title: 'Custom Cookie Boxes: Retail, Holiday & Bakery Packaging',
+        subtitle: 'Window panels, tray inserts, holiday designs. Sugar cookies, gingerbread, assortments.',
+        sections: [
+          {
+            heading: 'Why Window Panels Matter for Cookie Sales',
+            content: ['Cookies sell with their eyes. At bakery counters, farmers markets, and retail displays, customers make purchase decisions based on what they can see. Opaque boxes hide your product; window panels showcase variety, decoration, and freshness. Front or top window cutouts with clear PET film let customers see cookie shapes, frosting, and assortment without opening the box. This drives impulse purchases and builds confidence that what they see is what they get.']
+          },
+          {
+            heading: 'Tray Inserts and Dividers for Breakage Prevention',
+            content: [
+              'Stacked cookies without separation stick together, crack, or lose their decorative finish. Tray inserts and cardboard dividers keep each cookie in place and prevent contact during transport and display. We design cookie box interiors with custom tray configurations—single-layer or multi-tier—so cookies arrive intact from bakery to customer. The same structure that protects in transit also creates an organized, gift-ready presentation.',
+              'Single-layer trays for flat cookies and bars',
+              'Multi-tier inserts for iced and delicate cookies',
+              'Divided compartments for variety and gift assortments',
+              'Grease-resistant materials to prevent oil transfer'
+            ]
+          },
+          {
+            heading: 'Holiday and Seasonal Cookie Box Branding',
+            content: ['Cookie boxes are a seasonal powerhouse. Christmas, Valentine\'s Day, Easter, and other holidays drive huge demand for branded cookie gifting. Custom seasonal designs—snowflakes, hearts, bunnies, autumn leaves—transform plain packaging into memorable gifts. We support short runs and seasonal designs so you can launch limited-edition cookie boxes for each occasion without committing to year-round inventory. Perfect for bakery promotions and corporate gifting programs.']
+          }
+        ],
         features: [
-          { title: 'Window Panels', description: 'Front or top windows show cookie variety and visual appeal. Drive impulse purchases at retail counters and market stalls.' },
-          { title: 'Breakage Prevention', description: 'Tray inserts and dividers separate cookies and absorb minor impacts. Keeps stacked and fragile decorated cookies intact.' },
-          { title: 'Seasonal Branding', description: 'Holiday and seasonal printing for Christmas, Valentine\'s Day, Easter, and more. Great for gifting programs and seasonal bakery promotions.' }
+          { title: 'Window Panels', description: 'Front or top windows showcase decorated sugar cookies, gingerbread, and assortments. Drives impulse buys at retail and farmers markets.' },
+          { title: 'Breakage Prevention', description: 'Tray inserts and dividers keep iced and delicate cookies separated. Prevents cracking and preserves frosting during transport.' },
+          { title: 'Seasonal Branding', description: 'Christmas, Valentine\'s Day, Easter, and fall designs. Ribbon slots for gift wrapping. Short runs for limited-edition cookie promotions.' }
         ],
         faqs: [
           { question: 'Can cookie boxes include window panels?', answer: 'Yes — front, side, or top window cutouts with clear PET film are available and very effective for retail cookie boxes, showcasing variety and visual appeal.' },
@@ -234,18 +287,18 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'Are cookie boxes stackable for retail display?', answer: 'Yes — we engineer cookie box dimensions for clean stacking on retail shelves and bakery counter displays.' }
         ],
         cta: {
-          title: 'Order Custom Cookie Boxes!',
-          subtitle: 'Windows included. Holiday designs available. Quote in 24 hours.'
+          title: 'Order Custom Cookie Boxes',
+          subtitle: 'Window panels, tray inserts, holiday designs. Quote in 24 hours. Free shipping.'
         }
       }
     },
     {
       name: 'Cupcake Packaging Boxes',
       image: '/images/bakery/Custom Cupcake Boxes.jpg',
-      description: 'Cupcake boxes with individual inserts for 1, 2, 4, 6, 9, and 12 counts. Prevents toppling and frosting damage. Window lid options. Custom branding.',
+      description: 'Custom cupcake boxes with cavity inserts for 1, 2, 4, 6, 9, 12 counts. Prevents toppling, frosting damage. Optional PET window lid. Standard, large, jumbo sizes. Bakery branding.',
       productOverview: {
-        title: 'Cupcake Packaging Boxes | 1 to 12 Count With Inserts',
-        description: 'Cupcake boxes with cardboard or cavity inserts for 1, 2, 4, 6, 9, and 12 cupcakes. Prevents toppling. Window lids. Food-safe, grease-resistant.',
+        title: 'Custom Cupcake Boxes | 1–12 Count With Cavity Inserts',
+        description: 'Cupcake boxes with individual cavity inserts. 1–12 count. Prevents toppling, frosting smudging. Full-width window lids. Food-safe, grease-resistant. Bakery branding.',
         bullets: [
           { title: 'Individual Inserts', description: 'Cardboard cavity inserts hold each cupcake individually. Prevents toppling, shifting, and frosting contact during transport.' },
           { title: 'Count Options', description: '1, 2, 4, 6, 9, and 12-count configurations. Custom counts and tray sizes available.' },
@@ -253,12 +306,32 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
         ]
       },
       learnMoreSection: {
-        title: 'Cupcake Packaging Boxes: Individual Inserts and Window Lids',
-        subtitle: '1–12 count cupcake packaging—inserts, windows, and branding',
+        title: 'Custom Cupcake Boxes: Cavity Inserts & Window Lids',
+        subtitle: '1–12 count cupcake boxes. Individual wells prevent toppling. Full-width PET window lids.',
+        sections: [
+          {
+            heading: 'Why Individual Cavity Inserts Are Essential for Cupcakes',
+            content: ['Cupcakes are top-heavy. Frosting, swirls, and decorations sit on a narrow base, making them prone to toppling and smudging when they slide or bump against each other in transit. Cardboard cavity inserts hold each cupcake in its own well, keeping them upright and separated. No frosting-to-frosting contact, no shifting, no damage. Whether you ship 1 or 12, cavity inserts are the difference between a pristine arrival and a mangled mess.']
+          },
+          {
+            heading: 'Choosing the Right Count and Cavity Configuration',
+            content: [
+              'Cupcake orders come in every size—single servings, half-dozens, full dozens, and custom counts for events. Your packaging needs to match your production and sales patterns. Standard configurations include 1, 2, 4, 6, 9, and 12 counts. We also customize cavity diameter and depth for standard, large, and jumbo cupcakes so each well fits snugly without squeezing frosting or leaving excess space.',
+              '1-count for single-serve and sampling',
+              '4 and 6-count for retail and small orders',
+              '9 and 12-count for events and gift boxes',
+              'Custom counts for bakery-specific production'
+            ]
+          },
+          {
+            heading: 'Window Lids for Retail and Gifting Appeal',
+            content: ['A clear PET window lid lets customers see every cupcake at once—no opening required. At retail, this drives impulse buys. For gifts, it creates anticipation and showcases your craftsmanship before the box is opened. Full-width window lids display the entire assortment. We size windows to maximize visibility while maintaining structural integrity, so your cupcakes look as good in the box as they do on the counter.']
+          }
+        ],
         features: [
-          { title: 'Cavity Inserts', description: 'Custom-depth cavities hold cupcakes upright. Frosting stays intact. Works for standard and jumbo cupcakes.' },
-          { title: 'Window Lid Showcase', description: 'Full-width PET window lids display all cupcakes at once. No opening needed. Perfect for gifting and retail.' },
-          { title: 'Custom Count', description: '1 to 12 counts as standard. Custom configurations for bakery production sizes.' }
+          { title: 'Cavity Inserts', description: 'Individual wells hold each cupcake upright. Frosting stays intact for standard, large, and jumbo sizes. Prevents toppling and smudging.' },
+          { title: 'Full-Width Window Lids', description: 'Clear PET lids display 4, 6, or 12 cupcakes at once—no opening needed. Ideal for retail display and gift-ready presentation.' },
+          { title: 'Custom Count', description: '1, 2, 4, 6, 9, and 12-count configurations. Custom tray layouts for bakery-specific production and event orders.' }
         ],
         faqs: [
           { question: 'Do cupcake boxes come with inserts?', answer: 'Yes — all our cupcake boxes include cardboard cavity inserts that hold each cupcake individually, preventing toppling and frosting damage during transport.' },
@@ -267,18 +340,18 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'What counts are available for cupcake boxes?', answer: 'Standard counts include 1, 2, 4, 6, 9, and 12. Custom counts and tray configurations are available for bakery-specific production sizes.' }
         ],
         cta: {
-          title: 'Order Custom Cupcake Packaging Boxes!',
-          subtitle: 'Inserts included, window lids available. Quote in 24 hours.'
+          title: 'Order Custom Cupcake Boxes',
+          subtitle: 'Cavity inserts, window lids. 1–12 count. Quote in 24 hours. Free shipping.'
         }
       }
     },
     {
       name: 'Donut Boxes',
       image: '/images/bakery/Custom Donut Boxes.png',
-      description: 'Donut boxes for 1, 3, 6, and 12 counts. Grease-resistant board, tray inserts to prevent sticking. Window tops for product visibility. Custom bakery branding.',
+      description: 'Custom donut boxes for 1, 3, 6, 12 counts. Heavy grease-resistant coating prevents oil and glaze seepage. Tray inserts prevent sticking. Optional PET window tops. Gourmet donut shops. Bakery branding.',
       productOverview: {
-        title: 'Donut Boxes | 1 to 12 Count Tray Packaging',
-        description: 'Donut boxes with grease-resistant board and tray inserts for 1, 3, 6, and 12 counts. Window tops. Full-color bakery branding.',
+        title: 'Custom Donut Boxes | 1–12 Count Grease-Resistant',
+        description: 'Donut boxes with heavy grease-resistant board. Tray inserts for 1, 3, 6, 12 counts. Optional window tops. Standard, jumbo, donut holes. Bakery branding.',
         bullets: [
           { title: 'Grease-Resistant Board', description: 'Heavy grease-resistant coating prevents glazing and oil from seeping through. Keeps boxes clean and presentable.' },
           { title: 'Tray Inserts', description: 'Cardboard tray inserts separate and hold donuts in position. Prevents sticking and damage during stacking and transport.' },
@@ -286,12 +359,42 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
         ]
       },
       learnMoreSection: {
-        title: 'Donut Boxes: Grease-Resistant Tray Packaging',
-        subtitle: '1–12 count donut boxes—grease resistance, trays, and branding',
+        title: 'Custom Donut Boxes: Grease-Resistant Packaging',
+        subtitle: '1–12 count donut boxes. Heavy grease coating. Tray inserts. Window tops for gourmet donuts.',
+        sections: [
+          {
+            heading: 'Why Donut Boxes Need Heavy Grease Resistance',
+            content: ['Donuts are loaded with oil, glaze, and frosting. Unlike many baked goods, they actively transfer moisture and grease to packaging. Standard paperboard soaks it up, becomes soggy, and can stain or fail before the customer even opens the box. Donut boxes use heavy-duty grease-resistant coatings and board treatments that prevent oil and glaze from seeping through. The box stays clean and presentable from the fryer to the customer, whether that is a 10-minute drive or a full day on a retail shelf.']
+          },
+          {
+            heading: 'Tray Inserts That Keep Donuts Apart and Presentable',
+            content: [
+              'Stacked donuts stick together. Glaze meets glaze, frosting meets frosting, and you end up with a fused mess. Tray inserts separate each donut in its own compartment, preventing contact and preserving the finish. Our donut tray configurations are sized for standard, jumbo, and donut-hole formats. The inserts also absorb minor grease and keep boxes stable during stacking and transport, so donuts arrive as fresh and intact as when they left the bakery.',
+              '1-count for single-serve and sampling',
+              '3 and 6-count for half-dozen retail',
+              '12-count for full-dozen and family packs',
+              'Custom layouts for donut holes and specialty shapes'
+            ]
+          },
+          {
+            heading: 'Window Tops for Specialty and Gourmet Donut Shops',
+            content: ['Artisan and gourmet donut shops put serious effort into glaze colors, toppings, and presentation. A window top lets customers see that work before they buy—driving impulse purchases and building excitement for limited-edition or seasonal flavors. Clear PET window lids are available for all donut box counts. We position windows to maximize visibility without compromising structural strength, so your donuts look as good in the box as they do in the display case.']
+          },
+          {
+            heading: 'Donut Boxes for Every Style',
+            content: [
+              'From classic glazed rings to filled donuts, cronuts, and cake donuts, each style has different packaging needs. Tray configurations accommodate round, oblong, and specialty shapes. We design donut boxes for yeast-raised, cake, filled, long johns, and donut holes. Tray depths and compartment sizes are tuned so each format sits snugly without squishing or shifting—whether you sell a dozen at the counter or ship nationwide.',
+              'Glazed rings and classics—standard round trays',
+              'Filled donuts and long johns—oblong compartments',
+              'Cronuts and specialty shapes—custom tray layouts',
+              'Donut holes—multi-count trays for bite-size portions'
+            ]
+          }
+        ],
         features: [
-          { title: 'Heavy Grease Resistance', description: 'Donuts are high in oil and glaze. Heavy-duty grease-resistant coating prevents seepage for the duration of shelf life and transit.' },
-          { title: 'Tray Separation', description: 'Tray inserts keep donuts apart. Prevents glaze sticking between donuts and maintains presentation from counter to customer.' },
-          { title: 'Window Top Options', description: 'Clear PET window tops let customers see the donut selection. Popular for specialty, gourmet, and artisan donut shops.' }
+          { title: 'Heavy Grease Resistance', description: 'Oil and glaze are absorbed by heavy-duty coating. Prevents seepage from fryer to customer—shelf-stable and transit-ready.' },
+          { title: 'Tray Separation', description: 'Tray inserts separate each donut. Prevents glaze sticking, preserves toppings. Sized for rings, filled, long johns, and donut holes.' },
+          { title: 'Window Top Options', description: 'Clear PET lids showcase glaze colors and toppings. Ideal for gourmet and artisan shops with limited-edition and seasonal flavors.' }
         ],
         faqs: [
           { question: 'Are donut boxes grease-resistant?', answer: 'Yes — donut boxes use heavy-duty grease-resistant board and coatings that prevent glazing, frosting, and oil from seeping through, maintaining a clean presentation.' },
@@ -300,31 +403,61 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'Can donut boxes have a window top?', answer: 'Yes — clear PET window lids and panel windows are available and very popular for gourmet and specialty donut shops that want to showcase their product.' }
         ],
         cta: {
-          title: 'Order Custom Donut Boxes!',
-          subtitle: 'Grease-resistant and fully branded. Quote in 24 hours.'
+          title: 'Order Custom Donut Boxes',
+          subtitle: 'Grease-resistant, tray inserts. Quote in 24 hours. Free shipping.'
         }
       }
     },
     {
       name: 'Gable Boxes',
       image: '/images/bakery/Custom Gable Boxes.jpg',
-      description: 'Gable boxes with built-in handles for easy carrying. Ideal for bakery favors, cookie gift sets, and event packaging. One-piece construction, no assembly required. Window and custom print options.',
+      description: 'Custom gable boxes with built-in handle. Wedding favors, bakery cookie sets, event packaging. One-piece, no assembly. Side window options. Cookies, macarons, petits fours. Gift-ready.',
       productOverview: {
-        title: 'Gable Boxes | Handle-Top Bakery Gifting',
-        description: 'One-piece gable boxes with integrated carry handle. No assembly. Ideal for bakery favors, cookie gift sets, and event packaging. Window and full-color print options.',
+        title: 'Custom Gable Boxes | Wedding & Bakery Favors',
+        description: 'Gable boxes with built-in handle. One-piece, no assembly. Ideal for wedding favors, bakery gifts, events. Side windows. Cookies, macarons, pastry assortments.',
         bullets: [
           { title: 'Built-In Handle', description: 'Integrated cardboard handle makes gable boxes easy to carry and gift-ready straight out of the box. No ribbon or bag needed.' },
-          { title: 'One-Piece Construction', description: 'Folds flat for storage and pops open instantly. No assembly tools or adhesive. Speeds up packing at events and in the bakery.' },
+          { title: 'One-Piece Construction', description: 'Flat-packs for storage, pops open with one fold. No glue or tape. Fast packing for events, farmers markets, and bakery counters.' },
           { title: 'Window and Print Options', description: 'Side window cutouts showcase baked goods inside. Full-color print for bakery branding, wedding favors, and seasonal gifting.' }
         ]
       },
       learnMoreSection: {
-        title: 'Gable Boxes: Handle-Top Bakery Favor Packaging',
-        subtitle: 'Built-in handle, one-piece—bakery favors, events, and seasonal gifting',
+        title: 'Custom Gable Boxes: Wedding Favors & Bakery Gifting',
+        subtitle: 'Handle-top, one-piece. Wedding favors, event packaging. Cookies, macarons, pastries.',
+        sections: [
+          {
+            heading: 'Why the Built-In Handle Makes Gable Boxes Gift-Ready',
+            content: ['Gable boxes have an integrated cardboard handle built into the peaked top. No ribbon, no bag, no extra assembly—the box is instantly portable and gift-ready the moment it is closed. That handle transforms bakery packaging from utilitarian to gift-worthy. Customers can carry cookie assortments, macarons, or pastries from counter to car with one hand. For wedding favors, party favors, and seasonal gifting, the handle is the feature that makes gable boxes the go-to choice.']
+          },
+          {
+            heading: 'One-Piece Construction for Fast Packing',
+            content: [
+              'Gable boxes are single-piece folding cartons. They ship flat, pop open with a simple fold, and close with a tuck or lock. No glue, no tape, no assembly tools—just a quick setup that scales for high-volume packing. At busy bakery counters and event venues, that speed matters. Workers can fill dozens of gable boxes per minute. The same simplicity that speeds packing also makes gable boxes cost-effective for favors and giveaways.',
+              'Flat-packed for compact storage and shipping',
+              'One-fold open, no assembly required',
+              'No glue or tape for everyday use',
+              'Ideal for events, farmers markets, and busy counters'
+            ]
+          },
+          {
+            heading: 'Windows and Custom Printing for Every Occasion',
+            content: ['Side window cutouts with clear PET film let recipients see the baked goods inside—perfect for cookie assortments, macarons, and pastries where visual appeal drives the gift experience. Full-color custom printing turns gable boxes into branded favors for weddings, corporate events, holidays, and seasonal promotions. Wedding motifs, company logos, or holiday designs—we print whatever fits your occasion.']
+          },
+          {
+            heading: 'Best Products for Gable Boxes',
+            content: [
+              'Gable boxes shine for products that benefit from portability and a gift-ready look. The handle and compact shape make them ideal for small to medium baked goods that customers carry away. Cookies, macarons, petits fours, brownies, and pastry assortments all fit well. The one-piece construction and flat-pack storage also make gable boxes cost-effective for high-volume favor programs at weddings, corporate events, and farmers markets.',
+              'Cookie assortments and gift tins',
+              'Macarons and delicate pastries',
+              'Petits fours and brownie squares',
+              'Mixed bakery favor assortments'
+            ]
+          }
+        ],
         features: [
-          { title: 'Integrated Handle', description: 'Built-in carry handle makes gable boxes instantly gift-ready. No extra ribbon or bag required. Easy for customers to carry from counter to car.' },
+          { title: 'Integrated Handle', description: 'Built-in carry handle—no ribbon or bag needed. Gift-ready for cookies, macarons, and pastry assortments. Counter to car in one hand.' },
           { title: 'Fast One-Piece Setup', description: 'Flat-packed and pops open with no assembly. Ideal for high-volume event packing and busy bakery counters.' },
-          { title: 'Event and Favor Ready', description: 'Popular for wedding favors, birthday parties, holiday gifting, and farmers market sales. Fully custom printed for any occasion.' }
+          { title: 'Event and Favor Ready', description: 'Wedding favors, corporate gifts, holiday boxes. Side windows for cookies, macarons, petits fours. Custom print for any occasion.' }
         ],
         faqs: [
           { question: 'What is a gable box?', answer: 'A gable box is a one-piece folding box with a peaked top and an integrated cardboard handle, making it instantly portable and gift-ready without additional ribbon or bags.' },
@@ -333,18 +466,18 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'Do gable boxes require assembly?', answer: 'No — gable boxes are one-piece construction. They ship flat and pop open instantly with no glue, tape, or tools required, making them ideal for high-volume event packing.' }
         ],
         cta: {
-          title: 'Order Custom Gable Boxes!',
-          subtitle: 'Handle-top, gift-ready, and fully branded. Quote in 24 hours.'
+          title: 'Order Custom Gable Boxes',
+          subtitle: 'Wedding favors, bakery gifts. Handle-top. Quote in 24 hours. Free shipping.'
         }
       }
     },
     {
       name: 'Pastry Packaging Boxes',
       image: '/images/bakery/Custom Pastry Packaging Boxes.png',
-      description: 'Pastry boxes for croissants, danishes, eclairs, macarons, and tarts. Shallow depth options, grease-resistant board. Window panels. Patisserie-level branding with soft-touch and foil options.',
+      description: 'Custom pastry boxes for croissants, danishes, eclairs, macarons, tarts. Shallow depth for flat pastries. Grease-resistant board. Window panels. Soft-touch, foil stamping. Patisserie branding.',
       productOverview: {
-        title: 'Pastry Packaging Boxes | Croissants, Eclairs & Tarts',
-        description: 'Shallow pastry boxes for croissants, danishes, eclairs, macarons, and tarts. Window panels. Grease-resistant board. Premium finishes for patisserie branding.',
+        title: 'Custom Pastry Boxes | Croissants, Eclairs, Macarons & Tarts',
+        description: 'Pastry boxes for croissants, danishes, eclairs, macarons, tarts. Shallow depth. Window panels. Grease-resistant. Soft-touch, foil. Patisserie-level packaging.',
         bullets: [
           { title: 'Shallow Depth Options', description: 'Low-profile box depths for flat pastries, croissants, and tarts without wasted vertical space.' },
           { title: 'Window Display', description: 'Window panels show pastry detail, golden color, and filling. Ideal for patisserie retail counter display.' },
@@ -352,12 +485,42 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
         ]
       },
       learnMoreSection: {
-        title: 'Pastry Packaging Boxes: Patisserie Display and Gift Packaging',
-        subtitle: 'Croissants, eclairs, macarons—shallow depth, windows, and luxury finishes',
+        title: 'Custom Pastry Packaging Boxes: Patisserie & Bakery',
+        subtitle: 'Croissants, eclairs, macarons, tarts. Shallow depth. Window panels. Premium finishes.',
+        sections: [
+          {
+            heading: 'Why Shallow Depth Matters for Pastries',
+            content: ['Croissants, danishes, eclairs, and tarts are relatively flat. Deep boxes waste material, add weight, and increase the risk of pastries shifting or crushing during transport. Shallow, right-sized boxes fit the product without excess space. We match box depth precisely to your tallest pastry. That means no wasted vertical room, no sliding around, and a snug fit that protects delicate layers and fillings from impact. Shallow profiles also stack efficiently on retail shelves and in display cases.']
+          },
+          {
+            heading: 'Window Panels for Patisserie Retail Display',
+            content: [
+              'Pastries sell on appearance. Golden croissant layers, glossy éclair tops, colorful macaron shells—customers want to see them before they buy. Window panels showcase that detail at the counter without opening the box. We place windows where they maximize visibility for each pastry type. Top windows work for flatter items; side windows suit taller pastries like eclairs. Clear PET film keeps products visible while protecting them from air and handling.',
+              'Croissants and danishes—shallow trays with top windows',
+              'Eclairs and choux—taller profiles with side visibility',
+              'Macarons and tarts—display-ready with full window options',
+              'Assortments—divided trays with mixed pastry visibility'
+            ]
+          },
+          {
+            heading: 'Premium Finishes for Patisserie Branding',
+            content: ['High-end bakeries and patisseries expect packaging that matches their product quality. Soft-touch matte, foil stamping, and embossing elevate pastry boxes from basic to luxury—without sacrificing food safety. Food-safe board and coatings are non-negotiable. We combine premium finishes with FDA-compliant materials so your packaging looks as refined as your pastries while meeting all food-contact requirements.']
+          },
+          {
+            heading: 'Shallow vs. Taller Profiles by Pastry Type',
+            content: [
+              'Croissants and palmiers need shallow trays; éclairs and kouign-amann need more height. Matching box depth to your pastry type prevents crushing and wasted space. We size pastry boxes for flat items (croissants, danishes, tarts), medium-height items (éclairs, choux, macarons), and specialty shapes (kouign-amann, palmiers). Each profile is optimized for display, transport, and retail shelf efficiency.',
+              'Shallow—croissants, danishes, palmiers, tarts',
+              'Medium—éclairs, choux, macarons, petits fours',
+              'Taller—kouign-amann, layered pastries, gift stacks',
+              'Assortments—divided trays for mixed pastry boxes'
+            ]
+          }
+        ],
         features: [
-          { title: 'Pastry-Specific Sizing', description: 'Shallow or custom-depth profiles for flat and delicate pastries. No wasted space. No crushed tops.' },
-          { title: 'Window Showcase', description: 'Panel and top windows for croissants, eclairs, and tarts. Shows filling, glaze, and form clearly at the counter.' },
-          { title: 'Patisserie Finishes', description: 'Soft-touch, foil, and embossing available for high-end patisserie brands alongside food-safe board and coatings.' }
+          { title: 'Pastry-Specific Sizing', description: 'Shallow for croissants and tarts; taller for éclairs and kouign-amann. Depth matched to prevent crushing and maximize display.' },
+          { title: 'Window Showcase', description: 'Top and side windows for croissants, éclairs, macarons, and tarts. Shows filling, glaze, and form at retail. Clear PET film.' },
+          { title: 'Patisserie Finishes', description: 'Soft-touch matte, foil stamping, embossing. Food-safe board and coatings. Luxury presentation for high-end patisseries.' }
         ],
         faqs: [
           { question: 'Can pastry boxes be made shallow for croissants and tarts?', answer: 'Yes — shallow box depths are standard for pastry packaging. We match the internal depth precisely to your tallest pastry to prevent crushing.' },
@@ -366,8 +529,8 @@ Sizes: Custom to your product—single-slice, 6-inch round, sheet cake, 12-count
           { question: 'Can pastry boxes hold assortments with multiple types?', answer: 'Yes — we design assortment pastry boxes with divided trays or open layouts that hold mixed pastry types together in a gift-ready presentation.' }
         ],
         cta: {
-          title: 'Order Custom Pastry Packaging Boxes!',
-          subtitle: 'Patisserie-quality branding meets food-safe construction. Quote in 24 hours.'
+          title: 'Order Custom Pastry Packaging Boxes',
+          subtitle: 'Patisserie-quality. Croissants, eclairs, macarons. Quote in 24 hours. Free shipping.'
         }
       }
     }

@@ -66,8 +66,8 @@ export default function RefundReturnsPage() {
         <h2 className="text-xl font-semibold mb-2 text-gray-700">How to Request a Refund or Reprint</h2>
         <p>
           Please email us at{' '}
-          <a href="mailto:info@packifycustomboxes.com" className="text-orange-600 underline">
-            info@packifycustomboxes.com
+          <a href="mailto:packifycustomboxes@gmail.com" className="text-orange-600 underline">
+            packifycustomboxes@gmail.com
           </a>{' '}
           with the following:
         </p>

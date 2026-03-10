@@ -105,8 +105,8 @@ export default function ShippingPolicy() {
           <h2 className="text-xl font-semibold mb-2 text-gray-700">Contact Us</h2>
           <p>
             For shipping inquiries, email us at{' '}
-            <a href="mailto:info@packifycustomboxes.com" className="text-orange-600 underline">
-              info@packifycustomboxes.com
+            <a href="mailto:packifycustomboxes@gmail.com" className="text-orange-600 underline">
+              packifycustomboxes@gmail.com
             </a>
             . Our team is here to help!
           </p>

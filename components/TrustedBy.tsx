@@ -7,19 +7,15 @@ const logos = [
   { name: 'Walmart', src: '/images/logo-vector-graphics-brand-walmart-portable-network-graphics-png-favpng-RNmwyt5haE5GzqfvtZfVWaRk3-removebg-preview.webp' },
   { name: 'FedEx', src: '/images/133-1330613_fedex-logo-vector-by-windytheplaneh-on-deviantart-fedex-logo-vector-by-windytheplaneh-removebg-preview.webp' },
   { name: 'Starbucks', src: '/images/Starbucks_Corporation_Logo_2011.svg-100.webp' },
-  { name: "Kellogg's", src: '/images/kellogg-s-breakfast-cereal-logo-brand-png-favpng-5ffzujXjcArjYsMPn2P9a2FD1-removebg-preview.webp' },
-  { name: 'Target', src: '/images/target-logo-target-icon-transparent-free-png.webp' },
-  { name: 'Netflix', src: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg' },
+  { name: 'Maison Velours', src: '/images/maison.png' },
+  { name: 'Lindt Lindor', src: '/images/lindor.png' },
+  { name: 'Barilla', src: '/images/barilla.png' },
 ]
 
 export default function TrustedBy() {
   return (
     <section className="py-12 bg-orange-50">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        {/* <h2 className="text-2xl md:text-4xl font-extrabold text-black mb-10">
-          Trusted By <span className="text-orange-500">3,000+</span> Businesses
-        </h2> */}
-
         <div className="overflow-hidden relative w-full py-6">
           <div className="flex animate-scroll space-x-12">
             {[...logos, ...logos].map((logo, index) => (

@@ -64,7 +64,7 @@ export default function Home() {
       {/* <WhyCustomBoxes /> */}
       <FAQSection />
       <QuoteForm />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <BlogPreview />
       {/* <PromoBanner/>       */}
     </>
