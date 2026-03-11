@@ -127,8 +127,8 @@ export default function Footer() {
           <div className="flex gap-3">
             {[
               { href: 'https://www.instagram.com/packifycustomboxes', icon: 'fab fa-instagram', label: 'Instagram' },
-              { href: '#', icon: 'fab fa-facebook-f', label: 'Facebook' },
-              { href: 'https://wa.me/+12013050858', icon: 'fa-brands fa-whatsapp', label: 'WhatsApp' },
+              { href: 'https://www.facebook.com/people/Packifycustomboxes/61581915925085/#', icon: 'fab fa-facebook-f', label: 'Facebook' },
+              { href: 'https://wa.me/+971561210175', icon: 'fa-brands fa-whatsapp', label: 'WhatsApp' },
             ].map((s) => (
               <a
                 key={s.label}
@@ -207,15 +207,15 @@ export default function Footer() {
                   <span className="w-7 h-7 rounded-lg bg-white/15 border border-white/20 flex items-center justify-center flex-shrink-0 group-hover:bg-white group-hover:text-orange-500 transition-all">
                     <i className="fas fa-phone text-[10px]"></i>
                   </span>
-                  +1 213-224-8421
+                  +971 56 121 0175
                 </a>
               </li>
               <li>
-                <a href="mailto:info@packifycustomboxes.com" className="text-sm text-white/80 hover:text-white transition-colors flex items-start gap-2.5 group break-all">
+                <a href="mailto:packifycustomboxes@gmail.com" className="text-sm text-white/80 hover:text-white transition-colors flex items-start gap-2.5 group break-all">
                   <span className="w-7 h-7 rounded-lg bg-white/15 border border-white/20 flex items-center justify-center flex-shrink-0 group-hover:bg-white group-hover:text-orange-500 transition-all">
                     <i className="fas fa-envelope text-[10px]"></i>
                   </span>
-                  info@packifycustomboxes.com
+                  packifycustomboxes@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2.5">

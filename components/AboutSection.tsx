@@ -68,7 +68,7 @@ export default function AboutSection() {
             style={{ aspectRatio: '4 / 3' }}
           >
             <Image
-              src="/images/WhatsApp Image 2025-08-05 at 11.11.00 PM.webp"
+              src="/images/aboutus-img.jpeg"
               alt="Custom Box"
               fill
               className="object-cover object-top rounded-[10px]"

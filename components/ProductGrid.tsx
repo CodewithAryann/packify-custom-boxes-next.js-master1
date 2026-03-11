@@ -29,7 +29,7 @@ const products = [
     id: 4,
     name: 'Dispenser Boxes',
     description: 'Dispenser boxes for snacks, supplements, and retail. Tear-out perforations or flip-top lid. Controlled dispensing. Corrugated or paperboard. Custom printed for brand visibility.',
-    image: '/images/dispenser/Dispenser Box MAIN PAGE.png',
+    image: '/images/dispenser/dispenser-main.jpeg',
     href: '/products/dispenser-boxes',
   },
   {
@@ -43,21 +43,21 @@ const products = [
     id: 6,
     name: 'Burger Boxes',
     description: 'Custom burger boxes for restaurants, food trucks, and delivery. Grease-resistant, FDA-compliant. Full-color printing. Sizes for sliders, singles, combos. Eco-friendly kraft options.',
-    image: '/images/burger/Buger Box MAIN PAGE.png',
+    image: '/images/burger/burger-main.jpeg',
     href: '/products/burger-boxes',
   },
   {
     id: 7,
     name: 'Magnetic Closure',
     description: 'Magnetic closure boxes for jewelry, watches, cosmetics, and gifts. Neodymium magnets. Rigid chipboard. Soft-touch, foil stamping. Reusable luxury packaging.',
-    image: '/images/magnetic/Magneitc Box MAIN PAGE.png',
+    image: '/images/magnetic/magnetic-main.jpeg',
     href: '/products/magnetic-closure',
   },
   {
     id: 8,
     name: 'Cosmetic Boxes',
     description: 'Custom cosmetic boxes for makeup, skincare, and beauty. Tuck, rigid, or mailer styles. Window cutouts, foil, embossing. Retail and e-commerce ready.',
-    image: '/images/cosmetic/Cosmetic Box MAIN PAGE.png',
+    image: '/images/cosmetic/cosmetic-main.jpeg',
     href: '/products/cosmetic-boxes',
   },
   {
