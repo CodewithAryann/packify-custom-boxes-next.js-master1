@@ -5,7 +5,8 @@ export function OrganizationSchema() {
     name: 'Packify Custom Boxes',
     url: 'https://packifycustomboxes.com',
     logo: 'https://packifycustomboxes.com/images/Favicon.webp',
-    description: 'Premium custom packaging boxes for USA businesses. Mailer boxes, tuck boxes, rigid boxes. Free US shipping, no minimums. Trusted by 3,000+ businesses.',
+    description:
+      'Premium custom packaging boxes for USA businesses. Mailer boxes, tuck boxes, rigid boxes. Free US shipping, no minimums. Trusted by 3,000+ businesses.',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'US',
@@ -19,6 +20,7 @@ export function OrganizationSchema() {
     },
     sameAs: [],
   }
+
   return (
     <script
       type="application/ld+json"
@@ -36,10 +38,14 @@ export function WebSiteSchema() {
     description: 'Custom Packaging Boxes | Premium & Eco-Friendly | USA',
     potentialAction: {
       '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: 'https://packifycustomboxes.com/get-quote/' },
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://packifycustomboxes.com/get-quote/',
+      },
       'query-input': 'required name=search_term_string',
     },
   }
+
   return (
     <script
       type="application/ld+json"
@@ -61,6 +67,7 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
       },
     })),
   }
+
   return (
     <script
       type="application/ld+json"
@@ -85,7 +92,9 @@ export function ProductSchema({
     '@type': 'Product',
     name,
     description,
-    image: image.startsWith('http') ? image : `https://packifycustomboxes.com${image}`,
+    image: image.startsWith('http')
+      ? image
+      : `https://packifycustomboxes.com${image}`,
     url,
     brand: {
       '@type': 'Brand',
@@ -93,10 +102,15 @@ export function ProductSchema({
     },
     offers: {
       '@type': 'Offer',
+      url: url,
+      price: '0.00',
+      priceCurrency: 'USD',
+      priceValidUntil: '2027-12-31',
       availability: 'https://schema.org/InStock',
-      url,
+      description: 'Price available on request',
     },
   }
+
   return (
     <script
       type="application/ld+json"
@@ -105,7 +119,11 @@ export function ProductSchema({
   )
 }
 
-export function BreadcrumbListSchema({ items }: { items: { name: string; url: string }[] }) {
+export function BreadcrumbListSchema({
+  items,
+}: {
+  items: { name: string; url: string }[]
+}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -116,6 +134,7 @@ export function BreadcrumbListSchema({ items }: { items: { name: string; url: st
       item: item.url,
     })),
   }
+
   return (
     <script
       type="application/ld+json"
@@ -145,6 +164,7 @@ export function HowToSchema({
       text: s.text,
     })),
   }
+
   return (
     <script
       type="application/ld+json"
@@ -174,6 +194,7 @@ export function AggregateRatingSchema({
       reviewCount: String(reviewCount),
     },
   }
+
   return (
     <script
       type="application/ld+json"
@@ -202,16 +223,25 @@ export function ArticleSchema({
     '@type': 'Article',
     headline: title,
     description: excerpt,
-    image: image.startsWith('http') ? image : `https://packifycustomboxes.com${image}`,
+    image: image.startsWith('http')
+      ? image
+      : `https://packifycustomboxes.com${image}`,
     url,
     datePublished,
-    author: { '@type': 'Person', name: author },
+    author: {
+      '@type': 'Person',
+      name: author,
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Packify Custom Boxes',
-      logo: { '@type': 'ImageObject', url: 'https://packifycustomboxes.com/images/Favicon.webp' },
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://packifycustomboxes.com/images/Favicon.webp',
+      },
     },
   }
+
   return (
     <script
       type="application/ld+json"

@@ -9,23 +9,36 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import ClubPopup from '@/components/ClubPopup'
 import Script from 'next/script'
 import Tawk from '@/components/Tawk'
-import { Suspense } from 'react' // Import Suspense
+import { Suspense } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://packifycustomboxes.com'),
+
+  alternates: {
+    canonical: '/',
+  },
+
   title: 'Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA',
-  description: 'Custom packaging boxes for e-commerce, retail & subscription brands. Mailer, tuck, rigid boxes. No die or plate charges. Free design support. No minimum order. Free US shipping. 8–10 day turnaround. USA-based.',
-  keywords: 'custom packaging boxes, custom boxes with logo, wholesale custom boxes, custom printed boxes USA, mailer boxes, tuck boxes, rigid boxes, cosmetic boxes, CBD boxes, subscription box packaging, kraft boxes, corrugated boxes, no minimum order, free design support, Packify Custom Boxes',
+  description:
+    'Custom packaging boxes for e-commerce, retail & subscription brands. Mailer, tuck, rigid boxes. No die or plate charges. Free design support. No minimum order. Free US shipping. 8–10 day turnaround. USA-based.',
+
+  keywords:
+    'custom packaging boxes, custom boxes with logo, wholesale custom boxes, custom printed boxes USA, mailer boxes, tuck boxes, rigid boxes, cosmetic boxes, CBD boxes, subscription box packaging, kraft boxes, corrugated boxes, no minimum order, free design support, Packify Custom Boxes',
+
   authors: [{ name: 'Custom Box USA' }],
+
   robots: 'index, follow',
-  metadataBase: new URL('https://packifycustomboxes.com/'),
+
   openGraph: {
     title: 'Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA',
-    description: 'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping. USA-based.',
+    description:
+      'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping. USA-based.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Packify Custom Boxes',
+    url: 'https://packifycustomboxes.com',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -35,14 +48,15 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
     title: 'Custom Packaging Boxes | Wholesale USA',
-    description: 'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping.',
+    description:
+      'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping.',
     images: ['/images/og-image.jpg'],
   },
 }
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -50,40 +64,43 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon-white.png" />
         <link rel="icon" href="/images/Favicon.webp" />
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+        <link
+          rel="preload"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          as="style"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
 
         {/* Google Site Verification */}
-        <meta name="google-site-verification" content="tsfU_k96qBeW0MTfbS8ER5eUy1XQ_E4OMfKFUJSelPo" />
+        <meta
+          name="google-site-verification"
+          content="tsfU_k96qBeW0MTfbS8ER5eUy1XQ_E4OMfKFUJSelPo"
+        />
 
-        {/* Open Graph & Twitter Meta */}
-        <meta property="og:title" content="Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA" />
-        <meta property="og:description" content="Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://packifycustomboxes.com/" />
-        <meta property="og:image" content="https://packifycustomboxes.com/images/og-image.jpg" />
-        <meta property="og:site_name" content="Packify Custom Boxes" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA" />
-        <meta name="twitter:description" content="Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping." />
-        <meta name="twitter:image" content="https://packifycustomboxes.com/images/og-image.jpg" />
-
-        {/* 🔥 GOOGLE ANALYTICS */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9X5E4D8X4" />
+        {/* GOOGLE ANALYTICS */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q9X5E4D8X4"
+        />
         <Script id="google-analytics">
           {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Q9X5E4D8X4');
-    `}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q9X5E4D8X4');
+          `}
         </Script>
+
         <OrganizationSchema />
         <WebSiteSchema />
       </head>
-
 
       <body className={inter.className}>
         <Suspense fallback={null}>
@@ -96,7 +113,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <WhatsAppButton />
 
-        {/* Tawk.to Chat Widget */}
+        {/* Tawk Chat Widget */}
         <Script id="tawk-to" strategy="afterInteractive">
           {`
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -112,8 +129,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
 
         {/* GSAP Scripts */}
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" strategy="lazyOnload" />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" strategy="lazyOnload" />
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+          strategy="lazyOnload"
+        />
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   )

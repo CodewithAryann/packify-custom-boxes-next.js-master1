@@ -207,7 +207,7 @@ export default function Footer() {
                   <span className="w-7 h-7 rounded-lg bg-white/15 border border-white/20 flex items-center justify-center flex-shrink-0 group-hover:bg-white group-hover:text-orange-500 transition-all">
                     <i className="fas fa-phone text-[10px]"></i>
                   </span>
-                  +971 56 121 0175
+                  +1 213-224-8421
                 </a>
               </li>
               <li>
