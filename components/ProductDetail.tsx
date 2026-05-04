@@ -11,7 +11,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   return (
     <section className="Products col-span-1">
       <h1 className="text-4xl font-extrabold mb-6 text-orange-600">
-        Custom {product.title} USA
+        {product.title}
       </h1>
       
       <div className="relative w-full h-[350px] overflow-hidden rounded-xl mb-6 bg-[#f7f4ef]">

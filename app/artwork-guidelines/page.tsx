@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { HowToSchema, BreadcrumbListSchema } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Artwork Guidelines | Print-Ready Files | Packify Custom Boxes USA',
-  description: 'Print-ready specs: AI, EPS, PDF. CMYK, 300 DPI, bleed & safe zone. Free design support. No dieline fees. USA custom box manufacturer.',
+  title: 'Packaging Artwork Guidelines: Bleed, CMYK, 300 DPI | Packify',
+  description: 'Set up print-ready files for custom boxes, file formats, 300 DPI resolution, CMYK color, bleed and safe zones, and how to outline fonts before upload.',
   keywords: 'artwork guidelines, print-ready files, dieline templates, CMYK packaging, Packify Custom Boxes USA',
   alternates: { canonical: 'https://packifycustomboxes.com/artwork-guidelines/' },
   openGraph: {
-    title: 'Artwork Guidelines | Print-Ready Files | Packify Custom Boxes USA',
-    description: 'AI, EPS, PDF. CMYK, 300 DPI, bleed & safe zone. Free design support. No dieline fees.',
+    title: 'Packaging Artwork Guidelines: Bleed, CMYK, 300 DPI | Packify',
+    description: 'Set up print-ready files for custom boxes, file formats, 300 DPI resolution, CMYK color, bleed and safe zones, and how to outline fonts before upload.',
     url: 'https://packifycustomboxes.com/artwork-guidelines/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Artwork Guidelines | Packify Custom Boxes USA',
-    description: 'Print-ready specs: AI, EPS, PDF. CMYK, 300 DPI. Free design support.',
+    title: 'Packaging Artwork Guidelines: Bleed, CMYK, 300 DPI | Packify',
+    description: 'Set up print-ready files for custom boxes, file formats, 300 DPI resolution, CMYK color, bleed and safe zones, and how to outline fonts before upload.',
     images: ['/images/og-image.jpg'],
   },
 }

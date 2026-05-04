@@ -141,9 +141,10 @@ export const productsData = {
 
   customization: {},
   faqs: false,
-  title: 'Bakery Boxes',
+  title: 'Custom Bakery Boxes',
+  seoTitle: 'Custom Bakery Boxes with Window & Logo | Packify',
   slug: 'bakery-boxes',
-  metaDescription: 'Custom bakery boxes: cake boxes, cupcake boxes, cookie boxes, donut boxes, pastry boxes, gable boxes. FDA-compliant, grease-resistant. PET windows, custom inserts. Bakery branding. 100 min order. Free shipping. 7–10 days.',
+  metaDescription: 'Branded boxes for cakes, cupcakes, cookies, and pastries, kraft or white, food-safe stock, optional window, no minimum, free US shipping.',
   keywords: [
     'bakery boxes',
     'custom cake boxes',
@@ -159,7 +160,7 @@ export const productsData = {
   ],
   mainImage: '/images/bakery/Bakery Box MAIN PAGE.jpg',
   hoverImage: '/images/bakery/bakery-box-hover.webp',
-  description: 'Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. FDA-compliant, food-safe packaging for retail bakeries, wedding cakes, farmers markets, and delivery.',
+  description: 'Bakery products demand packaging that handles grease, holds shape, and shows the goods through clean window cuts. Our bakery boxes range from cake bases and cookie cartons to gable handles and pastry cartons, printed on food-safe stock with vibrant CMYK colors.',
   features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
   overviewTitle: 'Custom Bakery Boxes | Food-Safe Packaging for Every Baked Good',
   overviewContent: `Custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. FDA-compliant, food-safe packaging for retail bakeries, wedding cakes, farmers markets, and delivery.
@@ -178,6 +179,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
   variants: [
     {
       name: 'Cake Boxes',
+      h1: 'Custom Cake Boxes',
+      metaDescription: 'Boxes for round, square, and tiered cakes, sturdy stock that protects frosting in transit, optional window, full-color print, no minimum order.',
+      seoTitle: 'Custom Cake Boxes with Window, Sturdy & Branded | Packify',
       image: '/images/bakery/Custom Cake Boxes.png',
       description: 'Custom cake boxes for round, square, and tiered cakes. Rigid paperboard prevents crushing. Sizes 4" to 14" — birthday, wedding, sheet cake. Optional PET window tops for decorated cakes. Food-safe, grease-resistant. Bakery branding.',
       productOverview: {
@@ -241,6 +245,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
     },
     {
       name: 'Cookie Boxes',
+      h1: 'Custom Cookie Boxes',
+      metaDescription: 'Branded cookie boxes for bakeries and gift sellers, windowed, dividers for assortments, kraft or white stock, no minimum, 8–10 day production.',
+      seoTitle: 'Custom Cookie Boxes with Dividers & Windows | Packify',
       image: '/images/bakery/Custom Cookie Box.png',
       description: 'Custom cookie boxes for retail, holiday gifting, and bakeries. Front or top PET window panels showcase iced cookies, gingerbread, assortments. Tray inserts prevent breakage. Christmas, Valentine, Easter designs. Stackable for retail.',
       productOverview: {
@@ -294,6 +301,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
     },
     {
       name: 'Cupcake Packaging Boxes',
+      h1: 'Custom Cupcake Packaging Boxes',
+      metaDescription: 'Boxes for 4, 6, or 12 cupcakes with secure inserts that prevent shifting in transit. Window options, full-color print, no minimum, free US shipping.',
+      seoTitle: 'Custom Cupcake Boxes with Inserts & Window | Packify',
       image: '/images/bakery/Custom Cupcake Boxes.jpg',
       description: 'Custom cupcake boxes with cavity inserts for 1, 2, 4, 6, 9, 12 counts. Prevents toppling, frosting damage. Optional PET window lid. Standard, large, jumbo sizes. Bakery branding.',
       productOverview: {
@@ -347,6 +357,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
     },
     {
       name: 'Donut Boxes',
+      h1: 'Custom Donut Boxes',
+      metaDescription: 'Branded donut boxes in single, half-dozen, and dozen sizes with optional window. Kraft or white food-safe stock, full-color print, free US shipping.',
+      seoTitle: 'Custom Donut Boxes for 6, 12 & Singles | Packify',
       image: '/images/bakery/Custom Donut Boxes.png',
       description: 'Custom donut boxes for 1, 3, 6, 12 counts. Heavy grease-resistant coating prevents oil and glaze seepage. Tray inserts prevent sticking. Optional PET window tops. Gourmet donut shops. Bakery branding.',
       productOverview: {
@@ -410,6 +423,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
     },
     {
       name: 'Gable Boxes',
+      h1: 'Custom Gable Boxes',
+      metaDescription: 'Branded gable boxes for events, party favors, gift sets, and takeout, built-in carry handle, kraft or white, optional window, no minimum order.',
+      seoTitle: 'Custom Gable Boxes with Handle for Gifts & Favors | Packify',
       image: '/images/bakery/Custom Gable Boxes.jpg',
       description: 'Custom gable boxes with built-in handle. Wedding favors, bakery cookie sets, event packaging. One-piece, no assembly. Side window options. Cookies, macarons, petits fours. Gift-ready.',
       productOverview: {
@@ -473,6 +489,9 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
     },
     {
       name: 'Pastry Packaging Boxes',
+      h1: 'Custom Pastry Packaging Boxes',
+      metaDescription: 'Boxes for croissants, eclairs, tarts, and macarons, grease-resistant kraft or white stock, optional window, full-color print, no minimum order.',
+      seoTitle: 'Custom Pastry Boxes for Bakeries & Patisseries | Packify',
       image: '/images/bakery/Custom Pastry Packaging Boxes.png',
       description: 'Custom pastry boxes for croissants, danishes, eclairs, macarons, tarts. Shallow depth for flat pastries. Grease-resistant board. Window panels. Soft-touch, foil stamping. Patisserie branding.',
       productOverview: {
@@ -656,9 +675,10 @@ Sizes: Custom—4" to 14" cake boxes, 1–12 count cupcake and donut boxes, gabl
 
     customization: {},
     faqs: false,
-    title: 'Tuck Boxes',
+    title: 'Custom Tuck Boxes',
+    seoTitle: 'Custom Tuck Boxes for Retail & Cosmetics | Packify',
     slug: 'tuck-boxes',
-    metaDescription: 'Order custom tuck boxes for cosmetics, jewelry, supplements, and retail. Low minimums, 7–10 day production, free US shipping. Tuck top, reverse tuck, auto-lock styles.',
+    metaDescription: 'Print tuck end and tuck top boxes for retail, beauty, and supplement brands. Cardstock or kraft, full-color CMYK, no minimum, 8–10 day production.',
     keywords: [
       'custom tuck boxes',
       'tuck top boxes',
@@ -689,6 +709,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
     variants: [
       {
         name: 'Tuck Top Boxes',
+        h1: 'Custom Tuck Top Boxes',
+        metaDescription: 'Tuck top folding cartons for retail and small product lines, assemble flat, no glue or tape, kraft or white stock, full-color print, no minimum.',
+        seoTitle: 'Custom Tuck Top Boxes, No Glue Assembly | Packify',
         image: '/images/tuck/Tuck Top Box.png',
         description: "Tuck top boxes have both top and bottom flaps that tuck in from the front. The result is a clean, uniform look and fast assembly. Commonly used for cosmetic compacts, supplement bottles, candles, and small retail products where a consistent front panel matters.",
         productOverview: {
@@ -784,6 +807,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Auto Lock Boxes',
+        h1: 'Auto Lock Bottom Boxes',
+        metaDescription: 'Custom auto-lock bottom boxes that snap into shape with no tape, built for fast packing in cosmetics, supplements, and ecommerce fulfillment.',
+        seoTitle: 'Auto Lock Bottom Boxes, Pre-Glued & Fast Assembly | Packify',
         image: '/images/tuck/Auto Lock Tuck Box.png',
         description: 'Auto lock (auto-bottom) boxes have a pre-glued base that pops into place with a squeeze. No manual folding of bottom flaps. Assembly is 3–5x faster than standard tuck boxes—ideal for jars, bottles, and heavier retail products.',
         productOverview: {
@@ -974,6 +1000,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       // },
       {
         name: 'Straight Tuck End Boxes',
+        h1: 'Straight Tuck End Boxes',
+        metaDescription: 'STE boxes with clean front face for cosmetics, soaps, supplements, and small retail goods, full-color print, no minimum, 8–10 day production.',
+        seoTitle: 'Straight Tuck End Boxes for Retail Display | Packify',
         image: '/images/tuck/Straight Tuck End.png',
         description: 'Straight tuck end boxes use the same closure pattern as tuck top—both top and bottom flaps tuck from the front. The term is interchangeable in practice. Best for cosmetic compacts, supplement bottles, and products that benefit from a clean, flat front panel.',
         productOverview: {
@@ -1068,6 +1097,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Kraft Tuck Top Boxes',
+        h1: 'Kraft Tuck Top Boxes',
+        metaDescription: 'Custom printed kraft tuck top boxes in natural brown, biodegradable stock, full-color CMYK, no minimum, 8–10 day production with free US shipping.',
+        seoTitle: 'Kraft Tuck Top Boxes, Eco-Friendly & Printed | Packify',
         image: '/images/tuck/Kraft Tuck Box.png',
         description: 'Kraft tuck top boxes use unbleached kraft paperboard instead of white SBS. The natural brown color signals sustainability and pairs well with brands emphasizing organic, artisanal, or eco-friendly positioning. Same tuck closure, different aesthetic.',
         productOverview: {
@@ -1163,6 +1195,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Snap Lock Bottom Boxes',
+        h1: 'Snap Lock Bottom Boxes',
+        metaDescription: 'Four-flap interlocking base for candles, jars, and dropper bottles, no glue, stronger than tuck-end, full-color print, no minimum.',
+        seoTitle: 'Snap Lock Bottom Boxes for Jars & Candles | Packify',
         image: '/images/tuck/Snap Lock Bottom Boxes.png',
         description: "Snap lock bottom boxes use four interlocking flaps that snap together to form a strong base. No glue—just a manual fold-and-lock. Better for heavier products than a standard tuck bottom. Common for candles, food jars, and multi-item gift sets.",
         productOverview: {
@@ -1353,6 +1388,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       // },
       {
         name: 'CBD Tuck Boxes',
+        h1: 'CBD Tuck Boxes',
+        metaDescription: 'Printed CBD tuck boxes for tinctures, gummies, capsules, and topicals, matte, gloss, foil, or soft-touch finishes, no minimum, free US shipping.',
+        seoTitle: 'CBD Tuck Boxes That Stand Out on the Shelf | Packify',
         image: '/images/tuck/CBD Tuck Box (2).png',
         description: 'CBD tuck boxes are designed with ample panel space for required disclosures, ingredient lists, and QR codes. Child-resistant closures available where regulations require. Sized for tincture bottles, gummy containers, and topical packaging.',
         productOverview: {
@@ -1448,6 +1486,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Roll End Tuck Boxes',
+        h1: 'Roll End Tuck Boxes',
+        metaDescription: 'RETF boxes with reinforced roll-end walls, ideal for subscription and ecommerce kits, no adhesive needed, full-color print, free US shipping.',
+        seoTitle: 'Roll End Tuck Front Boxes, Double-Wall Sturdy | Packify',
         image: '/images/tuck/Roll End Tuck Top.jpg',
         description: 'Roll end tuck boxes have extended flaps that roll over the sides before tucking in. The design adds rigidity and resistance to corner damage during shipping. Often used for e-commerce and subscription shipments where packages see more handling.',
         productOverview: {
@@ -1543,6 +1584,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: 'Reverse Tuck End Boxes',
+        h1: 'Reverse Tuck End Boxes',
+        metaDescription: 'RTE folding cartons for soaps, serums, lip balm, supplements, and small retail, clean front face for shelf display, full-color print, no minimum.',
+        seoTitle: 'Reverse Tuck End Boxes for Cosmetics & Soaps | Packify',
         image: '/images/tuck/Reverse Tuck Box.png',
         description: 'Reverse tuck end boxes have top and bottom flaps that tuck from opposite sides. The design makes the box easier to open and reclose—a standard in pharmaceuticals, supplements, and cosmetics where consumers access the product repeatedly.',
         productOverview: {
@@ -1638,6 +1682,9 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
       },
       {
         name: '1-2-3 Bottom Boxes',
+        h1: '1-2-3 Bottom Boxes',
+        metaDescription: 'Snap lock bottom in three folds, sturdier than tuck-end, more economical than auto-lock. For candles, glass bottles, and cosmetics. No minimum.',
+        seoTitle: '1-2-3 Bottom Boxes, Stronger Than Tuck-End | Packify',
         image: '/images/tuck/1-2-3 Bottom Box.jpg',
         description: "1-2-3 bottom boxes use a three-step folding sequence to create a locked base. The method yields a very secure bottom—suitable for bulky or heavy items like food jars, candle tins, and gift sets. Manual assembly, no glue.",
         productOverview: {
@@ -1787,13 +1834,14 @@ Typical uses: Cosmetic compacts, lip balm, candles, jewelry, supplements, tea, s
     },
     customization: {},
     faqs: false,
-    title: 'Dispenser Boxes',
+    title: 'Custom Dispenser Boxes',
+    seoTitle: 'Custom Dispenser Boxes for Retail Counters | Packify',
     slug: 'dispenser-boxes',
-    metaDescription: 'Order custom dispenser boxes for candy, gum, snacks, and retail. Tear-out or flip-top access. Full-color printing, food-safe options. Low minimums, free US shipping.',
+    metaDescription: 'Countertop and gravity dispenser boxes for candy, supplements, lip balm, and small retail goods, full-color print, no minimum, free US shipping.',
     keywords: ['dispenser boxes', 'candy dispenser packaging', 'flip top display boxes', 'retail dispenser boxes', 'point of sale packaging', 'tear out dispenser', 'gum dispenser boxes'],
     mainImage: '/images/dispenser/dispenser-main.jpeg',
     hoverImage: '/images/Dispenser-2.webp',
-    description: 'Dispenser boxes package multiple units with a perforated or flip-top opening for controlled access. Customers tear or flip to remove one item at a time. Common for candy, gum, snacks, sachets, and small retail products. Stand-up design maximizes shelf visibility.',
+    description: 'Counter retailers need packaging that lets customers grab one unit without disturbing the rest. Dispenser boxes solve that with perforated tear panels, pull-tab fronts, and stackable footprints built for vending, c-store, and pharmacy display.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
     overviewTitle: 'Custom Dispenser Boxes USA | Retail & Point-of-Sale',
     overviewContent: `Dispenser boxes hold multiple product units with controlled access—tear-out perforations, flip-top lid, or push-through opening. Customers take one item at a time.
@@ -1849,7 +1897,8 @@ Printing: Full-color branding on all sides. High visibility at point-of-sale. Cu
       ]
     },
     faqs: false,
-    title: 'Mailer Boxes',
+    title: 'Custom Mailer Boxes',
+    seoTitle: 'Custom Mailer Boxes, Printed in 8–10 Days | Packify',
     slug: 'mailer-boxes',
     productOverview: {
       title: 'Custom Mailer Boxes USA | E-Commerce & Subscription Shipping',
@@ -1872,7 +1921,7 @@ Printing: Full-color branding on all sides. High visibility at point-of-sale. Cu
         ]
       }
     },
-    metaDescription: 'Custom mailer boxes for e-commerce, subscription, and D2C shipping. Self-locking design, full-color printing. Corrugated, kraft, white board. Low minimums, free US shipping.',
+    metaDescription: 'Branded mailer boxes for ecommerce, subscription, and gift orders, full-color print inside and out, no minimum, free US shipping.',
     keywords: ['custom mailer boxes', 'e-commerce mailer boxes', 'subscription box packaging', 'shipping mailers', 'corrugated mailer boxes', 'branded shipping boxes', 'kraft mailer boxes'],
     mainImage: '/images/mailer/Mailer Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.48.17_AM-removebg-preview.webp',
@@ -1893,6 +1942,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
     variants: [
       {
         name: 'Custom Bubble Mailers',
+        h1: 'Custom Bubble Mailers',
+        metaDescription: 'Branded bubble mailers with cushioned lining for jewelry, cosmetics, and fragile goods, self-sealing, lightweight, no minimum, free US shipping.',
+        seoTitle: 'Custom Bubble Mailers, Padded & Full-Color | Packify',
         image: '/images/mailer/Custom bubble Mailer Box.png',
         description: 'Bubble mailers have a padded, bubble-lined interior for cushioning and a custom-printed exterior. Lighter than rigid boxes, cheaper to ship. Ideal for jewelry, small electronics, phones, books, and clothing that need impact protection.',
         productOverview: {
@@ -1959,6 +2011,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Vinyl Record Mailers',
+        h1: 'Vinyl Record Mailers',
+        metaDescription: 'Corrugated mailers for 7" and 12" records, rigid walls prevent warping in transit, full-color print for indie labels and artists, free US shipping.',
+        seoTitle: 'Vinyl Record Mailers, Crush-Resistant & Printed | Packify',
         image: '/images/mailer/Vinyl Record Mailer.jpg',
         description: 'Vinyl record mailers are reinforced boxes sized for LPs, EPs, or 7-inch records. Snug inserts stop records from shifting. Prevents warping, sleeve scratches, and corner damage. Used by labels, retailers, and collectors for shipping vinyl.',
         productOverview: {
@@ -2021,6 +2076,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Corrugated Mailer Boxes',
+        h1: 'Corrugated Mailer Boxes',
+        metaDescription: 'E-flute corrugated mailers, full-color inside and out, self-locking and flat-pack. Built for ecommerce and subscription brands. Free US shipping.',
+        seoTitle: 'Corrugated Mailer Boxes Printed in 8–10 Days | Packify',
         image: '/images/mailer/Corrugated Mailer.png',
         description: 'Corrugated mailer boxes use fluted board for crush resistance and impact protection. Single-wall for lighter items, double-wall for heavier products. Self-locking flaps, interior and exterior printing. Stronger than paperboard, ideal for heavier or fragile shipments.',
         productOverview: {
@@ -2083,6 +2141,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'White Mailer Boxes',
+        h1: 'White Mailer Boxes',
+        metaDescription: 'White corrugated mailers with a smooth surface for vivid CMYK print, clean canvas for logos, patterns, and bold graphics. No minimum, free US shipping.',
+        seoTitle: 'Custom White Mailer Boxes for Vibrant Print | Packify',
         image: '/images/mailer/White Mailer Box.png',
         description: "Choose white mailer boxes for a clean, minimalistic look. Versatile and cost-effective, they're perfect for everyday shipments and give your packaging a fresh, professional appearance.",
         productOverview: {
@@ -2144,6 +2205,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Kraft Mailer Boxes',
+        h1: 'Kraft Mailer Boxes',
+        metaDescription: 'Brown corrugated kraft mailers for eco-conscious brands, natural finish, full-color print, 100% recyclable, no minimum, free US shipping.',
+        seoTitle: 'Custom Kraft Mailer Boxes, Natural & Eco-Friendly | Packify',
         image: '/images/mailer/Kraft Mailer Box.jpg',
         description: 'Elevate your brand with kraft mailer boxes. Their earthy, organic look appeals to eco-conscious customers, while options like custom labeling and unique lock designs support creative branding for e-commerce and boutique businesses.',
         productOverview: {
@@ -2205,6 +2269,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Black Mailer Boxes',
+        h1: 'Black Mailer Boxes',
+        metaDescription: 'Black corrugated mailers, matte or gloss finish, white logo contrast. Built for apparel, beauty, and premium ecommerce. No minimum, free US shipping.',
+        seoTitle: 'Custom Black Mailer Boxes, Matte or Gloss Finish | Packify',
         image: '/images/mailer/Black Mailer Box.png',
         description: 'Black mailer boxes create immediate shelf impact and premium perception. Available with various sizes and finishes, they highlight your product with modern elegance and unmistakable visibility.',
         productOverview: {
@@ -2266,6 +2333,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Colored Mailer Boxes',
+        h1: 'Colored Mailer Boxes',
+        metaDescription: 'Full-color corrugated mailers matched to your brand palette, any color, matte or gloss finish, inside and out print, no minimum, free US shipping.',
+        seoTitle: 'Colored Mailer Boxes in Any Brand Color | Packify',
         image: '/images/mailer/Colored Mailer Box.png',
         description: 'Make your deliveries memorable with colored mailer boxes, available in custom shades to match your brand. Add logos or artwork for instant recognition and a polished marketing touch.',
         productOverview: {
@@ -2340,6 +2410,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Tuck Top Mailer Boxes',
+        h1: 'Tuck Top Mailer Boxes',
+        metaDescription: 'Tuck-top corrugated mailers that close without tape, lid flap adds structural strength for ecommerce, gifting, and subscription shipping. No minimum.',
+        seoTitle: 'Tuck Top Mailer Boxes, Self-Closing & Tape-Free | Packify',
         image: '/images/tuck/Tuck Top Mailer Box (2).png',
         description: 'Tuck top mailer boxes feature a secure closing design for easy assembly. Their streamlined style offers both convenience in packaging and protection for a wide range of goods.',
         productOverview: {
@@ -2414,6 +2487,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Literature Mailers',
+        h1: 'Literature Mailers',
+        metaDescription: 'Flat corrugated mailers for books, catalogs, brochures, and marketing kits, self-locking, no tape, sized to your documents, free US shipping.',
+        seoTitle: 'Custom Literature Mailers for Catalog & Brochure | Packify',
         image: '/images/mailer/Literature Mailer Box.jpg',
         description: 'Engineered to protect documents, catalogs, and brochures, literature mailers offer a snug fit and prevent creasing, making them ideal for businesses sending printed materials.',
         productOverview: {
@@ -2488,6 +2564,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Pink Mailer Boxes',
+        h1: 'Pink Mailer Boxes',
+        metaDescription: 'Printed pink mailers from blush to hot pink, ideal for skincare, beauty brands, and gift subscriptions. Full-color CMYK, no minimum, free US shipping.',
+        seoTitle: 'Custom Pink Mailer Boxes for Beauty & Gifting | Packify',
         image: '/images/mailer/Pink Mailer Box.png',
         description: 'Stand out with playful, vibrant pink mailer boxes. Perfect for gift sets, subscription packs, or brands seeking a bold and cheerful unboxing experience.',
         productOverview: {
@@ -2562,6 +2641,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Cardboard Mailers',
+        h1: 'Cardboard Mailers',
+        metaDescription: 'E-flute cardboard mailers, flat-pack, self-assemble, full-color print inside and out. Built for ecommerce and subscription brands. Free US shipping.',
+        seoTitle: 'Custom Cardboard Mailers, Flat-Pack & Eco-Friendly | Packify',
         image: '/images/mailer/Cardboard Mailer Box.png',
         description: 'Lightweight and sturdy, cardboard mailers provide reliable protection for documents, books, and small merchandise—suiting both business and personal use.',
         productOverview: {
@@ -2636,6 +2718,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Mailer Gift Boxes',
+        h1: 'Mailer Gift Boxes',
+        metaDescription: 'Full-color print inside and out, built for PR kits, corporate gifting, and subscription unboxing. Custom sized, no minimum, free US shipping.',
+        seoTitle: 'Custom Mailer Gift Boxes, Printed Inside & Out | Packify',
         image: '/images/mailer/Durable, Secure & On-Brand – Corrugated Mailer Boxes You Can Trust.jpeg',
         description: 'Transform gifting with stylish mailer gift boxes. They combine durability with elegant presentation, ensuring contents are both secure and beautifully displayed upon arrival.',
         productOverview: {
@@ -2784,6 +2869,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       // },
       {
         name: 'Holiday Mailer Boxes',
+        h1: 'Holiday Mailer Boxes',
+        metaDescription: 'Seasonal mailer boxes for Christmas, gifting, and limited-edition drops, 8–10 day production with free US shipping to beat your launch date.',
+        seoTitle: 'Custom Holiday Mailer Boxes, Order Before Peak | Packify',
         image: '/images/mailer/Holiday Mailer Box.jpg',
         description: 'Celebrate the season with custom holiday mailer boxes. Incorporate festive graphics and colors to enhance the excitement and anticipation of your shipments.',
         productOverview: {
@@ -3006,6 +3094,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       // },
       {
         name: 'CBD Mailer Boxes',
+        h1: 'CBD Mailer Boxes',
+        metaDescription: 'Printed mailer boxes for CBD oils, tinctures, gummies, and topicals, matte, gloss, or soft-touch finish, no minimum, free US shipping, 8–10 day production.',
+        seoTitle: 'Custom CBD Mailer Boxes, Full-Color Print | Packify',
         image: '/images/mailer/cbd mailer box.png',
         description: 'CBD mailer boxes are sized for supplements, oils, gummies, and topicals. Ample panel space for ingredient lists, lab QR codes, and disclaimers. Tamper-evident options. Used by D2C and e-commerce CBD brands for compliant, branded shipping.',
         productOverview: {
@@ -3067,6 +3158,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Ecommerce Mailers',
+        h1: 'Ecommerce Mailer Boxes',
+        metaDescription: 'Direct-ship mailers for ecommerce and subscription brands, corrugated stock that survives transit without tape, full-color inside and out, free US shipping.',
+        seoTitle: 'Ecommerce Mailer Boxes, Crush-Resistant & Printed | Packify',
         image: '/images/mailer/Custom Printed Flute E-commerce Packaging Box Corrugated Cardboard Shipping Mailer White Tab Locking Literature Mailer Box.jpg.jpeg',
         description: 'Streamline online orders with eCommerce mailers that combine secure protection, easy assembly, and efficient branding for direct-to-consumer shipments.',
         productOverview: {
@@ -3141,6 +3235,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Sleeved Mailer Boxes',
+        h1: 'Sleeved Mailer Boxes',
+        metaDescription: 'Sleeved mailers with a fully printed outer sleeve over a plain box, two brand moments in one shipment. Kraft or white, no minimum, free US shipping.',
+        seoTitle: 'Custom Sleeved Mailer Boxes, Two-Surface Print | Packify',
         image: '/images/mailer/sleeved mailer box.jpeg',
         description: 'These boxes feature an additional sleeve exterior, giving an upscale touch and added layer of design and protection, perfect for premium products.',
         productOverview: {
@@ -3289,6 +3386,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       // },
       {
         name: 'Custom Mailer Boxes With Tear Strip',
+        h1: 'Tear Strip Mailer Boxes',
+        metaDescription: 'Self-sealing mailers with built-in tear strip, one clean pull to open, no scissors or box cutters needed. Full-color print, no minimum, free US shipping.',
+        seoTitle: 'Mailer Boxes with Tear Strip, No-Scissors Open | Packify',
         image: '/images/mailer/Custom Tear Strip Mailer Box.png',
         description: 'Increase customer satisfaction with mailers featuring a tear strip, allowing easy and frustration-free opening while maintaining package security.',
         productOverview: {
@@ -3363,6 +3463,9 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
       },
       {
         name: 'Candle Shipping Boxes',
+        h1: 'Candle Shipping Boxes',
+        metaDescription: 'Corrugated candle shipping boxes with custom-fit inserts for glass jars, pillar, and votive candles, no bubble wrap needed, full-color print, free US shipping.',
+        seoTitle: 'Custom Candle Shipping Boxes with Protective Inserts | Packify',
         image: '/images/mailer/Candle Mailer Box.jpg',
         description: 'Protect scented candles with snug-fitting boxes designed to keep fragile glass and wax items safe during transit and storage.',
         productOverview: {
@@ -3566,9 +3669,10 @@ Sizes: Custom to product dimensions. Right-sizing reduces dimensional weight and
     },
     customization: {},
     faqs: false,
-    title: 'Rigid Boxes',
+    title: 'Custom Rigid Boxes',
+    seoTitle: 'Custom Rigid Boxes for Luxury Unboxing | Packify',
     slug: 'rigid-boxes',
-    metaDescription: 'Custom rigid boxes for jewelry, cosmetics, electronics, and luxury gifts. Chipboard construction, premium finishes. Magnetic closure, satin lining, foam inserts. Low minimums, free US shipping.',
+    metaDescription: 'Premium two-piece, magnetic, and drawer rigid boxes with foil, soft-touch, and full-color print, built for jewelry, beauty, and gifting brands.',
     keywords: ['rigid boxes', 'luxury rigid packaging', 'premium gift boxes', 'magnetic closure boxes', 'jewelry boxes', 'cosmetic rigid boxes', 'presentation boxes'],
     mainImage: '/images/rigid/Rigid Box MAIN PAGE.png',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.57.58_AM__1_-removebg-preview.webp',
@@ -3589,6 +3693,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     variants: [
       {
         name: 'Custom Magnetic Closure Boxes',
+        h1: 'Magnetic Closure Rigid Boxes',
+        metaDescription: 'Premium magnetic rigid boxes in collapsible and non-collapsible builds, matte, soft-touch, or foil wrap, custom inserts, no minimum, free US shipping.',
+        seoTitle: 'Magnetic Closure Rigid Boxes, Flat-Pack Option | Packify',
         image: '/images/rigid/Magnetic Closure Rigid Boxes.png',
         description: 'Custom magnetic closure boxes combine luxury and functionality with built-in magnets that provide a smooth, secure closing mechanism. Perfect for premium products, these boxes offer an elegant unboxing experience while keeping contents protected and elegantly housed.',
         productOverview: {
@@ -3670,6 +3777,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Die Cut Boxes',
+        h1: 'Custom Die Cut Rigid Boxes',
+        metaDescription: 'Rigid die-cut boxes shaped to your product, custom window cut-outs, unique structural forms, full-color CMYK print, no minimum, free US shipping.',
+        seoTitle: 'Custom Die Cut Boxes, Any Shape & Window Cut | Packify',
         image: '/images/rigid/Die-Cut Rigid Boxes with Inserts.png',
         description: 'Die cut boxes feature custom shapes and windows created through precise cutting techniques. This allows for unique, eye-catching designs that showcase your product directly or add intricate details, making your packaging stand out on shelves and online.',
         productOverview: {
@@ -3744,6 +3854,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Flip Top Boxes',
+        h1: 'Flip Top Rigid Boxes',
+        metaDescription: 'Rigid flip-top boxes with hinged lid and custom foam inserts, built for jewelry, cosmetics, and premium gifting. Foil, soft-touch, or matte wrap finish.',
+        seoTitle: 'Custom Flip Top Rigid Boxes with Hinged Lid | Packify',
         image: '/images/rigid/Flip Top Rigid Box.png',
         description: "Flip top boxes offer convenient access with a hinged lid that flips open easily. Popular for products needing frequent opening and closing, they're perfect for cosmetics, electronics, and retail goods requiring sleek presentation and practicality.",
         productOverview: {
@@ -3818,6 +3931,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Rigid Gift Boxes',
+        h1: 'Custom Rigid Gift Boxes',
+        metaDescription: 'Premium two-piece and magnetic rigid gift boxes built for branded gifting, ribbon, foam insert, and foil finish options, no minimum, free US shipping.',
+        seoTitle: 'Custom Rigid Gift Boxes for Corporate & DTC Gifting | Packify',
         image: '/images/rigid/Luxury Rigid Gift Boxes.jpg',
         description: "Rigid gift boxes are crafted from thick, sturdy material that exudes quality and durability. Often used for luxury gifts and keepsakes, they provide a premium feel that reinforces the brand's value and offers reliable protection.",
         productOverview: {
@@ -3892,6 +4008,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Kraft Rigid Boxes',
+        h1: 'Kraft Rigid Boxes',
+        metaDescription: 'Natural brown kraft rigid boxes with foil stamping or spot UV, recyclable stock for beauty, gifting, and eco-conscious brands. No minimum, free US shipping.',
+        seoTitle: 'Custom Kraft Rigid Boxes with Foil-Stamp Finish | Packify',
         image: '/images/rigid/Kraft Rigid Box.png',
         description: 'Kraft rigid boxes combine the robustness of rigid construction with the natural appeal of kraft paper. Eco-friendly and stylish, they deliver both sustainability and high-end packaging, ideal for brands that prioritize green solutions with a luxury touch.',
         productOverview: {
@@ -3966,6 +4085,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Satin Lined Boxes',
+        h1: 'Satin Lined Rigid Boxes',
+        metaDescription: 'Rigid boxes with satin or silk lining, protect jewelry, watches, and perfumes from scratches while delivering a premium unboxing reveal. No minimum.',
+        seoTitle: 'Custom Satin Lined Boxes, Scratch-Free Interior | Packify',
         image: '/images/rigid/Satin Lined Rigid Boxes.jpg',
         description: 'Satin lined boxes elevate presentation with a soft, luxurious satin fabric interior that cushions delicate products. Often chosen for jewelry, watches, and premium gifts, these boxes highlight sophistication and care.',
         productOverview: {
@@ -4040,6 +4162,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Two Piece Boxes',
+        h1: 'Custom Two Piece Rigid Boxes',
+        metaDescription: 'Base-and-lid rigid boxes with precise cover depth for cosmetics, electronics, and gifting, full-color print, custom inserts, no minimum, free US shipping.',
+        seoTitle: 'Custom Two-Piece Rigid Boxes, Clean Lid-to-Base Fit | Packify',
         image: '/images/rigid/Two-Piece Rigid Boxes (Lid & Base).png',
         description: 'Custom two piece boxes consist of a separate lid and base, offering a timeless design favored for premium packaging. Their sturdy structure and elegant look make them suitable for gifts, specialty products, and upscale retail packaging.',
         productOverview: {
@@ -4114,6 +4239,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Slipcase Boxes',
+        h1: 'Slipcase Rigid Boxes',
+        metaDescription: 'Rigid slipcase boxes with a slide-out inner tray, built for cosmetics, gifting, and luxury collections. Foil, matte, or soft-touch wrap, no minimum.',
+        seoTitle: 'Custom Slipcase Boxes, Smooth Slide-Out Reveal | Packify',
         image: '/images/rigid/Rigid SlipCase Box.png',
         description: 'Slipcase boxes feature a sleeve that slides over a separate box or booklet, combining style and protection. This packaging style is excellent for books, luxury gift sets, or limited edition products that benefit from an added layer of design.',
         productOverview: {
@@ -4188,6 +4316,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Rigid Drawer Boxes',
+        h1: 'Custom Rigid Drawer Boxes',
+        metaDescription: 'Slide-out drawer rigid boxes with ribbon or notch opening, built for jewelry, watches, and premium cosmetics. Foil, soft-touch, or matte wrap, no minimum.',
+        seoTitle: 'Custom Rigid Drawer Boxes with Ribbon Pull | Packify',
         image: '/images/rigid/Rigid Drawer Boxes (Slide-Out Boxes).png',
         description: 'Custom rigid drawer boxes consist of an outer shell with a drawer-style inner compartment that slides open smoothly. This unique packaging adds a tactile, premium experience and is popular for cosmetics, tech accessories, and luxury goods.',
         productOverview: {
@@ -4262,6 +4393,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Sliding Boxes',
+        h1: 'Sliding Rigid Boxes',
+        metaDescription: 'Rigid sliding boxes with push-through inner tray, matchbox style for jewelry, cosmetics, and gifting. Ribbon or notch option, foil finish, no minimum.',
+        seoTitle: 'Custom Sliding Rigid Boxes, Matchbox Push-Through | Packify',
         image: '/images/rigid/Rigid Sliding Boxes.png',
         description: 'Sliding boxes are designed with two parts — an outer sleeve and an inner tray that slides in and out. They offer strong protection and an impressive unboxing experience, making them a preferred choice for high-end gifts and retail products.',
         productOverview: {
@@ -4392,13 +4526,14 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     },
     customization: {},
     faqs: false,
-    title: 'Cigarette Boxes',
+    title: 'Custom Vape & Cigarette Boxes',
+    seoTitle: 'Custom Cigarette Boxes, Printed & Branded | Packify',
     slug: 'cigarette-boxes',
-    metaDescription: 'Custom vape and e-cigarette boxes with space for compliance labeling. Child-resistant options. CBD, THC, nicotine. Tamper-evident seals. Low minimums, free US shipping.',
+    metaDescription: 'Branded vape, cartridge, and e-liquid boxes, full-color CMYK, foil and soft-touch finishes, no minimum, free US shipping, 8–10 day production.',
     keywords: ['vape box packaging', 'e-cigarette boxes', 'CBD vape packaging', 'cigarette boxes', 'child resistant vape boxes', 'vape cartridge boxes', 'disposable vape packaging'],
     mainImage: '/images/cigarette/Cigarette Box photo.jpg',
     hoverImage: '/images/Cigarette-2.webp',
-    description: 'Vape and e-cigarette boxes are sized for cartridges, pens, and disposables. Designed with panel space for required warnings, ingredient lists, and lab QR codes. Child-resistant closures and tamper-evident seals available where regulations apply.',
+    description: 'Vape, e-cigarette, and THC packaging designed for shelf appeal and brand recognition. Eleven sub-categories cover disposable vapes, vape pens, cartridges, juice bottles, and pod formats. Full-color CMYK, foil stamping, matte or gloss lamination.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
     overviewTitle: 'Luxury Rigid Boxes to Portray Your Premium E Cigarette Brand',
     overviewContent: 'Everyone wants to buy attention-grabbing bespoke E-cigarette display boxes to shine out in front of customers and on shelves as well as to keep fragile products safe. We satisfy the brands requirement for high-quality printing on the boxes. Our expert designers develop an attractive display of E-cigarette boxes so your brand gets more well-known and adored.',
@@ -4407,6 +4542,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     variants: [
       {
         name: 'CBD E-Cigarette Boxes',
+        h1: 'CBD E-Cigarette Boxes',
+        metaDescription: 'Branded CBD e-cigarette packaging with full-color CMYK, foil stamping, matte or gloss lamination, sized to your device, no minimum, free US shipping.',
+        seoTitle: 'Custom CBD E-Cigarette Boxes, Printed & Branded | Packify',
         image: '/images/cigarette/CBD CIGAREETE BOX.png',
         description: 'CBD E-Cigarette Boxes are custom-designed to provide secure, stylish, and compliant packaging for vape pens and cartridges. These boxes not only ensure the safety and freshness of your CBD products but also elevate brand appeal with premium printing and design options.',
         productOverview: {
@@ -4474,6 +4612,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom Vape Boxes',
+        h1: 'Custom Vape Boxes',
+        metaDescription: 'Vape packaging for pens, cartridges, and accessories, tuck, sleeve, or rigid box styles, full-color CMYK print, foil available, no minimum.',
+        seoTitle: 'Custom Vape Boxes for Pens, Carts & Devices | Packify',
         image: '/images/cigarette/Custom Vape box.png',
         description: 'Custom Vape Boxes are tailored to protect and promote vape products with a perfect blend of functionality and branding. Designed to fit vape pens, cartridges, and e-liquids, these boxes offer secure housing, tamper-proof options, and customizable finishes.',
         productOverview: {
@@ -4541,6 +4682,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Vape Cartridge Packaging',
+        h1: 'Vape Cartridge Packaging',
+        metaDescription: 'Boxes cut to your cartridge size, die-cut window for product visibility, foam insert cradles to prevent glass breakage, full-color print, no minimum.',
+        seoTitle: 'Vape Cartridge Boxes with Window & Foam Inserts | Packify',
         image: '/images/vape cartirdge box.webp',
         description: 'Vape Cartridge Packaging is crafted to securely hold and showcase vape cartridges while preserving product integrity and ensuring compliance with industry regulations.',
         productOverview: {
@@ -4608,6 +4752,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Vape Pen Packaging',
+        h1: 'Vape Pen Packaging',
+        metaDescription: 'Packaging built to your pen\'s exact dimensions, tray-sleeve, flip-top, or tuck styles, full-color CMYK, foil or soft-touch finish, no minimum.',
+        seoTitle: 'Custom Vape Pen Boxes, Slim-Profile & Shelf-Ready | Packify',
         image: '/images/cigarette/Custom Cigarette Packaging Boxes.png',
         description: 'Vape Pen Packaging is designed to combine protection, convenience, and style for vape pens of all sizes. These custom boxes offer secure fit, tamper-evident features, and premium finishes to enhance brand visibility.',
         productOverview: {
@@ -4675,6 +4822,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'E-Cigarette Boxes',
+        h1: 'Custom E-Cigarette Boxes',
+        metaDescription: 'Boxes designed around your e-cig device and flavor identity, bold graphics, CMYK or foil print, slim or standard profile, no minimum, free US shipping.',
+        seoTitle: 'Custom E-Cigarette Boxes, Flavor-Themed Print | Packify',
         image: '/images/e cigarette box.webp',
         description: 'E-Cigarette Boxes are custom-designed to provide secure, sleek, and brand-focused packaging for electronic cigarettes. Built for durability and style, these boxes protect devices during transport while offering space for branding, health warnings, and compliance labels.',
         productOverview: {
@@ -4742,6 +4892,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Custom E-Liquid Boxes',
+        h1: 'Custom E-Liquid Boxes',
+        metaDescription: 'Sized for 15ml, 30ml, 60ml, and 120ml e-liquid bottles, inserts prevent shifting and leaks, full-color flavor artwork, no minimum, 8–10 day production.',
+        seoTitle: 'Custom E-Liquid Boxes with Bottle-Fit Inserts | Packify',
         image: '/images/cigarette/Custom E-Liquid Boxes.png',
         description: 'Custom E-Liquid Boxes are tailored to safely package and promote vape juice bottles while reinforcing your brand identity. Designed for 10ml, 30ml, and other standard bottle sizes, these boxes offer secure fit, leak prevention, and compliance-ready labeling areas.',
         productOverview: {
@@ -4809,6 +4962,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'THC Vape Boxes',
+        h1: 'THC Vape Boxes',
+        metaDescription: 'Bold-printed THC vape packaging for dispensary display, full-color CMYK, foil or embossed finish, sized to your device, no minimum.',
+        seoTitle: 'THC Vape Boxes, Dispensary Shelf-Ready Print | Packify',
         image: '/images/cigarette/Custom THC Vape Boxes.png',
         description: 'THC Vape Boxes are designed to deliver maximum product protection, compliance, and brand impact for cannabis vape cartridges and pens.',
         productOverview: {
@@ -4876,6 +5032,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Disposable Vape Boxes',
+        h1: 'Disposable Vape Boxes',
+        metaDescription: 'Packaging that shows the device, die-cut window, brand-matching CMYK print, matte or gloss lamination, sized to your disposable pen, no minimum.',
+        seoTitle: 'Custom Disposable Vape Boxes with Device Window | Packify',
         image: '/images/disposable vape box.webp',
         description: 'Disposable Vape Boxes are crafted to securely house and promote single-use vape devices with style and protection.',
         productOverview: {
@@ -4943,6 +5102,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'THC E-Cigarette Boxes',
+        h1: 'THC E-Cigarette Boxes',
+        metaDescription: 'Branded boxes for THC e-cigarette devices, full-color CMYK, foil or soft-touch finish, precise device dimensions, no minimum, free US shipping.',
+        seoTitle: 'THC E-Cigarette Boxes, Custom Printed | Packify',
         image: '/images/thc e cigareete box.webp',
         description: 'THC E-Cigarette Boxes are specifically designed to package and protect THC-infused e-cigarettes with style, safety, and regulatory compliance.',
         productOverview: {
@@ -5010,6 +5172,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Vape Juice Boxes',
+        h1: 'Custom Vape Juice Boxes',
+        metaDescription: 'Boxes designed to showcase your flavor line, vibrant CMYK or foil artwork for fruit, menthol, dessert, and tobacco blends, bottle-safe stock, no minimum.',
+        seoTitle: 'Custom Vape Juice Boxes, Flavor-Print Ready | Packify',
         image: '/images/e juice box.webp',
         description: 'Vape Juice Boxes are designed to securely hold and showcase e-liquid bottles while delivering strong shelf appeal and brand identity.',
         productOverview: {
@@ -5056,6 +5221,9 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
       },
       {
         name: 'Juul Pod Packaging',
+        h1: 'Juul Pod Packaging',
+        metaDescription: 'Custom boxes for Juul-compatible pods, horizontal inserts prevent oil leakage, precise pod fit, full-color CMYK print, no minimum, free US shipping.',
+        seoTitle: 'Juul-Compatible Pod Boxes, Leak-Proof Inserts | Packify',
         image: '/images/jull pods box.webp',
         description: 'Juul Pod Packaging is custom-built to securely house and protect refillable or disposable Juul pods while enhancing product presentation.',
         productOverview: {
@@ -5155,13 +5323,14 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Higher cost pe
     },
     customization: {},
     faqs: false,
-    title: 'Burger Boxes',
+    title: 'Custom Burger Boxes',
+    seoTitle: 'Custom Burger Boxes, Grease-Resistant & Branded | Packify',
     slug: 'burger-boxes',
-    metaDescription: 'Custom burger boxes for restaurants and food trucks. Grease-resistant, heat-retaining. FDA food-safe materials. Dine-in, takeout, delivery. Full-color branding. Low minimums, free US shipping.',
+    metaDescription: 'Food-grade burger and clamshell boxes for restaurants, food trucks, and delivery, full-color print, sturdy stock that holds up to heat and grease.',
     keywords: ['burger boxes', 'burger packaging', 'takeout burger boxes', 'restaurant packaging', 'food delivery boxes', 'grease resistant packaging', 'fast food boxes'],
     mainImage: '/images/burger/burger-main.jpeg',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_4.12.27_AM-removebg-preview.webp',
-    description: 'Burger boxes use grease-resistant coatings and insulated materials to keep food hot and contained. FDA-compliant board and inks. Custom sizes for sliders, single burgers, and combo meals. Full-color printing for logos and branding.',
+    description: 'A great burger arrives the way it left the kitchen. Our burger boxes handle grease without PFAS chemicals, hold heat without warping, and print in full color across slider, single, double, and combo sizes for restaurants, ghost kitchens, and food trucks.',
     features: ['Fast Turnaround', 'Full Color Printing', 'Design Support', 'Free Shipping'],
     overviewTitle: 'Product Overview',
     overviewContent: `Burger boxes keep takeout and delivery burgers hot and contained.
@@ -5217,8 +5386,9 @@ Use cases: Fast food, food trucks, cloud kitchens, catering, gourmet burgers.`,
     },
     faqs: false,
     title: 'Magnetic Closure Boxes',
+    seoTitle: 'Custom Magnetic Closure Boxes, Rigid & Branded | Packify',
     slug: 'magnetic-closure',
-    metaDescription: 'Magnetic closure boxes for jewelry, cosmetics, and luxury gifts. Neodymium magnets, chipboard construction. Soft-touch, foil stamping, satin lining. Reusable keepsake packaging. Low minimums, free US shipping.',
+    metaDescription: 'Magnetic rigid boxes for jewelry, beauty, and PR gifting, matte, soft-touch, or foil wrap with hidden magnets. No minimum, free US shipping.',
     keywords: ['magnetic closure boxes', 'magnetic gift boxes', 'luxury magnetic boxes', 'jewelry box with magnet', 'premium presentation boxes', 'reusable gift boxes'],
     mainImage: '/images/magnetic/magnetic-main.jpeg',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.37.56_AM__1_-removebg-preview.webp',
@@ -5307,9 +5477,10 @@ Best for: Jewelry, watches, cosmetics, electronics, luxury gifts. Customers ofte
       ]
     },
     faqs: false,
-    title: 'Cosmetic Boxes',
+    title: 'Custom Cosmetic Boxes',
+    seoTitle: 'Custom Cosmetic Boxes, Skincare & Makeup | Packify',
     slug: 'cosmetic-boxes',
-    metaDescription: 'Custom cosmetic boxes for skincare, makeup, and beauty. Tuck, rigid, and mailer styles. Full-color printing, window cutouts, premium finishes. Low minimums, free US shipping.',
+    metaDescription: 'Branded boxes for serums, lipstick, lip balm, creams, and full beauty lines, matte, gloss, or foil-stamped, no minimum, 8–10 day production.',
     keywords: ['cosmetic boxes', 'beauty packaging', 'skincare boxes', 'makeup packaging', 'cosmetic packaging', 'luxury cosmetic boxes', 'custom makeup boxes'],
     mainImage: '/images/cosmetic/cosmetic-main.jpeg',
     hoverImage: '/images/WhatsApp_Image_2025-08-05_at_3.43.00_AM__1_-removebg-preview.webp',
@@ -5330,6 +5501,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
     variants: [
       {
         name: 'Makeup Boxes',
+        h1: 'Custom Makeup Boxes',
+        metaDescription: 'Branded boxes for eyeshadow, foundation, lip, and brush sets, cardstock or corrugated, matte or gloss finish, no minimum, 8–10 day production.',
+        seoTitle: 'Custom Makeup Boxes for Full Beauty Lines | Packify',
         image: '/images/cosmetic/Custom Makeup Packaging Boxes.png',
         description: 'Makeup boxes for compacts, palettes, and kits. Custom sizing, window cutouts for shade visibility, and finishes like rose gold foil and soft-touch. Retail shelf and gift-ready.',
         productOverview: {
@@ -5384,6 +5558,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Lip Balm Boxes',
+        h1: 'Custom Lip Balm Boxes',
+        metaDescription: 'Packaging for lip balm tubes, pots, and tins, single-unit boxes and counter display sets for beauty brands. Full-color CMYK, no minimum, free US shipping.',
+        seoTitle: 'Custom Lip Balm Boxes for Singles & Display Sets | Packify',
         image: '/images/cosmetic/Custom Lip Balm Packaging Boxes.png',
         description: 'Lip balm boxes for tubes, pots, and sticks. Snug fit, eurohole for peg display, gift-set options. Space for ingredients, SPF, and flavor info.',
         productOverview: {
@@ -5438,6 +5615,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Printed Cream Boxes',
+        h1: 'Custom Cream Boxes',
+        metaDescription: 'Boxes sized to your cream jars, foam or cardboard inserts prevent shifting and breakage, full-color CMYK print, matte or gloss finish, no minimum.',
+        seoTitle: 'Custom Cream Boxes with Snug Jar Fit | Packify',
         image: '/images/cosmetic/Custom Cream Packaging Boxes.png',
         description: 'Cream boxes for jars, tubes, and airless pumps. Custom fit for 15ml–100ml. Soft-touch matte, embossing. Panel space for INCI, usage, and skin type.',
         productOverview: {
@@ -5492,6 +5672,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Makeup Tool Boxes',
+        h1: 'Custom Makeup Tool Boxes',
+        metaDescription: 'Boxes sized for makeup brushes, blenders, palettes, and tool sets, full-color print, dividers on request, matte or foil finish, no minimum order.',
+        seoTitle: 'Custom Makeup Tool Boxes for Brushes & Blenders | Packify',
         image: '/images/make up tool box.webp',
         description: 'Makeup tool boxes for brushes, sponges, and sets. Brush slots, window options for bristle visibility. Gift-set packaging with ribbon and inserts.',
         productOverview: {
@@ -5546,6 +5729,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Serum Boxes',
+        h1: 'Custom Serum Boxes',
+        metaDescription: 'Packaging for glass serum bottles, inserts cradle each bottle, full-color or foil print, soft-touch or gloss finish, no minimum.',
+        seoTitle: 'Custom Serum Boxes, Glass-Safe with Inserts | Packify',
         image: '/images/cosmetic/Custom Serum Packaging Boxes.png',
         description: 'Serum boxes for dropper bottles, pumps, ampoules. Custom inserts protect glass. Space for active ingredients, INCI, usage. UV-blocking options for light-sensitive formulas.',
         productOverview: {
@@ -5600,6 +5786,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Custom Printed Cosmetic Display Boxes',
+        h1: 'Cosmetic Display Boxes',
+        metaDescription: 'Open-front and tiered countertop display boxes for lipstick, mascara, serum, and nail polish, full-color print, no minimum, free US shipping.',
+        seoTitle: 'Custom Cosmetic Display Boxes, Counter-Ready | Packify',
         image: '/images/cosmetic/Custom Cosmetic Packaging Boxes.png',
         description: 'Cosmetic display boxes for counter and floor display. Hold multiple units. Trade-show and retail use. Optional tester access.',
         productOverview: {
@@ -5654,6 +5843,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Hair Extension Boxes',
+        h1: 'Custom Hair Extension Boxes',
+        metaDescription: 'Retail-ready hair extension packaging, die-cut window for color preview, hanger hole for peg display, soft-touch or foil finish, no minimum.',
+        seoTitle: 'Custom Hair Extension Boxes with Hanger & Window | Packify',
         image: '/images/cosmetic/Straightway Pack your Hair Extension without any Stress into the Print Box.jpg.jpeg',
         description: 'Hair extension boxes for clip-ins, wefts, wigs. Lengths 10–32 inches. Smooth interior to avoid tangling. Window options for texture and color visibility.',
         productOverview: {
@@ -5708,6 +5900,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Cosmetic Labels',
+        h1: 'Custom Cosmetic Labels',
+        metaDescription: 'Adhesive labels for skincare jars, serum bottles, and lip balm tubes, waterproof BOPP film, permanent adhesive, roll format, full-color print, no minimum.',
+        seoTitle: 'Custom Cosmetic Labels, Waterproof & Oil-Resistant | Packify',
         image: '/images/cosmetic lables.webp',
         description: 'Cosmetic labels for glass, plastic, and metal containers. Moisture-resistant adhesive. Custom shapes, high-res print. Space for ingredients and FDA compliance.',
         productOverview: {
@@ -5762,6 +5957,9 @@ Printing: CMYK, Pantone, window cutouts, matte/gloss lamination, foil stamping, 
       },
       {
         name: 'Lipstick Boxes',
+        h1: 'Custom Lipstick Boxes',
+        metaDescription: 'Print your lipstick packaging in the exact shade color, CMYK precision for bold reds, nudes, and metallics, with foil or spot UV accents. No minimum.',
+        seoTitle: 'Custom Lipstick Boxes with Shade-Matching Print | Packify',
         image: '/images/cosmetic/Custom Lipstick Packaging Boxes.png',
         description: 'Lipstick boxes for bullet and tube formats. Snug fit, shade-name space, window options. Finishes: rose gold foil, gloss, holographic.',
         productOverview: {

@@ -7,7 +7,7 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Products', href: '/products' },
-  // { name: 'Why Choose Us', href: '#choose' },
+  { name: 'Featured', href: '/featured-products' },
   { name: 'How it Works', href: '#it-works' },
   { name: 'Blog', href: '/blog' },
   { name: 'Request a Quote', href: '/get-quote' },
@@ -132,6 +132,14 @@ export default function Header() {
                   ))}
                 </div>
               </div>
+            ) : link.name === 'Featured' ? (
+              <button
+                key={link.name}
+                onClick={() => handleNavClick(link.href)}
+                className="hover:text-orange-400 transition"
+              >
+                Featured
+              </button>
             ) : (
               <button
                 key={link.name}
@@ -183,6 +191,14 @@ export default function Header() {
                   </div>
                 )}
               </div>
+            ) : link.name === 'Featured' ? (
+              <button
+                key={link.name}
+                onClick={() => handleNavClick(link.href)}
+                className="block w-full hover:text-orange-400 transition"
+              >
+                Featured Products
+              </button>
             ) : (
               <button
                 key={link.name}

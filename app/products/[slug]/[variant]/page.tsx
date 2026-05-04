@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import ProductQuoteForm from '@/components/ProductQuoteForm'
+import ProductSpecsTable from '@/components/ProductSpecsTable'
 import { productsData } from '@/lib/products-data'
 
 type Props = {
@@ -74,7 +75,7 @@ export default function ProductVariantPage({ params }: Props) {
                 Premium Quality
               </div>
               <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-                {variant.name} | {product.title}
+                {variant.h1 || variant.name}
               </h1>
             </div>
 
@@ -165,6 +166,9 @@ export default function ProductVariantPage({ params }: Props) {
           </section>
         </div>
       </main>
+
+      {/* PRODUCT SPECIFICATION TABLE */}
+      <ProductSpecsTable productSlug={params.slug} />
 
       {/* PRODUCT OVERVIEW SECTION
           Uses variant-specific productOverview when available, else product-level.

@@ -54,7 +54,11 @@ export function WebSiteSchema() {
   )
 }
 
-export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }[] }) {
+export function FAQSchema({
+  faqs,
+}: {
+  faqs: { question: string; answer: string }[]
+}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -66,49 +70,6 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
         text: faq.answer,
       },
     })),
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  )
-}
-
-export function ProductSchema({
-  name,
-  description,
-  image,
-  url,
-}: {
-  name: string
-  description: string
-  image: string
-  url: string
-}) {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name,
-    description,
-    image: image.startsWith('http')
-      ? image
-      : `https://packifycustomboxes.com${image}`,
-    url,
-    brand: {
-      '@type': 'Brand',
-      name: 'Packify Custom Boxes',
-    },
-    offers: {
-      '@type': 'Offer',
-      url: url,
-      price: '0.00',
-      priceCurrency: 'USD',
-      priceValidUntil: '2027-12-31',
-      availability: 'https://schema.org/InStock',
-      description: 'Price available on request',
-    },
   }
 
   return (

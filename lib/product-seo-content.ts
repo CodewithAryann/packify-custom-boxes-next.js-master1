@@ -188,6 +188,33 @@ export const productSeoContent: Record<string, {
       ]
     }
   },
+  'bakery-boxes': {
+    h1: 'Custom Bakery Boxes USA',
+    h2: 'Food-Safe Packaging for Cakes, Cupcakes, Cookies & More',
+    description: 'FDA-compliant custom bakery boxes for cakes, cupcakes, cookies, donuts, pastries, and gable boxes. Grease-resistant paperboard, optional PET windows, full-color food-safe printing. Minimum 100 units. Free US shipping. 7–10 day production.',
+    whyChoose: {
+      title: 'Why Choose Our Bakery Boxes',
+      items: [
+        'FDA-compliant, food-safe board and inks',
+        'Grease-resistant coating for oily baked goods',
+        'Optional die-cut PET windows for product visibility',
+        'Custom inserts and trays for cupcakes and donuts',
+        'Full-color CMYK and Pantone printing',
+        'Minimum 100 units, free continental US shipping'
+      ]
+    },
+    industries: {
+      title: 'Perfect For',
+      items: [
+        'Retail bakeries and patisseries',
+        'Wedding and event cake packaging',
+        'Farmers markets and pop-up stalls',
+        'Food delivery and cloud kitchens',
+        'Wholesale and grocery bakery sections',
+        'Artisan cookie and donut brands'
+      ]
+    }
+  },
   'cosmetic-boxes': {
     h1: 'Custom Cosmetic Boxes USA',
     h2: 'Makeup, Skincare & Beauty Packaging',

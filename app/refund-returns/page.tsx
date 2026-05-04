@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Refund & Returns | 100% Satisfaction | Packify Custom Boxes USA',
-  description: 'Refund policy for custom packaging. 100% satisfaction. Damaged/defective boxes—contact within 7 days. Free reprints for production errors. USA-based.',
+  title: 'Refund & Returns Policy for Custom Box Orders | Packify',
+  description: 'How Packify handles misprints, defects, and damaged shipments reprint or refund eligibility, claim window, and the photos required to start a request.',
   keywords: 'refund policy, return policy, Packify Custom Boxes, custom packaging returns USA',
   alternates: { canonical: 'https://packifycustomboxes.com/refund-returns/' },
   openGraph: {
-    title: 'Refund & Returns | 100% Satisfaction | Packify Custom Boxes USA',
-    description: '100% satisfaction. Damaged boxes—contact within 7 days. Free reprints for production errors. USA-based.',
+    title: 'Refund & Returns Policy for Custom Box Orders | Packify',
+    description: 'How Packify handles misprints, defects, and damaged shipments reprint or refund eligibility, claim window, and the photos required to start a request.',
     url: 'https://packifycustomboxes.com/refund-returns/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Refund & Returns | Packify Custom Boxes USA',
-    description: '100% satisfaction. Contact within 7 days for damaged boxes. Free reprints for errors.',
+    title: 'Refund & Returns Policy for Custom Box Orders | Packify',
+    description: 'How Packify handles misprints, defects, and damaged shipments reprint or refund eligibility, claim window, and the photos required to start a request.',
     images: ['/images/og-image.jpg'],
   },
 }
