@@ -114,32 +114,14 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Product Backlinks Grid */}
-      <section className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-2">Browse Our Custom Packaging Products</h2>
-          <p className="text-sm text-gray-500 mb-6">Free U.S. shipping · No minimums · 8–10 day turnaround</p>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-            {boxTypes.map((box) => (
-              <Link
-                key={box.href}
-                href={box.href}
-                className="flex items-center justify-center text-center px-3 py-3 bg-white rounded-xl border border-gray-100 hover:border-orange-300 hover:shadow-md hover:text-orange-600 text-gray-700 font-medium text-sm transition-all"
-              >
-                {box.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
+      <section className="bg-gradient-to-br from-white-900 via-white-800 to-white-900 py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
             Ready to Get Started?
           </h2>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="text-gray-800 text-lg mb-8">
             Get a custom quote for your packaging needs today.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -154,7 +136,7 @@ export default function BlogPage() {
             </Link>
             <Link
               href="/products"
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-xl border border-white/20 transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-2 bg-black/10 hover:bg-black/20 text-gray-600 font-bold px-8 py-4 rounded-xl border border-black/20 transition-all duration-300 hover:scale-105"
             >
               Browse All Products
             </Link>
