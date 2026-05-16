@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { HowToSchema, BreadcrumbListSchema } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'How to Order Custom Boxes | Step-by-Step Guide | Packify USA',
-  description: 'Order custom boxes in 5 steps: request quote, approve pricing, submit artwork, approve proof, receive delivery. Free US shipping. No minimums. 10-day turnaround.',
+  title: 'How to Order Custom Boxes in 4 Steps | Packify',
+  description: 'Send your size and artwork, approve the proof, then production runs 8–10 business days with free US shipping. Walk through each step before you order.',
   keywords: 'how to order custom boxes USA, custom packaging order process, request quote, submit artwork, Packify Custom Boxes',
   alternates: { canonical: 'https://packifycustomboxes.com/how-to-order/' },
   openGraph: {
-    title: 'How to Order Custom Boxes | Step-by-Step Guide | Packify USA',
-    description: 'Order custom boxes in 5 steps: request quote, approve pricing, submit artwork, approve proof. Free US shipping. No minimums.',
+    title: 'How to Order Custom Boxes in 4 Steps | Packify',
+    description: 'Send your size and artwork, approve the proof, then production runs 8–10 business days with free US shipping. Walk through each step before you order.',
     url: 'https://packifycustomboxes.com/how-to-order/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Order Custom Boxes | Packify USA',
-    description: '5 steps: request quote, approve pricing, submit artwork, approve proof. Free US shipping. No minimums.',
+    title: 'How to Order Custom Boxes in 4 Steps | Packify',
+    description: 'Send your size and artwork, approve the proof, then production runs 8–10 business days with free US shipping. Walk through each step before you order.',
     images: ['/images/og-image.jpg'],
   },
 }

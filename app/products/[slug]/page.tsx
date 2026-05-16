@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { ProductSchema } from '@/components/JsonLd'
 import Link from 'next/link'
 import ProductDetail from '@/components/ProductDetail'
 import ProductTabs from '@/components/ProductTabs'
@@ -9,6 +8,7 @@ import ProductOverview from '@/components/ProductOverview'
 import ProductInserts from '@/components/ProductInserts'
 import ProductSeoSection from '@/components/ProductSeoSection'
 import { productsData } from '@/lib/products-data'
+import ProductSpecsTable from '@/components/ProductSpecsTable'
 
 type Props = {
   params: { slug: string }
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' }
   const keywords = product.keywords?.join(', ') || 'custom packaging boxes, Packify Custom Boxes'
   const url = `https://packifycustomboxes.com/products/${params.slug}/`
-  const title = `${product.title} | Custom Boxes USA | Packify Custom Boxes`
+  const title = (product as any).seoTitle || product.title
   return {
     title,
     description: product.metaDescription,
@@ -57,12 +57,6 @@ export default function ProductPage({ params }: Props) {
 
   return (
     <div className="bg-gradient-to-b from-gray-50 to-white min-h-screen">
-      <ProductSchema
-        name={product.title}
-        description={product.description}
-        image={product.mainImage}
-        url={`https://packifycustomboxes.com/products/${params.slug}/`}
-      />
       {/* Breadcrumb Navigation */}
       <div className="max-w-6xl mx-auto px-6 pt-[6rem] pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-600">
@@ -101,6 +95,9 @@ export default function ProductPage({ params }: Props) {
       )}
       {/* SEO Content Section */}
       <ProductSeoSection productSlug={params.slug} />
+
+      {/* Product Specification Table */}
+      <ProductSpecsTable productSlug={params.slug} />
 
       {/* Product Inserts Section */}
       {params.slug === 'mailer-boxes' && (

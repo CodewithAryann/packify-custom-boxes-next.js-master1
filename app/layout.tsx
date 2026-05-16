@@ -20,21 +20,18 @@ export const metadata: Metadata = {
     canonical: '/',
   },
 
-  title: 'Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA',
-  description:
-    'Custom packaging boxes for e-commerce, retail & subscription brands. Mailer, tuck, rigid boxes. No die or plate charges. Free design support. No minimum order. Free US shipping. 8–10 day turnaround. USA-based.',
+  title: 'Custom Packaging Boxes USA, Free Ship & No MOQ | Packify',
+  description: 'Order custom printed boxes shipped free across the US with no minimum and 8–10 day production. Mailers, rigid, tuck, food, and beauty boxes built to spec.',
 
   keywords:
     'custom packaging boxes, custom boxes with logo, wholesale custom boxes, custom printed boxes USA, mailer boxes, tuck boxes, rigid boxes, cosmetic boxes, CBD boxes, subscription box packaging, kraft boxes, corrugated boxes, no minimum order, free design support, Packify Custom Boxes',
 
   authors: [{ name: 'Custom Box USA' }],
-
   robots: 'index, follow',
 
   openGraph: {
-    title: 'Custom Packaging Boxes | Custom Boxes with Logo | Wholesale USA',
-    description:
-      'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping. USA-based.',
+    title: 'Custom Packaging Boxes USA, Free Ship & No MOQ | Packify',
+    description: 'Order custom printed boxes shipped free across the US with no minimum and 8–10 day production. Mailers, rigid, tuck, food, and beauty boxes built to spec.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Packify Custom Boxes',
@@ -51,9 +48,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Custom Packaging Boxes | Wholesale USA',
-    description:
-      'Custom packaging boxes for e-commerce, retail & subscription brands. No die charges. Free design. No minimum order. Free US shipping.',
+    title: 'Custom Packaging Boxes USA, Free Ship & No MOQ | Packify',
+    description: 'Order custom printed boxes shipped free across the US with no minimum and 8–10 day production. Mailers, rigid, tuck, food, and beauty boxes built to spec.',
     images: ['/images/og-image.jpg'],
   },
 }
@@ -84,17 +80,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content="tsfU_k96qBeW0MTfbS8ER5eUy1XQ_E4OMfKFUJSelPo"
         />
 
-        {/* GOOGLE ANALYTICS */}
+        {/* ✅ GOOGLE ANALYTICS (FIXED) */}
         <Script
-          async
           src="https://www.googletagmanager.com/gtag/js?id=G-Q9X5E4D8X4"
+          strategy="afterInteractive"
         />
-        <Script id="google-analytics">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-Q9X5E4D8X4');
+            gtag('config', 'G-Q9X5E4D8X4', {
+              page_path: window.location.pathname,
+            });
           `}
         </Script>
 

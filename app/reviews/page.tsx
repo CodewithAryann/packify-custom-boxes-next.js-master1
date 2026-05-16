@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { AggregateRatingSchema, BreadcrumbListSchema } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Customer Reviews | Trusted by 3,000+ USA Businesses | Packify',
-  description: 'Packify Custom Boxes reviews. 3,000+ USA businesses trust us for custom boxes. Mailer, rigid, tuck boxes. Free US shipping. No minimums. 100% satisfaction.',
+  title: 'Packify Customer Reviews & Real Order Photos',
+  description: 'See how small DTC, food, and beauty brands describe their Packify orders — print quality, fit, and turnaround. Photos and feedback from real US customers.',
   keywords: 'Packify Custom Boxes reviews, custom packaging testimonials USA, 3000 businesses, trusted packaging',
   alternates: { canonical: 'https://packifycustomboxes.com/reviews/' },
   openGraph: {
-    title: 'Customer Reviews | Trusted by 3,000+ USA Businesses | Packify',
-    description: '3,000+ USA businesses trust us. Mailer, rigid, tuck boxes. Free US shipping. No minimums. 100% satisfaction.',
+    title: 'Packify Customer Reviews & Real Order Photos',
+    description: 'See how small DTC, food, and beauty brands describe their Packify orders — print quality, fit, and turnaround. Photos and feedback from real US customers.',
     url: 'https://packifycustomboxes.com/reviews/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Customer Reviews | Packify Custom Boxes',
-    description: '3,000+ USA businesses trust us. Free US shipping. No minimums.',
+    title: 'Packify Customer Reviews & Real Order Photos',
+    description: 'See how small DTC, food, and beauty brands describe their Packify orders — print quality, fit, and turnaround. Photos and feedback from real US customers.',
     images: ['/images/og-image.jpg'],
   },
 }

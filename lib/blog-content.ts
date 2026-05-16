@@ -6,6 +6,8 @@ export type BlogPost = {
   image: string
   title: string
   excerpt: string
+  seoTitle?: string
+  metaDescription?: string
   date: string
   author: string
   readTime: string
@@ -24,6 +26,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/blog-1.webp',
     title: 'Top Eco-Friendly Packaging Trends in 2025',
     excerpt: 'Explore the latest innovations in sustainable packaging and how your business can benefit from eco-conscious design.',
+    seoTitle: 'Eco-Friendly Packaging Trends Shaping 2025 | Packify',
+    metaDescription: 'A look at the sustainable materials, designs, and consumer demands that defined packaging in 2025, and what they signal for brands going greener.',
     date: 'January 15, 2025',
     author: 'Sarah Johnson',
     readTime: '5 min read',
@@ -61,6 +65,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/7431d978-5343-43e7-a52c-f9d191f5fa3c.webp',
     title: 'Why Custom Packaging Boosts Brand Value',
     excerpt: 'Understand how investing in custom packaging can elevate customer experience and increase brand loyalty.',
+    seoTitle: 'How Custom Packaging Builds Real Brand Value | Packify',
+    metaDescription: 'The mechanics behind why packaging shapes perceived quality, drives repeat purchases, and shows up in unboxing content, explained for small DTC brands.',
     date: 'January 12, 2025',
     author: 'Michael Chen',
     readTime: '6 min read',
@@ -99,6 +105,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/55fad4b1-e051-4852-b8d0-eb5b829404f5.webp',
     title: 'Comparing Box Styles: Mailer vs. Rigid vs. Folding',
     excerpt: 'A quick guide to choosing the right box style based on your product, budget, and delivery method.',
+    seoTitle: 'Box Styles Compared: Pick the Right One | Packify',
+    metaDescription: 'A practical comparison of mailer, tuck, rigid, and corrugated formats, when to use each, how they ship, and which fits DTC versus retail.',
     date: 'January 10, 2025',
     author: 'Emily Rodriguez',
     readTime: '7 min read',
@@ -137,6 +145,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/blog-4.webp',
     title: 'The Future of Packaging Manufacturing',
     excerpt: 'Discover how automation, robotics, and AI are transforming packaging production lines for speed, quality, and customization.',
+    seoTitle: 'The Future of Packaging Manufacturing Explained | Packify',
+    metaDescription: 'Where packaging manufacturing is headed, automation, smart materials, and on-demand printing, written for small brands and growing ecommerce operators.',
     date: 'January 8, 2025',
     author: 'David Park',
     readTime: '8 min read',
@@ -174,6 +184,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/b3335717-f960-441e-be31-095cc9a6ece1.webp',
     title: 'Design Tips for Eye-Catching Packaging',
     excerpt: 'Use color psychology, minimalism, and brand identity to create packaging that stands out on the shelf and online.',
+    seoTitle: 'Eye-Catching Packaging Design Tips That Convert | Packify',
+    metaDescription: 'Practical design choices that help packaging stand out, color contrast, typography hierarchy, and the structural details that drive shopper attention.',
     date: 'January 5, 2025',
     author: 'Jessica Liu',
     readTime: '6 min read',
@@ -211,6 +223,8 @@ export const blogPosts: BlogPost[] = [
     image: '/images/7bba248f-53b0-4323-90eb-06dcc94c0f05.webp',
     title: 'How Packaging Affects Shipping Costs',
     excerpt: 'Learn how to optimize your packaging to reduce shipping expenses and increase profit margins.',
+    seoTitle: 'How Packaging Affects Shipping Costs: DIM Explained | Packify',
+    metaDescription: 'Why box size and weight drive shipping cost more than you think, DIM weight pricing, right-sizing strategies, and the savings small brands can capture.',
     date: 'January 3, 2025',
     author: 'Robert Martinez',
     readTime: '7 min read',

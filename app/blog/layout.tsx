@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Packaging Blog | Custom Boxes Tips USA | Packify Custom Boxes',
-  description: 'Expert packaging tips for USA brands. Eco-friendly trends, mailer vs rigid vs folding boxes, shipping costs, design tips. Free US shipping, no minimums.',
+  title: 'Custom Packaging Blog, Design & Sourcing Tips | Packify',
+  description: 'Practical guides for ecommerce brands, food, and beauty sellers: how to design boxes that ship safely, choose materials, and control packaging costs.',
   keywords: 'custom packaging blog USA, eco-friendly packaging 2025, mailer vs rigid boxes, sustainable packaging, Packify Custom Boxes',
   alternates: { canonical: 'https://packifycustomboxes.com/blog/' },
   openGraph: {
-    title: 'Packaging Blog | Custom Boxes Tips USA | Packify Custom Boxes',
-    description: 'Expert packaging tips for USA brands. Eco-friendly trends, mailer vs rigid vs folding boxes. Free US shipping, no minimums.',
+    title: 'Custom Packaging Blog, Design & Sourcing Tips | Packify',
+    description: 'Practical guides for ecommerce brands, food, and beauty sellers: how to design boxes that ship safely, choose materials, and control packaging costs.',
     url: 'https://packifycustomboxes.com/blog/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Packaging Blog | Custom Boxes Tips USA | Packify Custom Boxes',
-    description: 'Expert packaging tips for USA brands. Eco-friendly trends, mailer vs rigid boxes. Free US shipping, no minimums.',
+    title: 'Custom Packaging Blog, Design & Sourcing Tips | Packify',
+    description: 'Practical guides for ecommerce brands, food, and beauty sellers: how to design boxes that ship safely, choose materials, and control packaging costs.',
     images: ['/images/og-image.jpg'],
   },
 }

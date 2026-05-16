@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { HowToSchema, BreadcrumbListSchema } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'How to Measure Box Dimensions | L×W×H Guide | Packify USA',
-  description: 'Measure custom boxes correctly: Length × Width × Height (interior). Print-ready specs for mailer, tuck, rigid boxes. Free design support. USA-based.',
+  title: 'How to Measure a Box: Inside vs Outside Sizing | Packify',
+  description: 'Get accurate L × W × H for custom packaging, measure inside dimensions for product fit and outside for shipping costs, with examples for each.',
   keywords: 'measure box dimensions, L×W×H, interior dimensions, custom packaging specs USA, Packify Custom Boxes',
   alternates: { canonical: 'https://packifycustomboxes.com/how-to-measure/' },
   openGraph: {
-    title: 'How to Measure Box Dimensions | L×W×H Guide | Packify USA',
-    description: 'Measure custom boxes correctly: Length × Width × Height. Print-ready specs. Free design support. USA-based.',
+    title: 'How to Measure a Box: Inside vs Outside Sizing | Packify',
+    description: 'Get accurate L × W × H for custom packaging, measure inside dimensions for product fit and outside for shipping costs, with examples for each.',
     url: 'https://packifycustomboxes.com/how-to-measure/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Measure Box Dimensions | Packify USA',
-    description: 'Length × Width × Height guide. Print-ready specs. Free design support.',
+    title: 'How to Measure a Box: Inside vs Outside Sizing | Packify',
+    description: 'Get accurate L × W × H for custom packaging, measure inside dimensions for product fit and outside for shipping costs, with examples for each.',
     images: ['/images/og-image.jpg'],
   },
 }

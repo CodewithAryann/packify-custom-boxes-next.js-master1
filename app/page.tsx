@@ -5,6 +5,7 @@ import TrustedBy from '@/components/TrustedBy'
 import { FAQSchema } from '@/components/JsonLd'
 import { homepageFaqs } from '@/lib/faqs'
 import ProductGrid from '@/components/ProductGrid'
+import FeaturedPackaging from '@/components/FeaturedPackaging'
 import FeaturesHighlight from '@/components/FeaturesHighlight'
 import CustomBoxForm from '@/components/CustomBoxForm'
 import WhyChooseUs from '@/components/WhyChooseUs'
@@ -56,6 +57,7 @@ export default function Home() {
       <Hero />      
       <TrustedBy />
       <ProductGrid />
+      <FeaturedPackaging />
       <AboutSection />
       <FeaturesHighlight />
       <CustomBoxForm />

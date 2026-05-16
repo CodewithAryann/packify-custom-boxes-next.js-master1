@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Shipping Policy | Free US Shipping | Packify Custom Boxes',
-  description: 'Free US shipping on custom boxes. 8–10 day production turnaround. US delivery 3-6 days. Worldwide shipping. FedEx, UPS, DHL. No minimums.',
+  title: 'Free US Shipping Policy for Custom Boxes | Packify',
+  description: 'Free ground shipping on every custom box order in the contiguous US, no minimum, no surcharge. Production 8–10 business days, transit 3–5 days after that.',
   keywords: 'free US shipping, custom box delivery USA, 10-day delivery, Packify Custom Boxes, FedEx UPS DHL',
   alternates: { canonical: 'https://packifycustomboxes.com/shipping-policy/' },
   openGraph: {
-    title: 'Shipping Policy | Free US Shipping | Packify Custom Boxes',
-    description: 'Free US shipping. 8–10 day production. FedEx, UPS, DHL. No minimums.',
+    title: 'Free US Shipping Policy for Custom Boxes | Packify',
+    description: 'Free ground shipping on every custom box order in the contiguous US, no minimum, no surcharge. Production 8–10 business days, transit 3–5 days after that.',
     url: 'https://packifycustomboxes.com/shipping-policy/',
     type: 'website',
     siteName: 'Packify Custom Boxes',
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shipping Policy | Free US Shipping | Packify Custom Boxes',
-    description: 'Free US shipping. 8–10 day production. FedEx, UPS, DHL. No minimums.',
+    title: 'Free US Shipping Policy for Custom Boxes | Packify',
+    description: 'Free ground shipping on every custom box order in the contiguous US, no minimum, no surcharge. Production 8–10 business days, transit 3–5 days after that.',
     images: ['/images/og-image.jpg'],
   },
 }
